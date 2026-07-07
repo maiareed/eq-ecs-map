@@ -337,9 +337,12 @@
 
   /* ---------- Receptor dots ---------- */
 
-  .dot { cursor: pointer; outline: none; transition: opacity 0.4s ease; }
+  .dot { cursor: pointer; outline: none; transition: opacity 0.4s ease; touch-action: manipulation; }
   .dot.cb1 { --accent: var(--cb1); }
   .dot.cb2 { --accent: var(--cb2); }
+
+  /* invisible, finger-sized tap target so dots are easy to hit on touch screens */
+  .dot .hit { r: 18px; fill: transparent; pointer-events: all; }
 
   /* legend filtering dims the other family */
   svg.filter-cb1 .dot.cb2,
@@ -906,48 +909,48 @@
             <!-- ====== Receptor dots ====== -->
             <!-- CB1 — brain & nervous system (image right) -->
             <g class="dot cb1" data-id="brain" transform="translate(241,40)" tabindex="0" role="button" aria-label="Brain, CB1 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
             <g class="dot cb1" data-id="retina" transform="translate(256,58)" tabindex="0" role="button" aria-label="Retina, CB1 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
             <g class="dot cb1" data-id="heart" transform="translate(263,205)" tabindex="0" role="button" aria-label="Heart, CB1 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
             <g class="dot cb1" data-id="lung" transform="translate(290,212)" tabindex="0" role="button" aria-label="Lung, CB1 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
             <g class="dot cb1" data-id="spine" transform="translate(241,250)" tabindex="0" role="button" aria-label="Spinal cord, CB1 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
             <g class="dot cb1" data-id="repro" transform="translate(241,362)" tabindex="0" role="button" aria-label="Reproductive system, CB1 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
             <g class="dot cb1" data-id="skin-cb1" transform="translate(322,350)" tabindex="0" role="button" aria-label="Skin, CB1 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
 
             <!-- CB2 — immune & peripheral (image left) -->
             <g class="dot cb2" data-id="immune" transform="translate(212,195)" tabindex="0" role="button" aria-label="Immune system, CB2 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
             <g class="dot cb2" data-id="spleen" transform="translate(205,250)" tabindex="0" role="button" aria-label="Spleen, CB2 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
             <g class="dot cb2" data-id="liver" transform="translate(212,290)" tabindex="0" role="button" aria-label="Liver, CB2 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
             <g class="dot cb2" data-id="pancreas" transform="translate(214,330)" tabindex="0" role="button" aria-label="Pancreas, CB2 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
             <g class="dot cb2" data-id="colon" transform="translate(218,375)" tabindex="0" role="button" aria-label="Colon and gut, CB2 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
             <g class="dot cb2" data-id="bones" transform="translate(196,440)" tabindex="0" role="button" aria-label="Bones, CB2 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
             <g class="dot cb2" data-id="skin-cb2" transform="translate(160,352)" tabindex="0" role="button" aria-label="Skin, CB2 receptor">
-              <circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
+              <circle class="hit"/><circle class="halo"/><circle class="ripple"/><circle class="ripple second"/><circle class="core"/>
             </g>
           </g>
         </svg>
