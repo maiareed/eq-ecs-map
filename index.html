@@ -342,6 +342,7 @@
       display: block;
       position: fixed; left: 0; right: 0; bottom: 0; z-index: 61;
       max-height: 85vh;
+      max-height: 85dvh;   /* dvh tracks the visible iOS viewport (URL bar aware) */
       background: var(--bg-panel);
       border: none;
       border-top: 3px solid var(--line);
@@ -371,7 +372,7 @@
       color: var(--text-soft); font-size: 18px; line-height: 1;
       padding: 6px; cursor: pointer;
     }
-    .sheet-body { padding: 2px 24px 34px; }
+    .sheet-body { padding: 2px 24px calc(36px + env(safe-area-inset-bottom, 0px)); }
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -398,6 +399,11 @@
 
   /* invisible, finger-sized tap target so dots are easy to hit on touch screens */
   .dot .hit { r: 18px; fill: transparent; pointer-events: all; }
+
+  /* explored dots recede (dim + stop pulsing) so the ones you haven't opened stand out */
+  .dot.explored:not(.active) .core { opacity: 0.42; }
+  .dot.explored:not(.active) .ripple { animation: none; opacity: 0; }
+  .dot.explored:not(.active) .halo { animation: none; opacity: 0.55; r: 11px; }
 
   /* legend filtering dims the other family */
   svg.filter-cb1 .dot.cb2,
@@ -1289,6 +1295,7 @@
 
     dots.forEach(el => el.classList.remove('active'));
     dot.classList.add('active');
+    dot.classList.add('explored');
 
     discovered.add(dot.dataset.id);
     updateTracker();
@@ -1323,8 +1330,9 @@
       // on mobile, slide the detail up as a bottom sheet (welcome stays inline)
       sheetBody.innerHTML = html;
       sheet.style.borderTopColor = `color-mix(in srgb, ${accent} 55%, var(--line))`;
-      sheet.scrollTop = 0;
       document.body.classList.add('sheet-open');
+      sheet.scrollTop = 0;
+      requestAnimationFrame(() => { sheet.scrollTop = 0; });
     } else {
       panel.style.borderColor = `color-mix(in srgb, ${accent} 40%, var(--line))`;
       panel.style.justifyContent = 'flex-start';
