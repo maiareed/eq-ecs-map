@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rx Lab</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Three live models of how Equilibria Rx molecules work: peptides, NAD+ and low-dose naltrexone.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Nunito:wght@500;600;700;800&display=swap">
+<script>
+  (function () { try { var t = localStorage.getItem('eq-theme'); if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t); } catch (e) {} })();
+</script>
+<link rel="stylesheet" href="lab.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#home"><b>Rx Lab</b><span>Equilibria</span></a>
+  <nav aria-label="Experiences">
+    <a class="navlink" href="#beads">Peptides</a>
+    <a class="navlink" href="#spark">NAD+</a>
+    <a class="navlink" href="#dial">LDN</a>
+    <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch light or dark theme">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+    </button>
+  </nav>
+</header>
+
+<!-- ================= HOME ================= -->
+<main id="v-home" data-view="home" class="home">
+  <div class="home-head">
+    <p class="eyebrow">Equilibria Rx · Lab</p>
+    <h1>See what these molecules <em>actually do</em>.</h1>
+    <p>Three live models you can touch. Build a peptide bead by bead, follow NAD+ as it carries energy through a cell, and turn the dial on LDN to see why a small dose behaves so differently from a big one.</p>
+  </div>
+  <div class="home-stage">
+    <canvas id="homeCanvas" aria-hidden="true"></canvas>
+    <div class="figure-wrap">
+      <svg id="figure" viewBox="-40 -24 566 800" role="img" aria-label="Line drawing of a woman with three glowing points: her head for LDN, her chest for NAD+, and her shoulder for peptides.">
+        <g id="figureBody"></g>
+        <a class="hot p" href="#dial" aria-label="LDN at the receptor: open The Dial">
+          <path class="lead" d="M262 70 L 300 70"/>
+          <circle class="halo" cx="241" cy="70" r="26"/><circle class="core" cx="241" cy="70" r="10"/>
+          <text x="308" y="66" paint-order="stroke" stroke="var(--panel)" stroke-width="8">LDN</text>
+          <text class="sub" x="308" y="98" paint-order="stroke" stroke="var(--panel)" stroke-width="8">receptors</text>
+        </a>
+        <a class="hot" href="#spark" aria-label="NAD+ inside every cell: open The Spark">
+          <path class="lead" d="M262 300 L 330 300"/>
+          <circle class="halo" cx="241" cy="300" r="26"/><circle class="core" cx="241" cy="300" r="10"/>
+          <text x="338" y="296" paint-order="stroke" stroke="var(--panel)" stroke-width="8">NAD+</text>
+          <text class="sub" x="338" y="328" paint-order="stroke" stroke="var(--panel)" stroke-width="8">every cell</text>
+        </a>
+        <a class="hot" href="#beads" aria-label="Peptides in skin and tissue: open Bead by Bead">
+          <path class="lead" d="M134 196 L 108 196"/>
+          <circle class="halo" cx="154" cy="196" r="26"/><circle class="core" cx="154" cy="196" r="10"/>
+          <text x="100" y="192" text-anchor="end" paint-order="stroke" stroke="var(--panel)" stroke-width="8">Peptides</text>
+          <text class="sub" x="100" y="224" text-anchor="end" paint-order="stroke" stroke="var(--panel)" stroke-width="8">skin, tissue</text>
+        </a>
+      </svg>
+    </div>
+  </div>
+  <div class="doors">
+    <a class="door" href="#beads"><span class="k">Peptides</span><span class="q">What is a peptide, really?</span><span class="a">Snap amino acids into a chain and watch real molecules appear.</span></a>
+    <a class="door" href="#spark"><span class="k">NAD+</span><span class="q">How does NAD+ make energy?</span><span class="a">Follow the shuttle that carries fuel to your mitochondria, then age the cell.</span></a>
+    <a class="door p" href="#dial"><span class="k">LDN</span><span class="q">Why does LDN's dose matter?</span><span class="a">Run a day of receptors at 4.5 mg, then at 50 mg.</span></a>
+  </div>
+  <div class="home-foot">
+    <span>Education, not medical advice. Whether any of these fits you is a clinician's call.</span>
+    <a id="ecsLink" href="../../index.html">Explore the endocannabinoid map →</a>
+  </div>
+</main>
+
+<!-- ================= BEADS ================= -->
+<main id="v-beads" data-view="beads" class="exp" hidden>
+  <div class="head">
+    <p class="eyebrow">Peptides</p>
+    <h1>Bead by Bead</h1>
+    <p>Every peptide is a short string of amino acids. Build one and you'll never wonder again.</p>
+  </div>
+  <div class="stage short" id="beadStage">
+    <canvas id="beadCanvas" aria-label="A chain of amino acid beads you can build and drag." role="img"></canvas>
+    <p class="hint" id="beadHint">Drag the chain, or add beads below</p>
+    <p class="tag">Toy physics, real sequences</p>
+  </div>
+  <aside class="rail">
+    <div class="caption" id="beadCap" aria-live="polite"></div>
+    <div class="ctl first-m">
+      <div class="ctl-label"><span>Add an amino acid</span><output id="beadCount">3 / 40</output></div>
+      <div class="tray" id="tray"></div>
+      <div class="legend">
+        <span><i style="background:var(--gold)"></i>Water-shy</span>
+        <span><i style="box-shadow:inset 0 0 0 2px var(--stroke)"></i>Water-loving</span>
+        <span><i style="background:var(--plum)"></i>Charged +</span>
+        <span><i style="background:var(--olive)"></i>Charged −</span>
+      </div>
+      <div class="btn-row">
+        <button class="btn" id="bUndo" type="button">Undo</button>
+        <button class="btn" id="bClear" type="button">Clear</button>
+        <button class="btn" id="bFold" type="button" aria-pressed="false">Let it fold</button>
+        <button class="btn solid" id="bLine" type="button" aria-pressed="false">Line them up</button>
+      </div>
+    </div>
+    <div class="ctl">
+      <span class="ctl-label">Build a real one</span>
+      <div class="btn-row" id="presets"></div>
+    </div>
+    <div class="ctl">
+      <span class="try-h">Try this</span>
+      <ul class="try">
+        <li id="t-kpv">Build KPV: tap K, then P, then V</li>
+        <li id="t-ghk">Build GHK and watch for copper</li>
+        <li id="t-fold">Fold a chain longer than 12 beads</li>
+        <li id="t-line">Line yours up against a protein</li>
+      </ul>
+    </div>
+    <details class="sources">
+      <summary>Sources</summary>
+      <ol>
+        <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2431115/" target="_blank" rel="noopener">KPV as the last three amino acids of alpha-MSH (review)</a></li>
+        <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3359723/" target="_blank" rel="noopener">GHK and its copper complex, first isolated in 1973 (Pickart, review)</a></li>
+        <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2689929/" target="_blank" rel="noopener">Oxytocin: nine amino acids with a cysteine bridge (review)</a></li>
+        <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13210877/" target="_blank" rel="noopener">BPC-157 sequence and regulatory status</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/40756949/" target="_blank" rel="noopener">a 2025 systematic review: 35 of 36 studies were in animals</a></li>
+        <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/" target="_blank" rel="noopener">MOTS-c: 16 amino acids coded in mitochondrial DNA (Lee 2015)</a></li>
+        <li><a href="https://www.rxlist.com/vyleesi-drug.htm" target="_blank" rel="noopener">PT-141 (bremelanotide): 7 building blocks in a ring, prescribing information</a></li>
+        <li><a href="https://globalrph.com/rx-list/mounjaro-drug/" target="_blank" rel="noopener">Tirzepatide: 39 amino acids, prescribing information</a></li>
+        <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK278938/" target="_blank" rel="noopener">Insulin: 51 amino acids in two chains</a></li>
+        <li><a href="https://www.uniprot.org/uniprotkb/P02768/entry" target="_blank" rel="noopener">Albumin: 585 amino acids (UniProt P02768)</a></li>
+        <li><a href="https://www.govinfo.gov/content/pkg/FR-2020-02-21/html/2020-03505.htm" target="_blank" rel="noopener">FDA rule: more than 40 amino acids is a protein (85 FR 10057)</a></li>
+        <li>Weights: <a href="https://pubchem.ncbi.nlm.nih.gov/compound/5360515" target="_blank" rel="noopener">naltrexone 341</a> and <a href="https://pubchem.ncbi.nlm.nih.gov/compound/5892" target="_blank" rel="noopener">NAD+ 663</a>, against BPC-157's 1,419.5 over 15 beads (about 95 each).</li>
+      </ol>
+      <p class="fine">Folding here is a toy model: real proteins fold in three dimensions into one precise shape.</p>
+    </details>
+  </aside>
+</main>
+
+<!-- ================= SPARK ================= -->
+<main id="v-spark" data-view="spark" class="exp" hidden>
+  <div class="head">
+    <p class="eyebrow">NAD+</p>
+    <h1>The Spark</h1>
+    <p>NAD+ is a shuttle that carries energy inside every cell you have. Watch it work, then age the cell.</p>
+  </div>
+  <div class="stage" id="sparkStage">
+    <canvas id="sparkCanvas" role="img" aria-label="A cell with NAD+ shuttles carrying electrons from fuel to a mitochondrion, which gives off sparks of energy."></canvas>
+    <p class="hint">Tap anything to see what it is</p>
+    <p class="tag">Simplified model</p>
+  </div>
+  <aside class="rail">
+    <div class="caption" id="sparkCap" aria-live="polite"></div>
+    <div class="ctl first-m">
+      <label class="ctl-label" for="age"><span>Age of the cell</span><output id="ageOut">35</output></label>
+      <input type="range" id="age" min="30" max="75" step="1" value="35">
+      <div class="ticks" aria-hidden="true"><span>30</span><span>45</span><span>60</span><span>75</span></div>
+      <small>In this model, age turns up CD38, an enzyme that breaks NAD+ apart. That's the direction mouse studies point to.</small>
+    </div>
+    <div class="ctl">
+      <div class="ctl-label"><span>Energy output</span><output id="energyOut">100%</output></div>
+      <canvas id="sparkLine" style="width:100%;height:64px" aria-hidden="true"></canvas>
+      <small id="poolOut">36 NAD+ shuttles in the cell</small>
+    </div>
+    <div class="btn-row">
+      <button class="btn solid" id="topUp" type="button">Add NAD+ from outside</button>
+      <button class="btn" id="sparkPause" type="button" aria-pressed="false">Pause</button>
+    </div>
+    <div class="legend">
+      <span><i style="box-shadow:inset 0 0 0 3px var(--gold)"></i>NAD+, empty</span>
+      <span><i style="background:var(--plum)"></i>NADH, carrying electrons</span>
+      <span><i style="background:var(--olive);border-radius:3px;transform:rotate(45deg) scale(.8)"></i>Fuel</span>
+      <span><i style="background:var(--grey)"></i>Spent pieces</span>
+    </div>
+    <div class="ctl">
+      <span class="try-h">Try this</span>
+      <ul class="try">
+        <li id="t-tap">Tap a glowing shuttle</li>
+        <li id="t-age">Slide the age past 60</li>
+        <li id="t-top">Add NAD+ from outside and watch what happens</li>
+      </ul>
+    </div>
+    <details class="sources">
+      <summary>Sources</summary>
+      <ol>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/33353981/" target="_blank" rel="noopener">NAD+ as the electron carrier at the center of energy metabolism, and its use by sirtuins, PARPs and CD38 (Covarrubias 2021, review)</a></li>
+        <li><a href="https://www.cell.com/cell-metabolism/fulltext/S1550-4131(16)30244-3" target="_blank" rel="noopener">CD38 rises with age and drives NAD+ decline, in mice (Camacho-Pereira 2016)</a></li>
+        <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3407129/" target="_blank" rel="noopener">Lower NAD+ at older ages in human skin, one study of 49 people (Massudi 2012)</a></li>
+        <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8747183/" target="_blank" rel="noopener">Is the human decline universal? An open question (2021 review)</a></li>
+        <li><a href="https://www.nature.com/articles/ncomms12948" target="_blank" rel="noopener">Precursors raise blood NAD+ in small human trials (Trammell 2016</a>; <a href="https://www.nature.com/articles/s41467-018-03421-7" target="_blank" rel="noopener">Martens 2018)</a></li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/41083806/" target="_blank" rel="noopener">Human benefits so far are limited (Nature Metabolism 2025, review)</a></li>
+        <li><a href="https://www.imrpress.com/journal/fbl/12/7/10.2741/2267" target="_blank" rel="noopener">Nasal NAD+ raised brain NAD+ in rats; no human studies found (Ying 2007)</a></li>
+      </ol>
+      <p class="fine">The shuttle counts, rates and energy meter are an illustration of direction, not measured amounts.</p>
+    </details>
+  </aside>
+</main>
+
+<!-- ================= DIAL ================= -->
+<main id="v-dial" data-view="dial" class="exp" hidden>
+  <div class="head">
+    <p class="eyebrow">LDN · low-dose naltrexone</p>
+    <h1>The Dial</h1>
+    <p>Same molecule, very different day. Turn the dose and watch your receptors.</p>
+  </div>
+  <div class="stage tall" id="dialStage">
+    <canvas id="dialCanvas" role="img" aria-label="Opioid receptors on a nerve cell, with endorphins and naltrexone molecules, above a 24-hour chart of how many receptors are blocked."></canvas>
+    <p class="hint">Drag a molecule onto a receptor</p>
+    <p class="tag">Illustration, not measured data</p>
+  </div>
+  <aside class="rail">
+    <div class="caption" id="dialCap" aria-live="polite"></div>
+    <div class="ctl first-m">
+      <div class="ctl-label"><span>Daily dose</span><output id="blockOut">72% blocked</output></div>
+      <div class="seg" id="doseSeg" role="group" aria-label="Daily dose">
+        <button type="button" data-dose="0" aria-pressed="false">Off</button>
+        <button type="button" data-dose="1" aria-pressed="false">1 mg</button>
+        <button type="button" data-dose="4.5" aria-pressed="true">4.5 mg</button>
+        <button type="button" class="p" data-dose="50" aria-pressed="false">50 mg</button>
+      </div>
+      <small>In studies, LDN usually means 1 to 5 mg a day, most often 4.5 mg. 50 mg is the dose on the FDA label.</small>
+    </div>
+    <div class="ctl">
+      <div class="ctl-label"><span>Clock, after a bedtime dose</span><output id="clockOut">10:00 pm</output></div>
+      <div class="btn-row">
+        <button class="btn" id="dialPlay" type="button" aria-pressed="true">Pause the day</button>
+      </div>
+      <small>Drag along the chart to move through the day.</small>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--gold)"></i>Your endorphins</span>
+      <span><i style="box-shadow:inset 0 0 0 3px var(--plum)"></i>Naltrexone</span>
+      <span><i style="background:var(--plum);border-radius:3px"></i>Receptors blocked</span>
+      <span><i style="border-radius:0;height:0;border-top:3px dotted var(--gold-ink)"></i>Your own signal (theory)</span>
+    </div>
+    <div class="ctl">
+      <span class="try-h">Try this</span>
+      <ul class="try">
+        <li id="t-45">Run the day at 4.5 mg</li>
+        <li id="t-50">Switch to 50 mg and compare</li>
+        <li id="t-drag">Drag a molecule onto a receptor</li>
+      </ul>
+    </div>
+    <p class="fine">Human studies of LDN are small, and some early results didn't hold up in larger trials. A second idea, from lab and animal work: naltrexone may also quiet immune cells in the brain through a different receptor, TLR4. Because it blocks opioid receptors, naltrexone isn't combined with opioid pain medicine. A licensed clinician decides whether it fits you, and at what strength.</p>
+    <details class="sources">
+      <summary>Sources</summary>
+      <ol>
+        <li><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f256d4f-4509-87c7-e053-2a91aa0a79ef" target="_blank" rel="noopener">Naltrexone label: blocks opioid receptors; 50 mg tablets; half-lives of 4 and 13 hours</a></li>
+        <li><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adb7c4dc-221a-4d91-9687-0d78913a92ad" target="_blank" rel="noopener">Naltrexone label: not used with opioid pain medicine</a></li>
+        <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6313374/" target="_blank" rel="noopener">LDN defined as 1 to 5 mg a day (Toljan and Vrooman 2018, review)</a></li>
+        <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/art.37734" target="_blank" rel="noopener">4.5 mg a day, taken at bedtime, in a 2013 crossover trial (Younger 2013)</a></li>
+        <li><a href="https://repositorio.ufc.br/ri/bitstream/riufc/19251/1/2016_art_fcmoura.pdf" target="_blank" rel="noopener">The rebound theory: a short block may raise endorphins and receptors (2016 review)</a></li>
+        <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/" target="_blank" rel="noopener">The TLR4 immune-cell idea, from lab work (Younger 2014, review)</a></li>
+        <li><a href="https://link.springer.com/article/10.1007/s12325-026-03612-5" target="_blank" rel="noopener">Small trials and mixed results across 105 studies (Gouda 2026, review)</a></li>
+      </ol>
+      <p class="fine">The block curve uses the label's 4-hour and 13-hour half-lives in a simple model. Its height and the endorphin line are conceptual, not pharmacokinetic data.</p>
+    </details>
+  </aside>
+</main>
+
+<script src="../eq-body.js"></script>
+<script src="lab.js"></script>
+<script src="home.js"></script>
+<script src="beads.js"></script>
+<script src="spark.js"></script>
+<script src="dial.js"></script>
+<script>Lab.boot();</script>
+</body>
+</html>
