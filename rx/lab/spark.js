@@ -12,7 +12,7 @@
   const line = document.getElementById('sparkLine');
   const lineCv = Lab.canvas(line, () => drawLine());
   const tip = Lab.tip(stage);
-  const cv = Lab.canvas(canvas, () => { layout(); calibrate(); still(); });
+  const cv = Lab.canvas(canvas, () => { layout(); still(); });
 
   let G = {}, S = [], F = [], N = [], SP = [], E = [], P = [];
   let age = 35, running = false, paused = false, raf = 0, last = 0, simT = 0;
@@ -114,7 +114,10 @@
         best.st = 'captured'; best.site = site; best.who = who; best.tx = site.x; best.ty = site.y;
       }
     };
-    G.cd38.forEach((c) => consume(cd38Rate() / 3, c, 'cd38'));
+    // above the cell's set point, CD38 clears the surplus faster
+    const active = S.filter((q) => q.st !== 'captured').length;
+    const surplus = Math.max(0, active - target());
+    G.cd38.forEach((c) => consume(cd38Rate() / 3 + (surplus * 0.12) / Math.max(1, count) / 3, c, 'cd38'));
     consume(otherRate / 2, G.sirt, 'sirt'); consume(otherRate / 2, G.parp, 'parp');
 
     for (let i = S.length - 1; i >= 0; i--) {
@@ -167,8 +170,9 @@
     // energy: drop-offs in the last 10 s against the fuel on offer
     while (delivered.length && delivered[0] < simT - 12) delivered.shift();
     while (offered.length && offered[0] < simT - 12) offered.shift();
-    const e = simT > 6 ? (delivered.length / Math.min(12, simT)) / ref * 100 : energy;
-    energy += (Math.min(110, e) - energy) * Math.min(1, dt * 0.8);
+    // energy tracks how many shuttles are working, capped by the fuel on offer (extra NAD+ can't burn fuel that isn't there)
+    const e = 100 * Math.min(1, S.filter((q) => q.st !== 'captured').length / (base * 0.88));
+    energy += (e - energy) * Math.min(1, dt * 2.5);
   }
 
   /* ---------- drawing ---------- */
@@ -216,9 +220,9 @@
     const L = (s, x, y, col, al = 'center') => { ctx.font = '700 16px Nunito, sans-serif'; ctx.textAlign = al; ctx.textBaseline = 'middle'; ctx.lineWidth = 5; ctx.strokeStyle = c.panel; ctx.strokeText(s, x, y); ctx.fillStyle = col; ctx.fillText(s, x, y); };
     const mp = mitoPoint(0, -1); L('Mitochondrion', mp.x, mp.y - 18, c.gold_ink);
     L('Nucleus', n.x + n.r * 0.35, n.y + n.r * 0.35, c.plum);
-    L('Sirtuins', G.sirt.x + 46, G.sirt.y - 6, c.soft, 'left');
-    L('PARP', G.parp.x + 18, G.parp.y + 18, c.soft, 'left');
-    L('Recycler', R.x + 22, R.y, c.olive, 'left');
+    L('Sirtuins', G.sirt.x + 46, G.sirt.y - 6, c.dim, 'left');
+    L('PARP', G.parp.x + 18, G.parp.y + 18, c.dim, 'left');
+    L('Recycler', R.x + 22, R.y, c.dim, 'left');
     L('CD38', G.cd38[0].x - 20, G.cd38[0].y - 22, c.plum, 'right');
   }
   function enzyme(ctx, p, col) {
@@ -250,7 +254,7 @@
       const g = ctx.createRadialGradient(p.x, p.y, 1, p.x, p.y, rr);
       g.addColorStop(0, Lab.alpha(c.gold, 0.9 * a)); g.addColorStop(1, Lab.alpha(c.gold, 0));
       ctx.fillStyle = g; ctx.beginPath(); ctx.arc(p.x, p.y, rr, 0, 6.29); ctx.fill();
-      if (p.t > 0.15 && p.t < 1.3) { ctx.font = '800 15px Nunito, sans-serif'; ctx.textAlign = 'center'; ctx.fillStyle = Lab.alpha(c.gold_ink, a); ctx.fillText('ATP', p.x, p.y - rr * 0.4); }
+      if (p.t > 0.1 && p.t < 1.4) { ctx.font = '800 17px Nunito, sans-serif'; ctx.textAlign = 'center'; ctx.lineWidth = 4; ctx.strokeStyle = Lab.alpha(c.panel, Math.min(1, a * 1.6)); ctx.strokeText('ATP', p.x, p.y - rr * 0.4); ctx.fillStyle = Lab.alpha(c.gold_ink, Math.min(1, a * 1.6)); ctx.fillText('ATP', p.x, p.y - rr * 0.4); }
     }
     for (const p of P) { ctx.beginPath(); ctx.arc(p.x, p.y, 12 + p.t * 26, 0, 6.29); ctx.lineWidth = 2; ctx.strokeStyle = Lab.alpha(p.who === 'rec' ? c.olive : c.plum, 1 - p.t / 0.9); ctx.stroke(); }
   }
@@ -262,7 +266,16 @@
     ctx.beginPath(); ctx.moveTo(b.x + 30, b.y - 20); ctx.quadraticCurveTo(d.x, d.y + 30, d.x + 40, d.y); ctx.stroke();
     ctx.restore();
   }
-  function frame() { if (!G.W) return; drawCell(); drawParts(); readouts(); }
+  function frame() { if (!G.W) return; drawCell(); drawParts(); drawMeter(); readouts(); }
+  function drawMeter() {
+    // energy meter inside the stage, so cause and effect sit on one screen
+    const { ctx } = cv, c = Lab.c, w = Math.min(150, G.W * 0.36), x = G.W - w - 40, y = G.H - 74;
+    ctx.fillStyle = Lab.alpha(c.panel, 0.92); round(ctx, x - 10, y - 30, w + 20, 58, 14); ctx.fill();
+    ctx.font = '700 16px Nunito, sans-serif'; ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillStyle = c.ink; ctx.fillText('Energy', x, y - 12);
+    ctx.textAlign = 'right'; ctx.font = '500 20px Fraunces, Georgia, serif'; ctx.fillText(Math.round(Math.min(100, energy)) + '%', x + w, y - 12);
+    ctx.fillStyle = Lab.alpha(c.stroke, 0.25); round(ctx, x, y + 6, w, 10, 5); ctx.fill();
+    ctx.fillStyle = c.gold; round(ctx, x, y + 6, Math.max(10, w * Math.min(1, energy / 100)), 10, 5); ctx.fill();
+  }
 
   function readouts() {
     const e = Math.round(energy);
@@ -292,7 +305,7 @@
     else if (age >= 52) st = 'old';
     if (st === capState) return; capState = st;
     const set = (tier, h, p) => (cap.innerHTML = `<span class="tier">${tier}</span><h2>${h}</h2><p>${p}</p>`);
-    if (st === 'base') set('Established biology', 'A shuttle, not a fuel', 'NAD+ doesn\'t hold energy itself. It picks up electrons from the food you\'ve broken down (gold ring turns plum), carries them to the mitochondrion, drops them off and goes back for more. Every drop-off powers a spark of ATP, the energy your cells spend.');
+    if (st === 'base') set('Established biology', 'A shuttle, not a fuel', 'NAD+ doesn\'t hold energy itself. It picks up electrons, the tiny charged particles that hold the energy in food (gold ring turns plum), carries them to the mitochondrion, drops them off and goes back for more. Every drop-off powers a spark of ATP, the energy your cells spend.');
     if (st === 'old') set('Mouse studies · one human study', 'Fewer shuttles, fewer sparks', 'In mice, CD38 climbs with age and breaks down more NAD+. In people, one study of skin found lower NAD+ at older ages. The human picture is still thin, and nobody has shown how much of a dip you\'d feel.');
     if (st === 'top') set('Small human trials', 'Topping up', 'Watch the same enzymes chew the extra back down. In small trials, taking NAD+ building blocks raises NAD+ in the blood, but whether that changes how people feel hasn\'t been shown. Nasal NAD+ hasn\'t been studied in people yet; that research so far is in animals.');
   }
@@ -359,13 +372,12 @@
     for (let i = 0; i < 400; i++) { sim(0.1); if (i % 2 === 0) { hist.push(energy); if (hist.length > 120) hist.shift(); } }
     caption(); frame();
   }
-  window.__spark = { get: () => ({ rate: delivered.length / 12, energy, n: S.length, target: target(), base, fuelRate, simT }), sim: (k, dt) => { for (let i = 0; i < k; i++) sim(dt); } };
   Lab.onTheme(() => frame());
   let inited = false;
   Lab.view('spark', {
     start() {
       cv.fit(); lineCv.fit(); layout();
-      if (!inited) { inited = true; calibrate(); still(); }
+      if (!inited) { inited = true; still(); }
       running = true;
       if (Lab.reduced) { frame(); return; }
       last = 0; cancelAnimationFrame(raf); raf = requestAnimationFrame(loop);

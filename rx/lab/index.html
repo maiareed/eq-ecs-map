@@ -38,7 +38,7 @@
   <div class="home-stage">
     <canvas id="homeCanvas" aria-hidden="true"></canvas>
     <div class="figure-wrap">
-      <svg id="figure" viewBox="-40 -24 566 800" role="img" aria-label="Line drawing of a woman with three glowing points: her head for LDN, her chest for NAD+, and her shoulder for peptides.">
+      <svg id="figure" viewBox="-40 -24 566 800" role="img" aria-label="Line drawing of a woman with three glowing points: her head for LDN, her chest for NAD+, and her forearm for peptides.">
         <g id="figureBody"></g>
         <a class="hot p" href="#dial" aria-label="LDN at the receptor: open The Dial">
           <path class="lead" d="M262 70 L 300 70"/>
@@ -53,10 +53,10 @@
           <text class="sub" x="338" y="328" paint-order="stroke" stroke="var(--panel)" stroke-width="8">every cell</text>
         </a>
         <a class="hot" href="#beads" aria-label="Peptides in skin and tissue: open Bead by Bead">
-          <path class="lead" d="M134 196 L 108 196"/>
-          <circle class="halo" cx="154" cy="196" r="26"/><circle class="core" cx="154" cy="196" r="10"/>
-          <text x="100" y="192" text-anchor="end" paint-order="stroke" stroke="var(--panel)" stroke-width="8">Peptides</text>
-          <text class="sub" x="100" y="224" text-anchor="end" paint-order="stroke" stroke="var(--panel)" stroke-width="8">skin, tissue</text>
+          <path class="lead" d="M70 352 L 70 384"/>
+          <circle class="halo" cx="70" cy="330" r="26"/><circle class="core" cx="70" cy="330" r="10"/>
+          <text x="70" y="414" text-anchor="middle" paint-order="stroke" stroke="var(--panel)" stroke-width="8">Peptides</text>
+          <text class="sub" x="70" y="442" text-anchor="middle" paint-order="stroke" stroke="var(--panel)" stroke-width="8">skin, tissue</text>
         </a>
       </svg>
     </div>
@@ -132,6 +132,7 @@
       </ol>
       <p class="fine">Folding here is a toy model: real proteins fold in three dimensions into one precise shape.</p>
     </details>
+      <a class="next" href="#spark"><span>Next: how NAD+ makes energy</span>The Spark →</a>
   </aside>
 </main>
 
@@ -191,6 +192,7 @@
       </ol>
       <p class="fine">The shuttle counts, rates and energy meter are an illustration of direction, not measured amounts.</p>
     </details>
+      <a class="next" href="#dial"><span>Next: why LDN's dose matters</span>The Dial →</a>
   </aside>
 </main>
 
@@ -209,13 +211,14 @@
   <aside class="rail">
     <div class="caption" id="dialCap" aria-live="polite"></div>
     <div class="ctl first-m">
-      <div class="ctl-label"><span>Daily dose</span><output id="blockOut">72% blocked</output></div>
+      <div class="ctl-label"><span>Daily dose</span><output id="blockOut">72% blocked now</output></div>
       <div class="seg" id="doseSeg" role="group" aria-label="Daily dose">
         <button type="button" data-dose="0" aria-pressed="false">Off</button>
         <button type="button" data-dose="1" aria-pressed="false">1 mg</button>
         <button type="button" data-dose="4.5" aria-pressed="true">4.5 mg</button>
         <button type="button" class="p" data-dose="50" aria-pressed="false">50 mg</button>
       </div>
+      <p class="readout" id="hoursOut">Mostly blocked about 10 of 24 hours</p>
       <small>In studies, LDN usually means 1 to 5 mg a day, most often 4.5 mg. 50 mg is the dose on the FDA label.</small>
     </div>
     <div class="ctl">
@@ -223,7 +226,7 @@
       <div class="btn-row">
         <button class="btn" id="dialPlay" type="button" aria-pressed="true">Pause the day</button>
       </div>
-      <small>Drag along the chart to move through the day.</small>
+      <small>Drag along the chart to move through the day. The shaded band is 10 pm to 6 am, while you sleep.</small>
     </div>
     <div class="legend">
       <span><i style="background:var(--gold)"></i>Your endorphins</span>
@@ -253,6 +256,7 @@
       </ol>
       <p class="fine">The block curve uses the label's 4-hour and 13-hour half-lives in a simple model. Its height and the endorphin line are conceptual, not pharmacokinetic data.</p>
     </details>
+      <a class="next" href="../../index.html"><span>Next: the endocannabinoid map</span>ECS map →</a>
   </aside>
 </main>
 

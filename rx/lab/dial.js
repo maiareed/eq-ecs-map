@@ -9,24 +9,25 @@
   const clockOut = document.getElementById('clockOut');
   const playBtn = document.getElementById('dialPlay');
   const seg = document.getElementById('doseSeg');
+  const hoursOut = document.getElementById('hoursOut');
   const tip = Lab.tip(stage);
   const cv = Lab.canvas(canvas, () => { layout(); if (Lab.reduced || !playing) arrangeStill(); draw(); });
 
   /* ---------- model ---------- */
-  const ke = Math.LN2 / 4, km = Math.LN2 / 13, ka = 1.8, kam = 0.6, K = 1.6;
-  function X(D, t) { let s = 0; for (let d = 0; d <= t; d += 24) { const u = t - d; s += D * (Math.exp(-ke * u) - Math.exp(-ka * u)) * 1.25 + D * 0.08 * (Math.exp(-km * u) - Math.exp(-kam * u)); } return s; }
+  const ke = Math.LN2 / 4, km = Math.LN2 / 13, ka = 1.8, kam = 0.6, K = 1.2;
+  function X(D, t) { let s = 0; for (let d = 0; d <= t; d += 24) { const u = t - d; s += D * (Math.exp(-ke * u) - Math.exp(-ka * u)) * 1.25 + D * 0.04 * (Math.exp(-km * u) - Math.exp(-kam * u)); } return s; }
   const curves = {};
   function curve(D) {
     if (curves[D]) return curves[D];
     const dt = 0.1, O = [], Sg = [], Ea = [];
     let B = 0;
     for (let i = 0; i <= 720; i++) { // three days; keep the third
-      const t = i * dt, x = X(D, t), o = x / (x + K);
+      const t = i * dt, x = X(D, t), o = (x * x) / (x * x + K * K);
       B += (o - B) / 8 * dt;
       const E = 1 + 1.6 * B;
       if (t >= 48) { O.push(o); Sg.push((1 - o) * E); Ea.push(E); }
     }
-    return (curves[D] = { O, S: Sg, E: Ea });
+    return (curves[D] = { O, S: Sg, E: Ea, hrs: O.filter((v) => v > 0.5).length / 10 });
   }
   const at = (arr, t) => { const i = Math.max(0, Math.min(arr.length - 1, Math.round(t * 10))); return arr[i]; };
 
@@ -183,25 +184,25 @@
     const X = (tt) => C.x0 + (tt / 24) * (C.x1 - C.x0);
     const Y1 = (v) => C.y0 + h1 - v * h1;
     const base2 = C.y0 + h1 + gap, Y2 = (v) => base2 + h2 - (Math.min(1.4, v) / 1.4) * h2;
-    lab(ctx, 'Receptors blocked', 16, C.y0 - 16, c.ink, 'left');
-    lab(ctx, 'Your own signal · theory', 16, base2 - 14, c.ink, 'left');
     // gridlines
     ctx.strokeStyle = Lab.alpha(c.stroke, 0.25); ctx.setLineDash([2, 4]);
     for (const v of [0, 0.5, 1]) { ctx.beginPath(); ctx.moveTo(C.x0, Y1(v)); ctx.lineTo(C.x1, Y1(v)); ctx.stroke(); }
     ctx.setLineDash([]);
-    lab(ctx, '100%', C.x0 - 8, Y1(1), c.dim, 'right', '600 15px Nunito, sans-serif');
-    lab(ctx, '0', C.x0 - 8, Y1(0), c.dim, 'right', '600 15px Nunito, sans-serif');
+    lab(ctx, '100%', C.x0 - 8, Y1(1), c.dim, 'right', '600 16px Nunito, sans-serif');
+    lab(ctx, '0', C.x0 - 8, Y1(0), c.dim, 'right', '600 16px Nunito, sans-serif');
     // usual-signal baseline
     ctx.strokeStyle = Lab.alpha(c.stroke, 0.5); ctx.setLineDash([6, 5]); ctx.beginPath(); ctx.moveTo(C.x0, Y2(1)); ctx.lineTo(C.x1, Y2(1)); ctx.stroke(); ctx.setLineDash([]);
-    lab(ctx, 'usual', C.x0 - 8, Y2(1), c.dim, 'right', '600 15px Nunito, sans-serif');
+    lab(ctx, 'usual', C.x0 - 8, Y2(1), c.dim, 'right', '600 16px Nunito, sans-serif');
     // 50 mg ghost for comparison
     if (dose !== 50) {
       const g = curve(50);
       ctx.strokeStyle = Lab.alpha(c.plum, 0.45); ctx.lineWidth = 1.6; ctx.setLineDash([5, 5]);
       ctx.beginPath(); g.O.forEach((v, i) => { const x = X(i / 10); i ? ctx.lineTo(x, Y1(v)) : ctx.moveTo(x, Y1(v)); }); ctx.stroke(); ctx.setLineDash([]);
-      lab(ctx, '50 mg', C.x1 - 4, Y1(at(g.O, 23)) - 14, Lab.alpha(c.plum, 0.9), 'right', '700 15px Nunito, sans-serif');
+      lab(ctx, '50 mg', C.x1 - 4, Y1(at(g.O, 23)) - 14, Lab.alpha(c.plum, 0.9), 'right', '700 16px Nunito, sans-serif');
     }
     const cur = dose ? curve(dose) : { O: new Array(241).fill(0), S: new Array(241).fill(1) };
+    // night hours, 10 pm to 6 am
+    ctx.fillStyle = Lab.alpha(c.ink, c.dark ? 0.05 : 0.035); ctx.fillRect(X(0), C.y0 - 4, X(8) - X(0), C.y1 - C.y0 + 8);
     // block area
     ctx.beginPath(); ctx.moveTo(X(0), Y1(0)); cur.O.forEach((v, i) => ctx.lineTo(X(i / 10), Y1(v))); ctx.lineTo(X(24), Y1(0)); ctx.closePath();
     ctx.fillStyle = Lab.alpha(c.plum, 0.22); ctx.fill();
@@ -210,7 +211,7 @@
     ctx.beginPath(); cur.S.forEach((v, i) => { const x = X(i / 10); i ? ctx.lineTo(x, Y2(v)) : ctx.moveTo(x, Y2(v)); });
     ctx.strokeStyle = c.gold_ink; ctx.lineWidth = 3; ctx.setLineDash([1, 6]); ctx.lineCap = 'round'; ctx.stroke(); ctx.setLineDash([]);
     // time axis
-    (w < 520 ? [[0, '10 pm'], [8, '6 am'], [16, '2 pm'], [24, '10 pm']] : [[0, '10 pm'], [6, '4 am'], [12, '10 am'], [18, '4 pm'], [24, '10 pm']]).forEach(([tt, s], i, a) => lab(ctx, s, X(tt), C.y1 + 22, c.dim, i === 0 ? 'left' : i === a.length - 1 ? 'right' : 'center', '600 15px Nunito, sans-serif'));
+    (w < 520 ? [[0, '10 pm'], [8, '6 am'], [16, '2 pm'], [24, '10 pm']] : [[0, '10 pm'], [6, '4 am'], [12, '10 am'], [18, '4 pm'], [24, '10 pm']]).forEach(([tt, s], i, a) => lab(ctx, s, X(tt), C.y1 + 22, c.dim, i === 0 ? 'left' : i === a.length - 1 ? 'right' : 'center', '600 16px Nunito, sans-serif'));
     // dose marker
     ctx.fillStyle = c.plum; ctx.beginPath(); ctx.moveTo(X(0), C.y1 + 4); ctx.lineTo(X(0) + 6, C.y1 + 12); ctx.lineTo(X(0) - 6, C.y1 + 12); ctx.fill();
     // playhead
@@ -218,28 +219,31 @@
     ctx.strokeStyle = c.ink; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(px, C.y0 - 4); ctx.lineTo(px, C.y1 + 4); ctx.stroke();
     ctx.beginPath(); ctx.arc(px, Y1(at(cur.O, t)), 7, 0, 6.29); ctx.fillStyle = c.plum; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = c.panel; ctx.stroke();
     ctx.beginPath(); ctx.arc(px, Y2(at(cur.S, t)), 6, 0, 6.29); ctx.fillStyle = c.gold_ink; ctx.fill(); ctx.stroke();
+    lab(ctx, 'Receptors blocked', 16, C.y0 - 16, c.ink, 'left');
+    lab(ctx, 'Your own signal · theory', 16, base2 - 14, c.ink, 'left');
   }
 
   /* ---------- readouts & captions ---------- */
   function clock(tt) { const hr = (22 + tt) % 24, H = Math.floor(hr), M = Math.floor((hr - H) * 60 / 15) * 15; const h12 = ((H + 11) % 12) + 1; return `${h12}:${String(M).padStart(2, '0')} ${H < 12 ? 'am' : 'pm'}`; }
   function readouts() {
     const o = dose ? occ() : 0;
-    blockOut.textContent = `${Math.round(o * 100)}% blocked`;
+    blockOut.textContent = `${Math.round(o * 100)}% blocked now`;
+    hoursOut.textContent = dose ? `Mostly blocked about ${Math.round(curve(dose).hrs)} of 24 hours` : 'No block. Your receptors are open all day.';
     clockOut.textContent = clock(t);
     const s = sig();
     let key;
     if (!dose) key = 'off';
     else if (dose === 50) key = 'fifty';
-    else if (o > 0.4) key = 'block';
+    else if (o > 0.45) key = 'block';
     else if (s > 1.03) key = 'rebound';
     else key = 'clearing';
     if (key === capKey) return; capKey = key;
     const set = (tier, h, p, th) => (cap.innerHTML = `<span class="tier${th ? ' theory' : ''}">${tier}</span><h2>${h}</h2><p>${p}</p>`);
     if (key === 'off') set('Established biology', 'Your own signal', 'Endorphins are your body\'s own opioids, and they\'re peptides too. They dock on opioid receptors, switch them on for a moment, and let go. That\'s the gold glow inside the cell.');
-    if (key === 'block') set('FDA label', 'The block', 'Naltrexone fits the same receptors but doesn\'t switch them on. While it sits there, your endorphins bounce off. At a low dose this lasts a few hours, mostly while you sleep.');
-    if (key === 'clearing') set('FDA label', 'Clearing out', 'Your body clears about half the naltrexone every 4 hours, so a small dose lets go of the receptors by morning.');
+    if (key === 'block') set('Label · simple model', 'The block', 'Naltrexone fits the same receptors but doesn\'t switch them on, so while it sits there your endorphins bounce off. Taken at bedtime, a low dose blocks hardest while you sleep.');
+    if (key === 'clearing') set('Label · simple model', 'Letting go', 'Your body clears about half the naltrexone every 4 hours. With a small dose, that\'s enough for the receptors to open back up over the morning.');
     if (key === 'rebound') set('Leading theory', 'The rebound', 'As the small dose clears, receptors open up again. The leading theory is that the short block prompts your body to make more endorphins and more receptors, so the signal comes back stronger. It hasn\'t been confirmed in controlled human trials.', true);
-    if (key === 'fifty') set('FDA label', 'A block that holds', 'At 50 mg the block lasts around the clock, and the signal stays low. That\'s the job of the standard dose: keeping opioids from working all day. LDN aims for the opposite, a short block that lifts.');
+    if (key === 'fifty') set('Label · simple model', 'A block that holds', 'At 50 mg the block lasts around the clock, and the signal stays low. That\'s the job of the standard dose: keeping opioids from working all day. LDN aims for the opposite, a short block that lifts.');
   }
 
   /* ---------- controls ---------- */

@@ -39,10 +39,10 @@
   const hint = document.getElementById('beadHint');
   const tip = Lab.tip(stage);
   let r = 16, L = 34;
-  const cv = Lab.canvas(canvas, () => { r = Math.max(18, Math.min(30, cv.w / 26)); L = r * 2.1; clampAll(); if (mode === 'line') layoutLine(); draw(); });
+  const cv = Lab.canvas(canvas, () => { r = Math.max(18, Math.min(34, cv.w / 22)); L = r * 2.1; clampAll(); if (mode === 'line') layoutLine(); draw(); });
 
   let chain = [], mode = 'build', fold = false, running = false, raf = 0, settle = 0;
-  let copper = null, building = null, grab = null, lineY = 0, lineStart = 0, lineMax = 0, lineRows = [];
+  let panned = false, touched = false, copper = null, building = null, grab = null, lineY = 0, lineStart = 0, lineMax = 0, lineRows = [];
 
   /* ---------- tray ---------- */
   const tray = document.getElementById('tray');
@@ -72,8 +72,8 @@
     mode = m; bLine.setAttribute('aria-pressed', m === 'line');
     bLine.textContent = m === 'line' ? 'Back to my chain' : 'Line them up';
     hint.textContent = m === 'line' ? 'Drag up and down to see the biggest' : 'Drag the chain, or add beads below';
-    if (m === 'line') { lineY = 0; lineStart = performance.now(); layoutLine(); Lab.done('t-line'); }
-    tip.hide(); caption(); kick(1); draw();
+    if (m === 'line') { lineY = 0; panned = false; lineStart = performance.now(); layoutLine(); Lab.done('t-line'); }
+    hint.hidden = false; tip.hide(); caption(); kick(1); draw();
   }
 
   /* ---------- chain ops ---------- */
@@ -92,6 +92,7 @@
     if (!quiet) changed();
   }
   function changed() {
+    touched = true;
     const s = seq();
     copper = s === 'GHK' ? (copper || { x: cv.w - 30, y: 30, t: performance.now() }) : null;
     if (s === 'KPV') Lab.done('t-kpv');
@@ -184,7 +185,7 @@
     const c = Lab.c; rr *= scale;
     ctx.beginPath(); ctx.arc(x, y, rr, 0, 6.2832);
     ctx.fillStyle = fillFor(k); ctx.fill();
-    if (AA[k][1] === 'po') { ctx.lineWidth = Math.max(1.5, rr * 0.14); ctx.strokeStyle = c.stroke; ctx.stroke(); }
+    if (AA[k][1] === 'po') { ctx.lineWidth = Math.max(1.5, rr * 0.14); ctx.strokeStyle = c.soft; ctx.stroke(); }
     // soft highlight for depth
     const g = ctx.createRadialGradient(x - rr * 0.35, y - rr * 0.4, rr * 0.1, x, y, rr);
     g.addColorStop(0, 'rgba(255,255,255,0.32)'); g.addColorStop(1, 'rgba(255,255,255,0)');
@@ -212,11 +213,16 @@
     // backbone
     ctx.lineCap = 'round'; ctx.strokeStyle = c.stroke; ctx.lineWidth = Math.max(4, r * 0.34);
     ctx.beginPath(); chain.forEach((b, i) => (i ? ctx.lineTo(b.x, b.y) : ctx.moveTo(b.x, b.y))); ctx.stroke();
+    const late = [];
     // disulfide bridge
     if (seq() === 'CYIQNCPLG') {
       ctx.save(); ctx.setLineDash([5, 6]); ctx.strokeStyle = c.gold_ink; ctx.lineWidth = 3.5;
       ctx.beginPath(); ctx.moveTo(chain[0].x, chain[0].y); ctx.lineTo(chain[5].x, chain[5].y); ctx.stroke(); ctx.restore();
-      label(ctx, 'S–S bridge', (chain[0].x + chain[5].x) / 2, (chain[0].y + chain[5].y) / 2 - r - 8, c.gold_ink);
+      { let mx = 0, my = 0; chain.forEach((q) => { mx += q.x; my += q.y; }); mx /= chain.length; my /= chain.length;
+        const bx = (chain[0].x + chain[5].x) / 2, by = (chain[0].y + chain[5].y) / 2, dx = bx - mx, dy = by - my, dd = Math.hypot(dx, dy) || 1;
+        const lx = bx + dx / dd * r * 3.2, ly = by + dy / dd * r * 3.2;
+        ctx.save(); ctx.strokeStyle = c.gold_ink; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(bx, by); ctx.lineTo(lx, ly); ctx.stroke(); ctx.restore();
+        late.push(['S–S bridge', lx, ly + (dy > 0 ? 10 : -10), c.gold_ink]); }
     }
     // beads (with pop-in)
     chain.forEach((b) => {
@@ -233,19 +239,20 @@
       const [ax, ay] = out(chain[0]), [zx, zy] = out(chain[chain.length - 1]);
       label(ctx, 'start', ax, ay, c.dim); label(ctx, 'end', zx, zy, c.dim);
     }
+    late.forEach((l) => label(ctx, ...l));
     readout(ctx);
     if (copper) {
+      if (chain.length === 3) {
+        ctx.save(); ctx.setLineDash([3, 4]); ctx.strokeStyle = c.dark ? '#d98f55' : '#a8582a'; ctx.lineWidth = 2;
+        [0, 1].forEach((i) => { ctx.beginPath(); ctx.moveTo(copper.x, copper.y); ctx.lineTo(chain[i].x, chain[i].y); ctx.stroke(); }); ctx.restore();
+      }
       const g = ctx.createRadialGradient(copper.x, copper.y, 2, copper.x, copper.y, r * 2);
       g.addColorStop(0, 'rgba(201,120,62,0.55)'); g.addColorStop(1, 'rgba(201,120,62,0)');
       ctx.fillStyle = g; ctx.beginPath(); ctx.arc(copper.x, copper.y, r * 2, 0, 6.3); ctx.fill();
       ctx.beginPath(); ctx.arc(copper.x, copper.y, r * 0.8, 0, 6.3); ctx.fillStyle = c.dark ? '#d98f55' : '#a8582a'; ctx.fill();
       ctx.fillStyle = c.dark ? '#1f1815' : '#fff'; ctx.font = `800 ${Math.round(r * 0.8)}px Nunito, sans-serif`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
       ctx.fillText('Cu', copper.x, copper.y + 1);
-      if (chain.length === 3) {
-        ctx.save(); ctx.setLineDash([3, 4]); ctx.strokeStyle = c.dark ? '#d98f55' : '#a8582a'; ctx.lineWidth = 2;
-        [0, 1].forEach((i) => { ctx.beginPath(); ctx.moveTo(copper.x, copper.y); ctx.lineTo(chain[i].x, chain[i].y); ctx.stroke(); }); ctx.restore();
-        label(ctx, 'copper ion', copper.x, copper.y + (copper.y < chain[1].y ? -r * 1.45 : r * 1.45), c.soft);
-      }
+      if (chain.length === 3) label(ctx, 'copper ion', copper.x, copper.y + (copper.y < chain[1].y ? -r * 1.45 : r * 1.45), c.soft);
     }
   }
   function readout(ctx) {
@@ -281,6 +288,7 @@
     lineMax = Math.max(0, y + 10 - cv.h);
   }
   function drawLine() {
+    hint.hidden = lineY > 20;
     const { ctx, w, h } = cv, c = Lab.c, pad = 18;
     const now = performance.now();
     const t = Lab.reduced ? 1e9 : now - lineStart;
@@ -323,7 +331,7 @@
     if (lineMax > 0 && lineY < lineMax - 4) {
       const g = ctx.createLinearGradient(0, h - 60, 0, h); g.addColorStop(0, Lab.alpha(c.panel, 0)); g.addColorStop(1, c.panel);
       ctx.fillStyle = g; ctx.fillRect(0, h - 60, w, 60);
-      ctx.fillStyle = c.soft; ctx.font = '700 16px Nunito, sans-serif'; ctx.textAlign = 'center'; ctx.fillText('↓ drag to see albumin', w / 2, h - 18);
+      ctx.fillStyle = c.soft; ctx.font = '700 16px Nunito, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(lineY > 40 ? '↓ drag for more' : '↓ drag to see albumin', w / 2, h - 18);
     }
   }
 
@@ -333,9 +341,9 @@
   }
   function capMax() { setCap('FDA definition', 'That\'s 40', 'One more amino acid and this would count as a protein, not a peptide. The lab stops here. Try <b>Line them up</b> to see how far proteins go.'); }
   function caption(during) {
-    if (mode === 'line') return setCap('To scale', 'Size, side by side', 'Most of the peptides in Equilibria Rx fit inside one row. Tirzepatide nearly fills it. Albumin, the most common protein in your blood, needs 15 rows. Naltrexone and NAD+ aren\'t chains at all.');
+    if (mode === 'line') return setCap('To scale', 'Size, side by side', 'Most of the peptides people ask about fit inside one row. Tirzepatide nearly fills it. Albumin, the most common protein in your blood, needs 15 rows. Naltrexone and NAD+ aren\'t chains at all.');
     const s = seq(), n = chain.length;
-    if (!during && KNOWN[s]) { const k = KNOWN[s]; return setCap(k.tier, k.h, k.p); }
+    if (!during && KNOWN[s]) { const k = KNOWN[s]; const h = touched ? k.h : k.h.replace('You built GHK, and it grabbed copper', 'Meet GHK, holding a copper ion'); const next = touched ? ' Next: tap <b>Line them up</b> to see it to scale.' : ' Tap <b>Clear</b> and build your own, or add a bead to this one.'; return setCap(k.tier, h, k.p + next); }
     if (n === 0) return setCap('', 'Start a chain', 'Amino acids are the 20 building blocks your body uses for every protein it makes. Tap one to begin.');
     if (n === 1) return setCap('', `One bead: ${AA[s][0].toLowerCase()}`, 'On its own, an amino acid is just a building block. Add a second and they snap together with a peptide bond. That bond is where the word "peptide" comes from.');
     if (n === 2) return setCap('', 'Two beads, one peptide bond', 'Technically you already have a peptide. Add one more and you\'re the size of KPV or GHK.');
@@ -360,7 +368,7 @@
     if (!down) return;
     const p = Lab.pt(e, canvas);
     if (Math.hypot(p.x - down.x, p.y - down.y) > 6) down.moved = true;
-    if (mode === 'line') { lineY = Math.max(0, Math.min(lineMax, down.ly - (p.y - down.y))); draw(); return; }
+    if (mode === 'line') { panned = true; lineY = Math.max(0, Math.min(lineMax, down.ly - (p.y - down.y))); draw(); return; }
     if (grab) { grab.b.x = grab.b.px = Math.max(r, Math.min(cv.w - r, p.x)); grab.b.y = grab.b.py = Math.max(r + 40, Math.min(cv.h - r, p.y)); if (Lab.reduced) { relax(3); draw(); } }
   });
   const up = (e) => {
@@ -377,7 +385,8 @@
     raf = 0;
     if (mode === 'build') { step(t, true); step(t, true); }
     draw();
-    const lineAnimating = mode === 'line' && t - lineStart < 2600;
+    const lineAnimating = mode === 'line' && t - lineStart < 7000;
+    if (mode === 'line' && !panned && t - lineStart > 2400 && lineMax > 0) lineY += (lineMax - lineY) * 0.04;
     if (running && (mode === 'build' || lineAnimating)) raf = requestAnimationFrame(loop);
   }
   Lab.onTheme(() => draw());

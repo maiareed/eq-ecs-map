@@ -44,3 +44,15 @@ They map one-to-one to the three questions, and each needs a simulation to teach
 time curves are exactly what static pages explain badly. Next would be the body-to-molecule zoom that
 places every product (tirzepatide at the gut and brain, GHK-Cu in skin, BPC-157 in tissue) in the
 same figure, reusing these three models as its deepest zoom levels.
+
+## Build notes (2026-11-10)
+- Published as a private Artifact: https://claude.ai/artifact/GUEuWZMAu2NCVU1ZRx8kbv. Rebuild the bundle with `rx/lab/tools/prep-artifact.sh <dir>`; it strips the document skeleton and swaps in bundled copies of `eq-body.js` and the ECS map (`ecs-map.html`).
+- Checked with `tools/shoot.js` (4 views × 390/1280 × light/dark, plus reduced motion) and `tools/shoot-states.js` (oxytocin, fold, line-up, cell at 70, 50 mg, midday). No console errors, no horizontal scroll.
+- A fresh reviewer that never saw the build judged it from screenshots and source. Fixed from that review:
+  - NAD+ energy lagged the age slider and crashed after a top-up. It now tracks working shuttles (capped by fuel), moves within a few seconds, and a top-up settles back to the prior level.
+  - The LDN block outlasted its own caption. The occupancy curve is now steeper: 4.5 mg is heavy overnight and mostly gone by midday (~10 h above 50%), 50 mg holds all day. The readout states hours blocked, the night is shaded, and the captions are tagged "Label · simple model".
+  - One-line definitions now show on phone. Bead by Bead opens on "Meet GHK" instead of "You built GHK". Every view ends with a Next link, and the nav stays visible on phone.
+  - Dropped "in Equilibria Rx" from the line-up caption that sits next to BPC-157. The peptide hotspot moved from the chest to the forearm.
+  - Labels (S–S bridge, Cu, start/end) are placed outside the cluster, text has a 16px floor, and the line-up view auto-pans down to albumin.
+- Known limits, not fixed: the line-up beads are ~8px at 390 because a row must hold 40; the four side enzymes in The Spark stay visible (they carry the age story); the endorphin rebound and block durations are conceptual.
+- Open for compliance: BPC-157 is shown as a molecule alongside the line "no regulator has approved it for human use" (sourced). The page names no product, but that pairing should be reviewed before anything links here from a product page.
