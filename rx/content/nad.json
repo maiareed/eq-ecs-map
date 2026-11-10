@@ -5,7 +5,7 @@
   "page_title": "NAD+, explained | Equilibria",
   "card_kicker": "Energy Spray Rx · NAD+",
   "card_title": "The shuttle inside every cell",
-  "card_summary": "What NAD+ actually does, why levels draw attention after 40, and what we still don't know about a nasal spray.",
+  "card_summary": "What NAD+ actually does, why researchers are interested in how its levels change with age, and what we still don't know about a nasal spray.",
   "kicker": "Energy Spray Rx · How it works",
   "headline": "The molecule that keeps your cells' *power line* moving.",
   "lede": "NAD+ isn't a peptide and it isn't a stimulant. It's a working part inside every cell, and research suggests you have less of it as you age. Here's what it does, what the evidence says, and where the real questions are.",
@@ -76,7 +76,7 @@
     {
       "state_label": "Older",
       "level_pct": 52,
-      "state_note": "Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, so read it as a strong clue rather than the final word."
+      "state_note": "Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, and few human studies have measured this, so read it as an early clue rather than the final word."
     }
   ],
   "gauge_scale_note": "Bars show direction, not measured amounts.",
@@ -96,7 +96,7 @@
     },
     {
       "step_title": "Levels appear to drop with age",
-      "step_body": "In skin samples from 49 people aged from newborn to 77, NAD+ was lower in older skin, in women and men. Only a handful of human studies have measured this directly.",
+      "step_body": "In skin samples from 49 people, newborns and adults aged 15 to 77, NAD+ was lower in older skin, in women and men. Only a handful of human studies have measured this directly.",
       "tier": "t2",
       "source_ids": [
         "s_massudi_2012",
@@ -113,7 +113,7 @@
     },
     {
       "step_title": "Raising it is possible. Feeling different is the open question.",
-      "step_body": "Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found the effects people actually experience have been limited so far.",
+      "step_body": "Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found that measurable benefits in people have been limited so far.",
       "tier": "t2",
       "source_ids": [
         "s_trammell_2016",
@@ -126,12 +126,13 @@
   "notice_items": [
     {
       "when_label": "The first weeks",
-      "tier": "t2",
+      "tier": "t3",
       "pending_clinician": true,
       "source_ids": [
-        "s_martens_2018"
+        "s_martens_2018",
+        "s_ying_2007"
       ],
-      "notice_text": "Human studies of NAD+ building blocks ran for weeks, for example 6 weeks in one trial of 30 adults. If you notice a change, expect it to be gradual."
+      "notice_text": "Studies of oral NAD+ building blocks, a different form from a nasal spray, ran for weeks: for example, 6 weeks in one trial of 30 adults. There are no human studies of nasal NAD+ yet, so your clinician will set expectations with you."
     },
     {
       "when_label": "Throughout",
@@ -140,7 +141,7 @@
       "source_ids": [
         "s_ying_2007"
       ],
-      "notice_text": "Nasal NAD+ hasn't been studied in people yet, so what you notice is real information. Tell your clinician about anything new, including nasal discomfort, headache or sleep changes."
+      "notice_text": "Nasal NAD+ hasn't been studied in people yet. Tell your clinician about anything new, including nasal discomfort, headache or sleep changes."
     }
   ],
   "route_intro": "A nasal spray, on a schedule your clinician sets.",
@@ -167,7 +168,7 @@
       "pending_clinician": true
     },
     {
-      "route_text": "There are no published human studies of nasal NAD+ yet. In rat studies, NAD+ given through the nose raised NAD+ levels in the brain.",
+      "route_text": "There are no published human studies of nasal NAD+ yet. In a rat study, NAD+ given through the nose raised NAD+ levels in the brain.",
       "tier": "t3",
       "source_ids": [
         "s_ying_2007"
@@ -185,7 +186,7 @@
   ],
   "what_to_watch": [
     {
-      "item_text": "When NAD+ is given by IV drip too quickly, people have reported cramping, nausea, chest pressure and a racing heart, which stopped once the drip ended. Nasal sprays haven't been studied this way, so report anything similar.",
+      "item_text": "In one small study of NAD+ given by IV drip, a different route and a much larger dose, people reported stomach upset, a faster heart rate and chest pressure during the drip, which stopped once it ended. Nasal sprays haven't been studied this way. Tell your clinician about anything new.",
       "source_ids": [
         "s_iv_2026"
       ]
@@ -243,13 +244,13 @@
     },
     {
       "source_id": "s_ying_2007",
-      "citation": "Ying W, et al. Rat study of NAD+ given through the nose: brain NAD+ levels rose. Front Biosci. 2007;12:2728-34.",
+      "citation": "Ying W, et al. Front Biosci. 2007;12:2728-34. Rat study of NAD+ given through the nose; brain NAD+ rose (description, not title).",
       "url": "https://www.imrpress.com/journal/fbl/12/7/10.2741/2267",
       "source_type": "animal"
     },
     {
       "source_id": "s_iv_2026",
-      "citation": "Intravenous infusion of NAD+ versus NR: a retrospective tolerability pilot study in a real-world setting. Front Aging. 2026.",
+      "citation": "Front Aging. 2026. Retrospective tolerability pilot of IV NAD+ vs NR, 500 mg IV; industry-affiliated authors (description, not title).",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12907335/",
       "source_type": "observational"
     }

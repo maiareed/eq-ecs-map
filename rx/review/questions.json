@@ -1,0 +1,101 @@
+{
+  "_note": "Open questions for Kanako and JJ, written as yes/no. Edit 'answer' in place or reply on the review board.",
+  "questions": [
+    {
+      "id": "Q1",
+      "page": "ldn",
+      "question": "The formulary sheet lists LDN capsules at 0.5, 1.5 and 4.5 mg, but our intake offers member-selectable 5, 15 and 45 mg plans. Is the sheet (0.5 / 1.5 / 4.5 mg) correct, and should the intake be changed to match it?",
+      "answer": null
+    },
+    {
+      "id": "Q2",
+      "page": "ldn",
+      "question": "Should the clinician choose the starting LDN strength instead of the member picking it on the intake?",
+      "answer": null
+    },
+    {
+      "id": "Q3",
+      "page": "ldn",
+      "question": "Is \"start low and step up toward 4.5 mg; never start at 4.5 mg\" the titration you want members to see?",
+      "answer": null
+    },
+    {
+      "id": "Q4",
+      "page": "ldn",
+      "question": "Should the LDN page say anything about dose timing (bedtime vs. morning)? It currently says only that your clinician may adjust timing.",
+      "answer": null
+    },
+    {
+      "id": "Q5",
+      "page": "ldn",
+      "question": "Is \"Not for you if\" (any opioid use, including methadone or buprenorphine; acute hepatitis or liver failure) complete enough to publish?",
+      "answer": null
+    },
+    {
+      "id": "Q6",
+      "page": "ldn",
+      "question": "OK to list only vivid dreams / sleep changes and nausea as LDN side effects? Headache and dizziness were left off because we found no trial or peer-reviewed source.",
+      "answer": null
+    },
+    {
+      "id": "Q7",
+      "page": "nad",
+      "question": "Is 0.1 mL per spray correct for Energy Spray Rx? At 300 mg/mL that means about 30 mg NAD+ per spray.",
+      "answer": null
+    },
+    {
+      "id": "Q8",
+      "page": "nad",
+      "question": "Keep the 2-months-on, 1-month-off cycle, with weekday-only use?",
+      "answer": null
+    },
+    {
+      "id": "Q9",
+      "page": "nad",
+      "question": "Should pregnancy and breastfeeding be listed under \"Not for you if\" for nasal NAD+?",
+      "answer": null
+    },
+    {
+      "id": "Q10",
+      "page": "nad",
+      "question": "Comfortable telling members plainly that nasal NAD+ has no published human studies yet?",
+      "answer": null
+    },
+    {
+      "id": "Q11",
+      "page": "peptides",
+      "question": "OK for BPC-157 (Gut Peptides Rx, Wolverine Recovery Rx) to appear on the primer as a 15-bead molecule, given its regulatory status?",
+      "answer": null
+    },
+    {
+      "id": "Q12",
+      "page": "peptides",
+      "question": "OK to show KPV and MOTS-c on the primer even though neither is a live product?",
+      "answer": null
+    },
+    {
+      "id": "Q13",
+      "page": "all",
+      "question": "Approve the four evidence tiers and their plain-English labels (Established, Early human studies, Lab and animal research, Leading theory)?",
+      "answer": null
+    },
+    {
+      "id": "Q14",
+      "page": "all",
+      "question": "Are the ship / re-check / refill cadences shown for LDN (30 capsules monthly, re-check every 90 days, review before each refill) and NAD+ (one bottle monthly, skipped in off months, re-check every 90 days) final?",
+      "answer": null
+    },
+    {
+      "id": "Q15",
+      "page": "all",
+      "question": "For legal and regulatory, not clinical: has the current 503A status of BPC-157, KPV, MOTS-c and GHK-Cu been cleared for member-facing education (FDA's 2023 Category 2 list)?",
+      "answer": null
+    },
+    {
+      "id": "Q16",
+      "page": "all",
+      "question": "For legal: keep the product name \"Wolverine Recovery Rx\"? The audit flagged trademark and implied-use risk.",
+      "answer": null
+    }
+  ]
+}

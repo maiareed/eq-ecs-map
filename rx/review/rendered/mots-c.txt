@@ -1,8 +1,8 @@
 Template test. Internal only.
 MOTS-C RX · HOW IT WORKS
-A message your mitochondria send out.
+A message mitochondria send out.
 
-Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide your mitochondria make that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.
+Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide made in mitochondria that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.
 
 You've kept moving and you still notice it: workouts land differently than they did, and your body seems to respond to effort on a slower clock.
 
@@ -64,7 +64,7 @@ No published human trials of MOTS-c itself
 
 A modified version was tested in a small early trial, with results shared only in a company press release.[3]
 
-Early human studies
+No human data yet
 How sure is this?
 
 Every claim on this page carries one of four line styles. The heavier the line, the stronger the evidence.
@@ -81,7 +81,7 @@ To be set
 
 No published human studies describe what people notice on MOTS-c. Your clinician will set expectations with you.[3]
 
-Early human studies Pending clinician review
+No human data yet Pending clinician review
 How it gets in
 
 An injection under the skin, in cycles.
@@ -115,10 +115,10 @@ This page exists to check that a new Rx renders from a content record alone. It 
 
 Sources
 Reynolds JC, et al. MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis. Nat Commun. 2021;12:470. Read the source
-Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454. Read the source
+Lee C, et al. Cell Metab. 2015;21:443-454. Discovery of MOTS-c, a 16-amino-acid mitochondrial-derived peptide (description, not title). Read the source
 CohBar press release (Aug 10, 2021): topline Phase 1a/1b results for CB4211, a modified MOTS-c analog. No peer-reviewed publication. Read the source
 D'Souza RF, et al. Increased expression of MOTS-c in skeletal muscle of healthy aging men. Aging (Albany NY). 2020;12:5244. Read the source
-Educational content for Equilibria members. It isn't medical advice, and it doesn't replace a conversation with your clinician.
+Internal template test. Not for members, and not to be published until regulatory review is complete.
 
 --- Text inside visuals ---
 1
@@ -137,7 +137,7 @@ Established
 
 Acts here
 
-In cells and mice, MOTS-c switched on AMPK, an energy sensor, and cells used more sugar and fat. Under stress it moved into the nucleus.[2]
+In cells and mice, MOTS-c switched on AMPK, an energy sensor, and cells used more sugar and fat.[2]
 
 Lab and animal research
 

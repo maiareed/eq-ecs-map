@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rx Learn Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Nunito:wght@500;600;700&display=swap" rel="stylesheet">
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('eq-theme');
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  })();
+</script>
+<style>
+  :root { --bg:#f5f2ec; --panel:#fcfbf9; --sunk:#efeae1; --text:#211c19; --soft:rgba(33,28,25,.8); --dim:rgba(33,28,25,.7); --line:#e2dbcc; --plum:#75415d; --gold:#8a6d36; --pend-bg:#f6e9c8; --pend:#5a4208; --ok:#2f6b3a; --bad:#8f2d2d; }
+  :root[data-theme="dark"] { --bg:#211a17; --panel:#2a211d; --sunk:#1b1512; --text:rgba(247,244,239,.94); --soft:rgba(247,244,239,.82); --dim:rgba(247,244,239,.7); --line:rgba(247,244,239,.14); --plum:#d79bb9; --gold:#d8b878; --pend-bg:#4a3a14; --pend:#f6e2a8; --ok:#8fd39b; --bad:#f2a1a1; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#211a17; --panel:#2a211d; --sunk:#1b1512; --text:rgba(247,244,239,.94); --soft:rgba(247,244,239,.82); --dim:rgba(247,244,239,.7); --line:rgba(247,244,239,.14); --plum:#d79bb9; --gold:#d8b878; --pend-bg:#4a3a14; --pend:#f6e2a8; --ok:#8fd39b; --bad:#f2a1a1; } }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); }
+  body { font-family: "Nunito", system-ui, sans-serif; color: var(--text); font-size: 17px; line-height: 1.55; overflow-x: hidden; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1, h2, h3 { font-family: "Fraunces", Georgia, serif; font-weight: 400; line-height: 1.2; }
+  h1 { font-size: 32px; margin: 8px 0 8px; } h2 { font-size: 26px; margin-bottom: 10px; } h3 { font-size: 20px; margin: 18px 0 8px; }
+  .kicker { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+  p.sub { color: var(--soft); max-width: 680px; }
+  a { color: var(--plum); }
+  nav.jump { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0; display: flex; gap: 8px; overflow-x: auto; border-bottom: 1px solid var(--line); margin: 16px 0 8px; }
+  nav.jump a { flex: 0 0 auto; min-height: 44px; display: inline-flex; align-items: center; padding: 0 14px; border-radius: 22px; border: 1px solid var(--line); background: var(--panel); text-decoration: none; color: var(--text); font-weight: 700; font-size: 15px; }
+  section.page { margin-top: 36px; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 20px 16px; }
+  .shots { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px; }
+  @media (min-width: 760px) { .shots { grid-template-columns: repeat(4, 1fr); } }
+  .shots a { display: block; text-decoration: none; color: var(--dim); font-size: 14px; }
+  .shots img { width: 100%; height: 220px; object-fit: cover; object-position: top; border-radius: 10px; border: 1px solid var(--line); background: var(--sunk); display: block; margin-bottom: 4px; }
+  .btn { display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 22px; background: var(--text); color: var(--bg); text-decoration: none; font-weight: 700; margin: 8px 8px 0 0; }
+  .btn.ghost { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  .claims { display: grid; gap: 10px; margin-top: 8px; }
+  details.claim { border: 1px solid var(--line); border-radius: 12px; background: var(--sunk); }
+  details.claim summary { cursor: pointer; padding: 10px 12px; min-height: 44px; list-style: none; }
+  details.claim summary::-webkit-details-marker { display: none; }
+  details.claim .body { padding: 0 12px 12px; font-size: 15px; color: var(--soft); }
+  .tag { display: inline-block; font-size: 13px; font-weight: 700; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); margin-right: 6px; color: var(--dim); }
+  .tag.t-Established { border-color: var(--plum); color: var(--plum); }
+  .tag.pend { background: var(--pend-bg); color: var(--pend); border: 0; }
+  .tag.bad { color: var(--bad); border-color: var(--bad); }
+  ul.plain { list-style: none; display: grid; gap: 8px; }
+  ul.plain li { padding: 10px 12px; border-radius: 10px; background: var(--sunk); font-size: 15px; }
+  .q { display: grid; gap: 6px; padding: 12px; border-radius: 12px; background: var(--sunk); }
+  .q .yn { display: flex; gap: 8px; }
+  .q .yn button { min-height: 44px; min-width: 64px; border-radius: 22px; border: 1px solid var(--line); background: var(--panel); color: var(--text); font: inherit; font-weight: 700; cursor: pointer; }
+  .q .yn button[aria-pressed="true"] { background: var(--text); color: var(--bg); }
+  .note { font-size: 14px; color: var(--dim); margin-top: 6px; }
+  .summary-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 14px; }
+  @media (min-width: 760px) { .summary-grid { grid-template-columns: repeat(4, 1fr); } }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+  .stat b { display: block; font-family: "Fraunces", serif; font-size: 30px; font-weight: 400; }
+  .theme { position: absolute; top: 14px; right: 14px; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--panel); color: var(--soft); font-size: 18px; cursor: pointer; }
+</style>
+</head>
+<body>
+<div class="wrap" style="position:relative">
+  <button class="theme" type="button" aria-label="Toggle theme" onclick="var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';d.setAttribute('data-theme',n);try{localStorage.setItem('eq-theme',n)}catch(e){}">◐</button>
+  <div class="kicker">Equilibria Rx · Learn v1 · Internal review</div>
+  <h1>Morning review board</h1>
+  <p class="sub">Three modules plus a template test, built on one content-driven system. Every claim, its tier and source, every clinician-owned item, and the open questions for Kanako and JJ are listed below. Nothing here is live on the store.</p>
+  <div class="summary-grid" id="stats"></div>
+  <p class="note">Reference docs: <a href="DECISIONS.md">DECISIONS.md</a> · <a href="copy-deck.md">copy-deck.md</a> · <a href="audit.md">audit.md</a> · <a href="claims.json">claims.json</a></p>
+  <nav class="jump" id="jump"></nav>
+  <div id="pages"></div>
+</div>
+<script>
+(function () {
+  var PAGES = [
+    { slug: 'index', title: 'Learn hub', href: '../index.html' },
+    { slug: 'peptides', title: 'Bead String primer', href: '../peptides.html' },
+    { slug: 'ldn', title: 'LDN explainer', href: '../ldn.html' },
+    { slug: 'nad', title: 'NAD+ explainer', href: '../nad.html' },
+    { slug: 'mots-c', title: 'MOTS-c template test (internal)', href: '../mots-c.html' }
+  ];
+  var SHOTS = [['390', 'light'], ['390', 'dark'], ['1280', 'light'], ['1280', 'dark']];
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function j(p) { return fetch(p, { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
+  var answers = {};
+  try { answers = JSON.parse(localStorage.getItem('eq-review-answers') || '{}'); } catch (e) {}
+  Promise.all([j('claims.json'), j('pending.json'), j('questions.json'), j('audit-resolution.json')]).then(function (r) {
+    var claims = r[0] || [], pending = r[1] || {}, qs = (r[2] || {}).questions || [], verdicts = r[3] || {};
+    var nPending = Object.keys(pending).reduce(function (a, k) { return a + pending[k].length; }, 0);
+    var nFix = (verdicts.open || []).length; var res = verdicts; verdicts = {};
+    document.getElementById('stats').innerHTML =
+      '<div class="stat"><b>' + claims.length + '</b>claim rows</div><div class="stat"><b>' + nPending + '</b>pending clinician</div>' +
+      '<div class="stat"><b>' + qs.length + '</b>yes/no questions</div><div class="stat"><b>' + (Object.keys(verdicts).length ? nFix : '–') + '</b>audit fixes open</div>';
+    document.getElementById('jump').innerHTML = PAGES.map(function (p) { return '<a href="#p-' + p.slug + '">' + esc(p.title) + '</a>'; }).join('');
+    var out = res.open ? '<section class="page"><h2>Audit: still open</h2><ul class="plain">' + res.open.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul><p class="note">Full audit and the list of fixes applied: <a href="audit.md">audit.md</a></p></section>' : '';
+    PAGES.forEach(function (p) {
+      var cl = claims.filter(function (c) { return c.treatment === p.slug; });
+      var pe = pending[p.slug] || [];
+      var q = qs.filter(function (x) { return x.page === p.slug || (p.slug === 'index' && x.page === 'all'); });
+      out += '<section class="page" id="p-' + p.slug + '"><h2>' + esc(p.title) + '</h2>' +
+        '<a class="btn" href="' + p.href + '">Open page</a>' +
+        '<div class="shots">' + SHOTS.map(function (s) {
+          var n = p.slug + '-' + s[0] + '-' + s[1];
+          return '<a href="screens/' + n + '.png"><img loading="lazy" src="screens/web/' + n + '.jpg" alt="' + esc(p.title + ', ' + s[0] + 'px, ' + s[1]) + '">' + s[0] + 'px · ' + s[1] + '</a>';
+        }).join('') + '</div>';
+      if (cl.length) {
+        out += '<h3>Claims (' + cl.length + ')</h3><div class="claims">' + cl.map(function (c) {
+          var v = verdicts[c.id];
+          return '<details class="claim"><summary><span class="tag t-' + esc((c.tier || '').split(' ')[0]) + '">' + esc(c.tier) + '</span>' +
+            (v ? '<span class="tag' + (/fix/i.test(v.verdict) ? ' bad' : '') + '">' + esc(v.verdict) + '</span>' : '') +
+            '<span class="tag">' + esc(c.id) + '</span><br>' + esc(c.text) + '</summary><div class="body">' +
+            (c.source_url ? '<p><b>Source</b> (' + esc(c.source_type) + '): <a href="' + esc(c.source_url) + '" target="_blank" rel="noopener">' + esc(c.source_citation) + '</a></p>' : '<p><b>No external source.</b></p>') +
+            (c.research_quotes || []).filter(function (x) { return x.quote; }).map(function (x) { return '<p>“' + esc(x.quote) + '” <span class="note">(' + esc(x.research_id) + ', ' + esc(x.research_status) + ')</span></p>'; }).join('') +
+            '<p class="note">Status: ' + esc(c.status) + '</p>' + (v && v.reason ? '<p class="note">Audit: ' + esc(v.reason) + '</p>' : '') +
+            '</div></details>';
+        }).join('') + '</div>';
+      }
+      if (pe.length) out += '<h3>Pending clinician review (' + pe.length + ')</h3><ul class="plain">' + pe.map(function (x) { return '<li><span class="tag pend">Pending</span>' + esc(x.text) + '</li>'; }).join('') + '</ul>';
+      if (q.length) out += '<h3>Questions for Kanako and JJ</h3><div class="claims">' + q.map(function (x) {
+        var a = answers[x.id];
+        return '<div class="q" data-q="' + x.id + '"><div><span class="tag">' + x.id + '</span>' + esc(x.question) + '</div><div class="yn">' +
+          ['Yes', 'No'].map(function (b) { return '<button type="button" aria-pressed="' + (a === b) + '" data-a="' + b + '">' + b + '</button>'; }).join('') + '</div></div>';
+      }).join('') + '<p class="note">Taps are saved on this device only. Send answers back in chat or the copy deck.</p></div>';
+      out += '</section>';
+    });
+    document.getElementById('pages').innerHTML = out;
+    document.querySelectorAll('.q button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var q = b.closest('.q'), id = q.getAttribute('data-q');
+        q.querySelectorAll('button').forEach(function (o) { o.setAttribute('aria-pressed', o === b); });
+        answers[id] = b.getAttribute('data-a');
+        try { localStorage.setItem('eq-review-answers', JSON.stringify(answers)); } catch (e) {}
+      });
+    });
+  });
+})();
+</script>
+</body>
+</html>

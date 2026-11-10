@@ -26,10 +26,11 @@ Why a tiny dose of a decades-old medicine is a different conversation from the s
 ENERGY SPRAY RX · NAD+
 The shuttle inside every cell
 
-What NAD+ actually does, why levels draw attention after 40, and what we still don't know about a nasal spray.
+What NAD+ actually does, why researchers are interested in how its levels change with age, and what we still don't know about a nasal spray.
 
+Internal
 MOTS-C RX · COMING NEXT
-A signal sent from your mitochondria
+A signal sent from mitochondria
 
 Rendered from a content record only, to test the cell energy template.
 
@@ -129,11 +130,11 @@ Each explainer covers what a molecule does, how strong the evidence is, and what
 Sources
 KPV (Lys-Pro-Val), the C-terminal tripeptide of alpha-MSH (PMC2431115). Read the source
 Pickart L. GHK (glycyl-histidyl-lysine) and its copper complex (PMC3359723). Read the source
-Bremelanotide prescribing information: cyclic 7-residue alpha-MSH analog. Read the source
+Bremelanotide prescribing information, Description (RxList mirror of the FDA label). Read the source
 Oxytocin structure: nonapeptide with a Cys1-Cys6 disulfide ring (PMC2689929). Read the source
 BPC-157 as an investigational peptide: synthetic 15-amino-acid peptide derived from a gastric juice protein (PMC13210877). Read the source
-Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454. Read the source
-Tirzepatide prescribing information, Description: 39-amino-acid linear peptide. Read the source
+Lee C, et al. Cell Metab. 2015;21:443-454. Discovery of MOTS-c, a 16-amino-acid mitochondrial-derived peptide (description, not title). Read the source
+Tirzepatide prescribing information, Description (GlobalRPh mirror of the FDA label). Read the source
 Insulin structure: A chain 21 and B chain 30 amino acids (NCBI Bookshelf NBK278938). Read the source
 FDA final rule, Definition of the Term "Biological Product", 85 FR 10057 (Feb 21, 2020): a protein is an alpha amino acid polymer with a defined sequence greater than 40 amino acids. Read the source
 UniProt P02768, serum albumin: mature chain residues 25-609 (585 amino acids). Read the source
@@ -185,7 +186,7 @@ GHK
 
 3 beads
 
-The peptide in GHK-Cu. Three beads paired with copper. It was first isolated from human plasma in 1973. You'll find GHK-Cu in Radiance Cream Rx and Copper Glow Cream Rx.[2]
+The peptide in GHK-Cu: three beads paired with copper, first isolated from human plasma in 1973. In Radiance Cream Rx and Copper Glow Cream Rx.[2]
 
 Established
 
@@ -193,7 +194,7 @@ PT-141
 
 7 beads
 
-Also called bremelanotide. Seven beads closed into a ring, including two building blocks you won't find in everyday proteins. Part of Intimacy Melt Rx.[3]
+Also called bremelanotide. Seven beads, six of them closed into a ring, including two building blocks you won't find in everyday proteins. Part of Intimacy Melt Rx, a compounded preparation that isn't an FDA-approved product.[3]
 
 Established
 
@@ -217,7 +218,7 @@ MOTS-c
 
 16 beads
 
-Sixteen beads, coded in the DNA of your mitochondria rather than the cell's nucleus.[6]
+Sixteen beads, coded in mitochondrial DNA rather than nuclear DNA.[6]
 
 Established
 
@@ -225,7 +226,7 @@ Tirzepatide
 
 39 beads
 
-Thirty-nine beads, one short of the FDA's protein line. The active ingredient in our GLP/GIP Rx options.[7]
+Thirty-nine beads, just under the FDA's 40-bead line, so it's regulated as a peptide rather than a protein. Used in our compounded GLP/GIP Rx options, which aren't FDA-approved products.[7]
 
 Established
 
@@ -269,11 +270,11 @@ Established
 LDN RX · HOW IT WORKS
 Same molecule. A very different idea.
 
-Standard naltrexone is a 50 mg daily tablet. Low-dose naltrexone uses a small fraction of that. Here's why researchers think the size of the dose changes what it does, and what's still an open question.
+Standard naltrexone is a 50 mg daily tablet. Low-dose naltrexone, as studied, uses a small fraction of that. Here's why researchers think the size of the dose may change what it does, and what's still an open question.
 
-Maybe a friend mentioned LDN, or you saw it in a forum thread. Then you looked it up and found a medicine best known from addiction care. Both of those things are true.
+Maybe a friend mentioned LDN, or you saw it in a forum thread. Then you looked it up and found a medicine best known at a much higher dose, for a very different purpose. Both of those things are true.
 
-LDN is naltrexone at roughly 1 to 5 mg a day, compared with the 50 mg tablet the FDA approved. At that size it isn't doing the standard job. It's a short, light touch on the same receptors, and the leading theory is that your body responds to the touch.[1][2]
+LDN is naltrexone at doses studied around 1 to 5 mg a day, compared with the 50 mg tablet the FDA approved. Your clinician sets your strength. Researchers think a dose this small may act differently: a short, light touch on the same receptors. The leading theory is that your body responds to the touch.[1][2]
 
 A brief block, then a response
 
@@ -292,7 +293,7 @@ Low dose
 Brief block
 Your own signaling (theory)
 
-Illustration, not measured data. Band lengths show the idea, not exact hours. For scale: naltrexone itself has a half-life of about 4 hours, and its main active by-product about 13 hours.[2]
+Illustration, not measured data. Band lengths show the idea, not exact hours, and the doses are the label dose and the studied range, not your dose. For scale: naltrexone itself has a half-life of about 4 hours, and its main active by-product about 13 hours.[2]
 
 Solid edge: naltrexone blocks opioid receptors. Established, from the FDA label.
 Dotted line: the rebound idea. A leading theory, mostly supported by animal research.
@@ -320,7 +321,7 @@ Separately from opioid receptors, naltrexone appears to quiet a receptor called 
 Lab and animal research
 What the human studies show so far
 
-Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies called it low-risk, with benefits not yet established, and found that some early results did not hold up in larger trials. That is the honest state of the science, and it's why a clinician decides whether it's worth trying for you.[4][5]
+Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies, 15 of them randomized trials, found it was generally well tolerated but that the evidence lacks methodological strength. Early positive results from uncontrolled studies were rarely repeated in placebo-controlled trials. That's the honest state of the science, and it's why a clinician decides whether it's worth trying for you.[4][5]
 
 Early human studies
 How sure is this?
@@ -337,22 +338,22 @@ Every member is different. This is what studies have measured, not a promise.
 
 The first nights
 
-Some people notice vivid dreams or lighter sleep early on. In small studies these were mostly mild and passed.[6][5]
+Some people notice vivid dreams or lighter sleep early on. In small studies these were mostly mild and passed.[6]
 
 Early human studies Pending clinician review
 Weeks, not days
 
-Studies have followed LDN for 8 to 12 weeks. If it's going to help, plan on giving it about that long before judging it.[6][7]
+Studies have followed LDN for 8 to 12 weeks. Your clinician will tell you when to check in on how it's going.[6][7]
 
 Early human studies Pending clinician review
 Along the way
 
-Your clinician may adjust your strength or the time of day you take it. Some guidance suggests moving the dose to the morning if sleep is affected. No study has compared bedtime and morning head to head yet.[7]
+Your clinician may adjust your strength or the time of day you take it. Tell them about any sleep changes.
 
-Early human studies Pending clinician review
+No human data yet Pending clinician review
 How it gets in
 
-One capsule a day, compounded for you.
+A capsule, compounded for you, on the schedule your clinician sets.
 
 You take one capsule a day, at the strength and time your clinician sets. Pending clinician review
 Naltrexone itself clears quickly, with a half-life of about 4 hours. Its main active by-product lasts about 13 hours.[2]
@@ -366,7 +367,7 @@ You take any opioid, including prescription pain medicine, methadone or buprenor
 You have acute hepatitis or liver failure. The naltrexone label lists both as reasons not to use it.[10]
 What to watch
 Sleep changes or vivid dreams, especially in the first weeks.[6]
-Nausea or dizziness.[5]
+Nausea, especially in the first few nights.[6]
 If you might need opioid pain relief, for example before a procedure, tell your clinician and care team that you take naltrexone.[9]
 Pending clinician review
 
@@ -392,10 +393,10 @@ Sources
 Toljan K, Vrooman B. Low-Dose Naltrexone (LDN): Review of Therapeutic Utilization. Med Sci. 2018. Read the source
 Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h. Read the source
 Narrative review of low-dose naltrexone mechanisms (Research Inventy, 2016): proposed compensatory rise in endorphins and enkephalins after temporary receptor blockade. Read the source
-Younger J, Parkitny L, McLain D. Review of low-dose naltrexone mechanisms and human studies. Clin Rheumatol. 2014. Read the source
-Gouda et al. Low-dose naltrexone: a review of 105 studies including 15 randomized trials. Adv Ther. 2026;43:2852-2870. Read the source
-Younger J, Mackey S. Pilot study of low-dose naltrexone (n=10, 8 weeks). Pain Med. 2009. Read the source
-Younger J, et al. Low-dose naltrexone crossover trial (n=31 women; 12 weeks LDN, dosed about 1 hour before bed). Arthritis Rheum. 2013. Read the source
+Younger J, Parkitny L, McLain D. Clin Rheumatol. 2014. Review of low-dose naltrexone mechanisms and human studies (description, not title). Read the source
+Gouda et al. Adv Ther. 2026. Review of 105 low-dose naltrexone studies, 15 of them randomized trials (description, not title; volume and pages to confirm). Read the source
+Younger J, Mackey S. Pain Med. 2009. Pilot study, n=10, 8 weeks (description, not title). Read the source
+Younger J, et al. Arthritis Rheum. 2013. Crossover trial, n=31 women, 12 weeks of LDN (description, not title). Read the source
 MDedge news coverage: no FDA-approved low-dose naltrexone product; LDN must be custom compounded. Read the source
 Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): contraindications, including opioid analgesics, opioid dependence and acute withdrawal. Read the source
 Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): hepatotoxicity warning; contraindicated in acute hepatitis or liver failure. Read the source
@@ -467,7 +468,7 @@ Early human studies
 Younger
 Older
 
-Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, so read it as a strong clue rather than the final word.
+Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, and few human studies have measured this, so read it as an early clue rather than the final word.
 
 What we know, and what we don't
 
@@ -480,7 +481,7 @@ NAD+ carries electrons from the food you break down to the machinery that makes 
 Established
 Levels appear to drop with age
 
-In skin samples from 49 people aged from newborn to 77, NAD+ was lower in older skin, in women and men. Only a handful of human studies have measured this directly.[2][3]
+In skin samples from 49 people, newborns and adults aged 15 to 77, NAD+ was lower in older skin, in women and men. Only a handful of human studies have measured this directly.[2][3]
 
 Early human studies
 One reason it might drop
@@ -490,7 +491,7 @@ In mice, an enzyme called CD38 that uses up NAD+ rises with age and accounts for
 Lab and animal research
 Raising it is possible. Feeling different is the open question.
 
-Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found the effects people actually experience have been limited so far.[5][6][3]
+Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found that measurable benefits in people have been limited so far.[5][6][3]
 
 Early human studies
 How sure is this?
@@ -507,12 +508,12 @@ There's less human data here than for most of what we offer. This is what's know
 
 The first weeks
 
-Human studies of NAD+ building blocks ran for weeks, for example 6 weeks in one trial of 30 adults. If you notice a change, expect it to be gradual.[6]
+Studies of oral NAD+ building blocks, a different form from a nasal spray, ran for weeks: for example, 6 weeks in one trial of 30 adults. There are no human studies of nasal NAD+ yet, so your clinician will set expectations with you.[6][7]
 
-Early human studies Pending clinician review
+Lab and animal research Pending clinician review
 Throughout
 
-Nasal NAD+ hasn't been studied in people yet, so what you notice is real information. Tell your clinician about anything new, including nasal discomfort, headache or sleep changes.[7]
+Nasal NAD+ hasn't been studied in people yet. Tell your clinician about anything new, including nasal discomfort, headache or sleep changes.[7]
 
 Lab and animal research Pending clinician review
 How it gets in
@@ -521,7 +522,7 @@ A nasal spray, on a schedule your clinician sets.
 
 Draft plan: 1 to 2 sprays once daily on weekdays, two months on and one month off. Pending clinician review
 Each bottle holds 300 mg/mL NAD+ in a water-based spray. Use it within about 35 days of opening. Pending clinician review
-There are no published human studies of nasal NAD+ yet. In rat studies, NAD+ given through the nose raised NAD+ levels in the brain.[7]
+There are no published human studies of nasal NAD+ yet. In a rat study, NAD+ given through the nose raised NAD+ levels in the brain.[7]
 
 Lab and animal research
 Before you start
@@ -531,7 +532,7 @@ Your clinician screens your health history and medications during intake. Here's
 Not for you if
 Your clinician will set this list with you. Published human data for nasal NAD+ don't yet define who should avoid it.[7]
 What to watch
-When NAD+ is given by IV drip too quickly, people have reported cramping, nausea, chest pressure and a racing heart, which stopped once the drip ended. Nasal sprays haven't been studied this way, so report anything similar.[8]
+In one small study of NAD+ given by IV drip, a different route and a much larger dose, people reported stomach upset, a faster heart rate and chest pressure during the drip, which stopped once it ended. Nasal sprays haven't been studied this way. Tell your clinician about anything new.[8]
 Any nasal irritation, headache or change in sleep after you start.
 Pending clinician review
 
@@ -560,8 +561,8 @@ NAD+ precursor supplementation in human ageing: clinical evidence and challenges
 Camacho-Pereira J, et al. CD38 dictates age-related NAD decline and mitochondrial dysfunction through an SIRT3-dependent mechanism. Cell Metab. 2016. Read the source
 Trammell SAJ, et al. Nicotinamide riboside is uniquely and orally bioavailable in mice and humans. Nat Commun. 2016;7:12948. Read the source
 Martens CR, et al. Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD+ in healthy middle-aged and older adults (n=30, 6 weeks). Nat Commun. 2018;9:1286. Read the source
-Ying W, et al. Rat study of NAD+ given through the nose: brain NAD+ levels rose. Front Biosci. 2007;12:2728-34. Read the source
-Intravenous infusion of NAD+ versus NR: a retrospective tolerability pilot study in a real-world setting. Front Aging. 2026. Read the source
+Ying W, et al. Front Biosci. 2007;12:2728-34. Rat study of NAD+ given through the nose; brain NAD+ rose (description, not title). Read the source
+Front Aging. 2026. Retrospective tolerability pilot of IV NAD+ vs NR, 500 mg IV; industry-affiliated authors (description, not title). Read the source
 Educational content for Equilibria members. It isn't medical advice. Energy Spray Rx is a compounded preparation prescribed only after a clinician's review.
 
 --- Text inside visuals ---
@@ -594,7 +595,7 @@ Established
 
 --- Interactive states ---
 Skin samples from younger people had higher NAD+.
-Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, so read it as a strong clue rather than the final word.
+Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, and few human studies have measured this, so read it as an early clue rather than the final word.
 
 
 ---
@@ -603,9 +604,9 @@ Skin samples from older people had lower NAD+, in women and men alike. It's one 
 
 Template test. Internal only.
 MOTS-C RX · HOW IT WORKS
-A message your mitochondria send out.
+A message mitochondria send out.
 
-Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide your mitochondria make that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.
+Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide made in mitochondria that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.
 
 You've kept moving and you still notice it: workouts land differently than they did, and your body seems to respond to effort on a slower clock.
 
@@ -667,7 +668,7 @@ No published human trials of MOTS-c itself
 
 A modified version was tested in a small early trial, with results shared only in a company press release.[3]
 
-Early human studies
+No human data yet
 How sure is this?
 
 Every claim on this page carries one of four line styles. The heavier the line, the stronger the evidence.
@@ -684,7 +685,7 @@ To be set
 
 No published human studies describe what people notice on MOTS-c. Your clinician will set expectations with you.[3]
 
-Early human studies Pending clinician review
+No human data yet Pending clinician review
 How it gets in
 
 An injection under the skin, in cycles.
@@ -718,10 +719,10 @@ This page exists to check that a new Rx renders from a content record alone. It 
 
 Sources
 Reynolds JC, et al. MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis. Nat Commun. 2021;12:470. Read the source
-Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454. Read the source
+Lee C, et al. Cell Metab. 2015;21:443-454. Discovery of MOTS-c, a 16-amino-acid mitochondrial-derived peptide (description, not title). Read the source
 CohBar press release (Aug 10, 2021): topline Phase 1a/1b results for CB4211, a modified MOTS-c analog. No peer-reviewed publication. Read the source
 D'Souza RF, et al. Increased expression of MOTS-c in skeletal muscle of healthy aging men. Aging (Albany NY). 2020;12:5244. Read the source
-Educational content for Equilibria members. It isn't medical advice, and it doesn't replace a conversation with your clinician.
+Internal template test. Not for members, and not to be published until regulatory review is complete.
 
 --- Text inside visuals ---
 1
@@ -740,7 +741,7 @@ Established
 
 Acts here
 
-In cells and mice, MOTS-c switched on AMPK, an energy sensor, and cells used more sugar and fat. Under stress it moved into the nucleus.[2]
+In cells and mice, MOTS-c switched on AMPK, an energy sensor, and cells used more sugar and fat.[2]
 
 Lab and animal research
 

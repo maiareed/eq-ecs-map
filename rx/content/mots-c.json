@@ -5,11 +5,11 @@
   "internal_banner": "Template test. Internal only.",
   "page_title": "MOTS-c, explained (template test) | Equilibria",
   "card_kicker": "MOTS-c Rx · Coming next",
-  "card_title": "A signal sent from your mitochondria",
+  "card_title": "A signal sent from mitochondria",
   "card_summary": "Rendered from a content record only, to test the cell energy template.",
   "kicker": "MOTS-c Rx · How it works",
-  "headline": "A message your mitochondria *send out*.",
-  "lede": "Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide your mitochondria make that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.",
+  "headline": "A message mitochondria *send out*.",
+  "lede": "Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide made in mitochondria that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.",
   "dose_concentration": "2 mg/mL",
   "dose_pending_clinician": true,
   "recognition": "You've kept moving and you still notice it: workouts land differently than they did, and your body seems to respond to effort on a slower clock.",
@@ -49,7 +49,7 @@
       "source_ids": [
         "s_lee_2015"
       ],
-      "node_detail": "In cells and mice, MOTS-c switched on AMPK, an energy sensor, and cells used more sugar and fat. Under stress it moved into the nucleus."
+      "node_detail": "In cells and mice, MOTS-c switched on AMPK, an energy sensor, and cells used more sugar and fat."
     }
   ],
   "viz_caption": "Simplified, and based on lab and animal research.",
@@ -110,7 +110,7 @@
     },
     {
       "step_title": "No published human trials of MOTS-c itself",
-      "tier": "t2",
+      "tier": "none",
       "source_ids": [
         "s_cohbar_2021"
       ],
@@ -121,7 +121,7 @@
   "notice_items": [
     {
       "when_label": "To be set",
-      "tier": "t2",
+      "tier": "none",
       "pending_clinician": true,
       "source_ids": [
         "s_cohbar_2021"
@@ -173,7 +173,7 @@
   "sources": [
     {
       "source_id": "s_lee_2015",
-      "citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+      "citation": "Lee C, et al. Cell Metab. 2015;21:443-454. Discovery of MOTS-c, a 16-amino-acid mitochondrial-derived peptide (description, not title).",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
       "source_type": "animal"
     },
@@ -199,5 +199,6 @@
   "lede_source_ids": [
     "s_lee_2015",
     "s_cohbar_2021"
-  ]
+  ],
+  "footer_note": "Internal template test. Not for members, and not to be published until regulatory review is complete."
 }

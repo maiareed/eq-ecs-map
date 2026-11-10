@@ -10,7 +10,7 @@
   --text-dim: rgba(33,28,25,0.70);
   --line: #e2dbcc;
   --plum: #75415d;
-  --gold: #8a6d36;      /* darkened from #ab8c52 so gold text passes AA on cream */
+  --gold: #7a5f2e;      /* darkened from #ab8c52 so gold text passes AA on cream and sunk panels */
   --gold-fill: #ab8c52; /* original brand gold for fills, strokes, glows */
   --olive: #6b6639;
   --pending-bg: #f6e9c8;
@@ -223,3 +223,10 @@ footer.foot { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--l
 .fn a { display: inline-block; padding: 12px 6px; margin: -12px 0; font-size: 15px; }
 
 @media (min-width: 761px) { .viz-key { grid-template-columns: 1fr 1fr; max-width: 640px; margin-left: auto; margin-right: auto; } }
+
+/* 44px tap targets for inline footnotes and source links, without changing line layout */
+.fn a { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; padding: 0; margin: -14px -8px; vertical-align: middle; }
+.sources a { display: inline-flex; align-items: center; min-height: 44px; }
+
+.tier-line.none { border-top: 2px solid var(--line); }
+.tiered.none { border-left: 3px solid var(--line); padding-left: 16px; }

@@ -8,13 +8,13 @@
   "card_summary": "Why a tiny dose of a decades-old medicine is a different conversation from the standard one.",
   "kicker": "LDN Rx · How it works",
   "headline": "Same molecule. A *very* different idea.",
-  "lede": "Standard naltrexone is a {{dose_standard_value}} daily tablet. Low-dose naltrexone uses a small fraction of that. Here's why researchers think the size of the dose changes what it does, and what's still an open question.",
+  "lede": "Standard naltrexone is a {{dose_standard_value}} daily tablet. Low-dose naltrexone, as studied, uses a small fraction of that. Here's why researchers think the size of the dose may change what it does, and what's still an open question.",
   "dose_standard_value": "50 mg",
   "dose_low_range": "1 to 5 mg",
   "dose_eq_strengths": "Pending clinician review",
   "dose_pending_clinician": true,
-  "recognition": "Maybe a friend mentioned LDN, or you saw it in a forum thread. Then you looked it up and found a medicine best known from addiction care. Both of those things are true.",
-  "reframe": "LDN is naltrexone at roughly {{dose_low_range}} a day, compared with the {{dose_standard_value}} tablet the FDA approved. At that size it isn't doing the standard job. It's a short, light touch on the same receptors, and the leading theory is that your body responds to the touch.",
+  "recognition": "Maybe a friend mentioned LDN, or you saw it in a forum thread. Then you looked it up and found a medicine best known at a much higher dose, for a very different purpose. Both of those things are true.",
+  "reframe": "LDN is naltrexone at doses studied around {{dose_low_range}} a day, compared with the {{dose_standard_value}} tablet the FDA approved. Your clinician sets your strength. Researchers think a dose this small may act differently: a short, light touch on the same receptors. The leading theory is that your body responds to the touch.",
   "reframe_source_ids": [
     "s_toljan_2018",
     "s_label_naltrexone"
@@ -99,7 +99,7 @@
       ]
     }
   ],
-  "viz_caption": "Illustration, not measured data. Band lengths show the idea, not exact hours. For scale: naltrexone itself has a half-life of about 4 hours, and its main active by-product about 13 hours.",
+  "viz_caption": "Illustration, not measured data. Band lengths show the idea, not exact hours, and the doses are the label dose and the studied range, not your dose. For scale: naltrexone itself has a half-life of about 4 hours, and its main active by-product about 13 hours.",
   "viz_legend": [
     {
       "tier": "t1",
@@ -159,7 +159,7 @@
     },
     {
       "step_title": "What the human studies show so far",
-      "step_body": "Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies called it low-risk, with benefits not yet established, and found that some early results did not hold up in larger trials. That is the honest state of the science, and it's why a clinician decides whether it's worth trying for you.",
+      "step_body": "Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies, 15 of them randomized trials, found it was generally well tolerated but that the evidence lacks methodological strength. Early positive results from uncontrolled studies were rarely repeated in placebo-controlled trials. That's the honest state of the science, and it's why a clinician decides whether it's worth trying for you.",
       "tier": "t2",
       "source_ids": [
         "s_younger_2014",
@@ -174,14 +174,13 @@
       "notice_text": "Some people notice vivid dreams or lighter sleep early on. In small studies these were mostly mild and passed.",
       "tier": "t2",
       "source_ids": [
-        "s_younger_2009",
-        "s_gouda_2026"
+        "s_younger_2009"
       ],
       "pending_clinician": true
     },
     {
       "when_label": "Weeks, not days",
-      "notice_text": "Studies have followed LDN for 8 to 12 weeks. If it's going to help, plan on giving it about that long before judging it.",
+      "notice_text": "Studies have followed LDN for 8 to 12 weeks. Your clinician will tell you when to check in on how it's going.",
       "tier": "t2",
       "source_ids": [
         "s_younger_2009",
@@ -191,15 +190,12 @@
     },
     {
       "when_label": "Along the way",
-      "notice_text": "Your clinician may adjust your strength or the time of day you take it. Some guidance suggests moving the dose to the morning if sleep is affected. No study has compared bedtime and morning head to head yet.",
-      "tier": "t2",
-      "source_ids": [
-        "s_younger_2013"
-      ],
+      "notice_text": "Your clinician may adjust your strength or the time of day you take it. Tell them about any sleep changes.",
+      "tier": "none",
       "pending_clinician": true
     }
   ],
-  "route_intro": "One capsule a day, compounded for you.",
+  "route_intro": "A capsule, compounded for you, on the schedule your clinician sets.",
   "route_figure_label": "Figure showing an oral capsule route from the mouth to the gut, with opioid receptors in the brain and spinal cord.",
   "route_points": [
     {
@@ -259,9 +255,9 @@
       ]
     },
     {
-      "item_text": "Nausea or dizziness.",
+      "item_text": "Nausea, especially in the first few nights.",
       "source_ids": [
-        "s_gouda_2026"
+        "s_younger_2009"
       ]
     },
     {
@@ -314,25 +310,25 @@
     },
     {
       "source_id": "s_younger_2014",
-      "citation": "Younger J, Parkitny L, McLain D. Review of low-dose naltrexone mechanisms and human studies. Clin Rheumatol. 2014.",
+      "citation": "Younger J, Parkitny L, McLain D. Clin Rheumatol. 2014. Review of low-dose naltrexone mechanisms and human studies (description, not title).",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/",
       "source_type": "review"
     },
     {
       "source_id": "s_gouda_2026",
-      "citation": "Gouda et al. Low-dose naltrexone: a review of 105 studies including 15 randomized trials. Adv Ther. 2026;43:2852-2870.",
+      "citation": "Gouda et al. Adv Ther. 2026. Review of 105 low-dose naltrexone studies, 15 of them randomized trials (description, not title; volume and pages to confirm).",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42060160/",
       "source_type": "review"
     },
     {
       "source_id": "s_younger_2009",
-      "citation": "Younger J, Mackey S. Pilot study of low-dose naltrexone (n=10, 8 weeks). Pain Med. 2009.",
+      "citation": "Younger J, Mackey S. Pain Med. 2009. Pilot study, n=10, 8 weeks (description, not title).",
       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
       "source_type": "RCT"
     },
     {
       "source_id": "s_younger_2013",
-      "citation": "Younger J, et al. Low-dose naltrexone crossover trial (n=31 women; 12 weeks LDN, dosed about 1 hour before bed). Arthritis Rheum. 2013.",
+      "citation": "Younger J, et al. Arthritis Rheum. 2013. Crossover trial, n=31 women, 12 weeks of LDN (description, not title).",
       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/art.37734",
       "source_type": "RCT"
     },

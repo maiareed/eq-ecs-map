@@ -25,7 +25,7 @@ RESEARCH_MAP = {
     's_lee_2015': ['M1', 'M2', 'A6'], 's_tirzepatide': ['A7'], 's_insulin': ['A8'], 's_albumin': ['A9'],
     's_nad_pubchem': ['N9'], 's_naltrexone_pubchem': ['N10'], 's_reynolds_2021': ['M3'], 's_dsouza_2020': ['M4'], 's_cohbar_2021': ['M5'],
 }
-TIER_LABEL = {'t1': 'Established', 't2': 'Early human studies', 't3': 'Lab and animal research', 't4': 'Leading theory'}
+TIER_LABEL = {'none': 'No human data yet', 't1': 'Established', 't2': 'Early human studies', 't3': 'Lab and animal research', 't4': 'Leading theory'}
 
 
 def research():

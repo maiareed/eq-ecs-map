@@ -1,0 +1,34 @@
+{
+  "fixed": [
+    "peptides-07 PT-141 ring wording and compounded note",
+    "peptides-10 MOTS-c kinship wording",
+    "peptides-11 tirzepatide line wording and compounded note",
+    "ldn-03/04 dose framed as studied range; clinician sets strength; theory hedged",
+    "ldn-09 human-studies wording per 2026 review; 'low-risk' removed",
+    "ldn-12/13 onset guidance removed",
+    "ldn-14 unsourced timing advice removed; retiered to 'No human data yet'",
+    "ldn-21 nausea re-sourced to Younger 2009; dizziness dropped",
+    "nad-09 'strong clue' softened",
+    "nad-14 sample ages corrected",
+    "nad-19 'experience' reworded to measurable benefits",
+    "nad-20 oral vs nasal made explicit; retiered",
+    "nad-24 'rat studies' to 'a rat study'",
+    "nad-26 IV study symptoms corrected (cramping removed)",
+    "mots-c-11 nucleus sentence dropped (Kim 2018 not sourced)",
+    "mots-c-16/17 retiered to 'No human data yet'",
+    "hub NAD+ card: unsourced 'after 40' removed",
+    "hub: MOTS-c moved to an Internal section",
+    "mots-c footer no longer says members",
+    "LDN recognition: 'addiction care' removed",
+    "hub/MOTS-c kinship phrasing removed",
+    "source lists: rewritten titles labeled 'description, not title'"
+  ],
+  "open": [
+    "Regulatory: FDA 503A Category 2 status of BPC-157, KPV, MOTS-c, GHK-Cu (Q15). Owner: legal.",
+    "Product name 'Wolverine Recovery Rx' trademark/implied-use risk (Q16). Owner: legal.",
+    "Swap RxList/GlobalRPh label mirrors for DailyMed URLs. Blocked: DailyMed outside session network allowlist.",
+    "Confirm Gouda 2026 volume/pages and the July 2026 correction notice.",
+    "Could not verify (5): BPC-157 PMC source, naltrexone MW, LDN TLR4 'mirror-image' and 'data don't fit' sentences, 2026 review support for vivid dreams, current label wording on acute hepatitis/liver failure.",
+    "All quotes rest on search extracts; re-run audit with pubmed/pmc/dailymed/pubchem/uniprot allowed."
+  ]
+}

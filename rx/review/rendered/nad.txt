@@ -35,7 +35,7 @@ Early human studies
 Younger
 Older
 
-Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, so read it as a strong clue rather than the final word.
+Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, and few human studies have measured this, so read it as an early clue rather than the final word.
 
 What we know, and what we don't
 
@@ -48,7 +48,7 @@ NAD+ carries electrons from the food you break down to the machinery that makes 
 Established
 Levels appear to drop with age
 
-In skin samples from 49 people aged from newborn to 77, NAD+ was lower in older skin, in women and men. Only a handful of human studies have measured this directly.[2][3]
+In skin samples from 49 people, newborns and adults aged 15 to 77, NAD+ was lower in older skin, in women and men. Only a handful of human studies have measured this directly.[2][3]
 
 Early human studies
 One reason it might drop
@@ -58,7 +58,7 @@ In mice, an enzyme called CD38 that uses up NAD+ rises with age and accounts for
 Lab and animal research
 Raising it is possible. Feeling different is the open question.
 
-Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found the effects people actually experience have been limited so far.[5][6][3]
+Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found that measurable benefits in people have been limited so far.[5][6][3]
 
 Early human studies
 How sure is this?
@@ -75,12 +75,12 @@ There's less human data here than for most of what we offer. This is what's know
 
 The first weeks
 
-Human studies of NAD+ building blocks ran for weeks, for example 6 weeks in one trial of 30 adults. If you notice a change, expect it to be gradual.[6]
+Studies of oral NAD+ building blocks, a different form from a nasal spray, ran for weeks: for example, 6 weeks in one trial of 30 adults. There are no human studies of nasal NAD+ yet, so your clinician will set expectations with you.[6][7]
 
-Early human studies Pending clinician review
+Lab and animal research Pending clinician review
 Throughout
 
-Nasal NAD+ hasn't been studied in people yet, so what you notice is real information. Tell your clinician about anything new, including nasal discomfort, headache or sleep changes.[7]
+Nasal NAD+ hasn't been studied in people yet. Tell your clinician about anything new, including nasal discomfort, headache or sleep changes.[7]
 
 Lab and animal research Pending clinician review
 How it gets in
@@ -89,7 +89,7 @@ A nasal spray, on a schedule your clinician sets.
 
 Draft plan: 1 to 2 sprays once daily on weekdays, two months on and one month off. Pending clinician review
 Each bottle holds 300 mg/mL NAD+ in a water-based spray. Use it within about 35 days of opening. Pending clinician review
-There are no published human studies of nasal NAD+ yet. In rat studies, NAD+ given through the nose raised NAD+ levels in the brain.[7]
+There are no published human studies of nasal NAD+ yet. In a rat study, NAD+ given through the nose raised NAD+ levels in the brain.[7]
 
 Lab and animal research
 Before you start
@@ -99,7 +99,7 @@ Your clinician screens your health history and medications during intake. Here's
 Not for you if
 Your clinician will set this list with you. Published human data for nasal NAD+ don't yet define who should avoid it.[7]
 What to watch
-When NAD+ is given by IV drip too quickly, people have reported cramping, nausea, chest pressure and a racing heart, which stopped once the drip ended. Nasal sprays haven't been studied this way, so report anything similar.[8]
+In one small study of NAD+ given by IV drip, a different route and a much larger dose, people reported stomach upset, a faster heart rate and chest pressure during the drip, which stopped once it ended. Nasal sprays haven't been studied this way. Tell your clinician about anything new.[8]
 Any nasal irritation, headache or change in sleep after you start.
 Pending clinician review
 
@@ -128,8 +128,8 @@ NAD+ precursor supplementation in human ageing: clinical evidence and challenges
 Camacho-Pereira J, et al. CD38 dictates age-related NAD decline and mitochondrial dysfunction through an SIRT3-dependent mechanism. Cell Metab. 2016. Read the source
 Trammell SAJ, et al. Nicotinamide riboside is uniquely and orally bioavailable in mice and humans. Nat Commun. 2016;7:12948. Read the source
 Martens CR, et al. Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD+ in healthy middle-aged and older adults (n=30, 6 weeks). Nat Commun. 2018;9:1286. Read the source
-Ying W, et al. Rat study of NAD+ given through the nose: brain NAD+ levels rose. Front Biosci. 2007;12:2728-34. Read the source
-Intravenous infusion of NAD+ versus NR: a retrospective tolerability pilot study in a real-world setting. Front Aging. 2026. Read the source
+Ying W, et al. Front Biosci. 2007;12:2728-34. Rat study of NAD+ given through the nose; brain NAD+ rose (description, not title). Read the source
+Front Aging. 2026. Retrospective tolerability pilot of IV NAD+ vs NR, 500 mg IV; industry-affiliated authors (description, not title). Read the source
 Educational content for Equilibria members. It isn't medical advice. Energy Spray Rx is a compounded preparation prescribed only after a clinician's review.
 
 --- Text inside visuals ---
@@ -162,4 +162,4 @@ Established
 
 --- Interactive states ---
 Skin samples from younger people had higher NAD+.
-Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, so read it as a strong clue rather than the final word.
+Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, and few human studies have measured this, so read it as an early clue rather than the final word.

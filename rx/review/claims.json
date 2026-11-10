@@ -80,7 +80,7 @@
     "id": "peptides-06",
     "treatment": "peptides",
     "location": "scale_rows[1]",
-    "text": "GHK: 3 beads. The peptide in GHK-Cu. Three beads paired with copper. It was first isolated from human plasma in 1973. You'll find GHK-Cu in Radiance Cream Rx and Copper Glow Cream Rx.",
+    "text": "GHK: 3 beads. The peptide in GHK-Cu: three beads paired with copper, first isolated from human plasma in 1973. In Radiance Cream Rx and Copper Glow Cream Rx.",
     "tier": "Established",
     "source_id": "s_ghk",
     "source_citation": "Pickart L. GHK (glycyl-histidyl-lysine) and its copper complex (PMC3359723).",
@@ -99,10 +99,10 @@
     "id": "peptides-07",
     "treatment": "peptides",
     "location": "scale_rows[2]",
-    "text": "PT-141: 7 beads. Also called bremelanotide. Seven beads closed into a ring, including two building blocks you won't find in everyday proteins. Part of Intimacy Melt Rx.",
+    "text": "PT-141: 7 beads. Also called bremelanotide. Seven beads, six of them closed into a ring, including two building blocks you won't find in everyday proteins. Part of Intimacy Melt Rx, a compounded preparation that isn't an FDA-approved product.",
     "tier": "Established",
     "source_id": "s_pt141",
-    "source_citation": "Bremelanotide prescribing information: cyclic 7-residue alpha-MSH analog.",
+    "source_citation": "Bremelanotide prescribing information, Description (RxList mirror of the FDA label).",
     "source_url": "https://www.rxlist.com/vyleesi-drug.htm",
     "source_type": "label",
     "research_quotes": [
@@ -156,10 +156,10 @@
     "id": "peptides-10",
     "treatment": "peptides",
     "location": "scale_rows[5]",
-    "text": "MOTS-c: 16 beads. Sixteen beads, coded in the DNA of your mitochondria rather than the cell's nucleus.",
+    "text": "MOTS-c: 16 beads. Sixteen beads, coded in mitochondrial DNA rather than nuclear DNA.",
     "tier": "Established",
     "source_id": "s_lee_2015",
-    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_citation": "Lee C, et al. Cell Metab. 2015;21:443-454. Discovery of MOTS-c, a 16-amino-acid mitochondrial-derived peptide (description, not title).",
     "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
     "source_type": "animal",
     "research_quotes": [
@@ -185,10 +185,10 @@
     "id": "peptides-11",
     "treatment": "peptides",
     "location": "scale_rows[6]",
-    "text": "Tirzepatide: 39 beads. Thirty-nine beads, one short of the FDA's protein line. The active ingredient in our GLP/GIP Rx options.",
+    "text": "Tirzepatide: 39 beads. Thirty-nine beads, just under the FDA's 40-bead line, so it's regulated as a peptide rather than a protein. Used in our compounded GLP/GIP Rx options, which aren't FDA-approved products.",
     "tier": "Established",
     "source_id": "s_tirzepatide",
-    "source_citation": "Tirzepatide prescribing information, Description: 39-amino-acid linear peptide.",
+    "source_citation": "Tirzepatide prescribing information, Description (GlobalRPh mirror of the FDA label).",
     "source_url": "https://globalrph.com/rx-list/mounjaro-drug/",
     "source_type": "label",
     "research_quotes": [
@@ -321,7 +321,7 @@
     "text": "Some short chains are closed into rings, like PT-141 and oxytocin. Some are paired with something else, like the copper in GHK-Cu.",
     "tier": "Established",
     "source_id": "s_pt141",
-    "source_citation": "Bremelanotide prescribing information: cyclic 7-residue alpha-MSH analog.",
+    "source_citation": "Bremelanotide prescribing information, Description (RxList mirror of the FDA label).",
     "source_url": "https://www.rxlist.com/vyleesi-drug.htm",
     "source_type": "label",
     "research_quotes": [
@@ -413,7 +413,7 @@
     "id": "ldn-01",
     "treatment": "ldn",
     "location": "lede",
-    "text": "Standard naltrexone is a 50 mg daily tablet. Low-dose naltrexone uses a small fraction of that. Here's why researchers think the size of the dose changes what it does, and what's still an open question.",
+    "text": "Standard naltrexone is a 50 mg daily tablet. Low-dose naltrexone, as studied, uses a small fraction of that. Here's why researchers think the size of the dose may change what it does, and what's still an open question.",
     "tier": "untiered framing copy",
     "source_id": "s_label_naltrexone",
     "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h.",
@@ -442,7 +442,7 @@
     "id": "ldn-02",
     "treatment": "ldn",
     "location": "lede",
-    "text": "Standard naltrexone is a 50 mg daily tablet. Low-dose naltrexone uses a small fraction of that. Here's why researchers think the size of the dose changes what it does, and what's still an open question.",
+    "text": "Standard naltrexone is a 50 mg daily tablet. Low-dose naltrexone, as studied, uses a small fraction of that. Here's why researchers think the size of the dose may change what it does, and what's still an open question.",
     "tier": "untiered framing copy",
     "source_id": "s_toljan_2018",
     "source_citation": "Toljan K, Vrooman B. Low-Dose Naltrexone (LDN): Review of Therapeutic Utilization. Med Sci. 2018.",
@@ -461,7 +461,7 @@
     "id": "ldn-03",
     "treatment": "ldn",
     "location": "reframe",
-    "text": "LDN is naltrexone at roughly 1 to 5 mg a day, compared with the 50 mg tablet the FDA approved. At that size it isn't doing the standard job. It's a short, light touch on the same receptors, and the leading theory is that your body responds to the touch.",
+    "text": "LDN is naltrexone at doses studied around 1 to 5 mg a day, compared with the 50 mg tablet the FDA approved. Your clinician sets your strength. Researchers think a dose this small may act differently: a short, light touch on the same receptors. The leading theory is that your body responds to the touch.",
     "tier": "untiered framing copy",
     "source_id": "s_toljan_2018",
     "source_citation": "Toljan K, Vrooman B. Low-Dose Naltrexone (LDN): Review of Therapeutic Utilization. Med Sci. 2018.",
@@ -480,7 +480,7 @@
     "id": "ldn-04",
     "treatment": "ldn",
     "location": "reframe",
-    "text": "LDN is naltrexone at roughly 1 to 5 mg a day, compared with the 50 mg tablet the FDA approved. At that size it isn't doing the standard job. It's a short, light touch on the same receptors, and the leading theory is that your body responds to the touch.",
+    "text": "LDN is naltrexone at doses studied around 1 to 5 mg a day, compared with the 50 mg tablet the FDA approved. Your clinician sets your strength. Researchers think a dose this small may act differently: a short, light touch on the same receptors. The leading theory is that your body responds to the touch.",
     "tier": "untiered framing copy",
     "source_id": "s_label_naltrexone",
     "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h.",
@@ -509,7 +509,7 @@
     "id": "ldn-05",
     "treatment": "ldn",
     "location": "viz_caption",
-    "text": "Illustration, not measured data. Band lengths show the idea, not exact hours. For scale: naltrexone itself has a half-life of about 4 hours, and its main active by-product about 13 hours.",
+    "text": "Illustration, not measured data. Band lengths show the idea, not exact hours, and the doses are the label dose and the studied range, not your dose. For scale: naltrexone itself has a half-life of about 4 hours, and its main active by-product about 13 hours.",
     "tier": "untiered framing copy",
     "source_id": "s_label_naltrexone",
     "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h.",
@@ -560,7 +560,7 @@
     "text": "Separately from opioid receptors, naltrexone appears to quiet a receptor called TLR4 on microglia, the resident immune cells of the brain and spinal cord. In lab work, a mirror-image form of naltrexone that doesn't touch opioid receptors still blocked TLR4. Researchers note the data don't fit this explanation perfectly.",
     "tier": "Lab and animal research",
     "source_id": "s_younger_2014",
-    "source_citation": "Younger J, Parkitny L, McLain D. Review of low-dose naltrexone mechanisms and human studies. Clin Rheumatol. 2014.",
+    "source_citation": "Younger J, Parkitny L, McLain D. Clin Rheumatol. 2014. Review of low-dose naltrexone mechanisms and human studies (description, not title).",
     "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/",
     "source_type": "review",
     "research_quotes": [
@@ -581,10 +581,10 @@
     "id": "ldn-08",
     "treatment": "ldn",
     "location": "mechanism_steps[2]",
-    "text": "Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies called it low-risk, with benefits not yet established, and found that some early results did not hold up in larger trials. That is the honest state of the science, and it's why a clinician decides whether it's worth trying for you.",
+    "text": "Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies, 15 of them randomized trials, found it was generally well tolerated but that the evidence lacks methodological strength. Early positive results from uncontrolled studies were rarely repeated in placebo-controlled trials. That's the honest state of the science, and it's why a clinician decides whether it's worth trying for you.",
     "tier": "Early human studies",
     "source_id": "s_younger_2014",
-    "source_citation": "Younger J, Parkitny L, McLain D. Review of low-dose naltrexone mechanisms and human studies. Clin Rheumatol. 2014.",
+    "source_citation": "Younger J, Parkitny L, McLain D. Clin Rheumatol. 2014. Review of low-dose naltrexone mechanisms and human studies (description, not title).",
     "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/",
     "source_type": "review",
     "research_quotes": [
@@ -605,10 +605,10 @@
     "id": "ldn-09",
     "treatment": "ldn",
     "location": "mechanism_steps[2]",
-    "text": "Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies called it low-risk, with benefits not yet established, and found that some early results did not hold up in larger trials. That is the honest state of the science, and it's why a clinician decides whether it's worth trying for you.",
+    "text": "Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies, 15 of them randomized trials, found it was generally well tolerated but that the evidence lacks methodological strength. Early positive results from uncontrolled studies were rarely repeated in placebo-controlled trials. That's the honest state of the science, and it's why a clinician decides whether it's worth trying for you.",
     "tier": "Early human studies",
     "source_id": "s_gouda_2026",
-    "source_citation": "Gouda et al. Low-dose naltrexone: a review of 105 studies including 15 randomized trials. Adv Ther. 2026;43:2852-2870.",
+    "source_citation": "Gouda et al. Adv Ther. 2026. Review of 105 low-dose naltrexone studies, 15 of them randomized trials (description, not title; volume and pages to confirm).",
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42060160/",
     "source_type": "review",
     "research_quotes": [
@@ -632,7 +632,7 @@
     "text": "Some people notice vivid dreams or lighter sleep early on. In small studies these were mostly mild and passed.",
     "tier": "Early human studies",
     "source_id": "s_younger_2009",
-    "source_citation": "Younger J, Mackey S. Pilot study of low-dose naltrexone (n=10, 8 weeks). Pain Med. 2009.",
+    "source_citation": "Younger J, Mackey S. Pain Med. 2009. Pilot study, n=10, 8 weeks (description, not title).",
     "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
     "source_type": "RCT",
     "research_quotes": [
@@ -652,35 +652,11 @@
   {
     "id": "ldn-11",
     "treatment": "ldn",
-    "location": "notice_items[0]",
-    "text": "Some people notice vivid dreams or lighter sleep early on. In small studies these were mostly mild and passed.",
-    "tier": "Early human studies",
-    "source_id": "s_gouda_2026",
-    "source_citation": "Gouda et al. Low-dose naltrexone: a review of 105 studies including 15 randomized trials. Adv Ther. 2026;43:2852-2870.",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42060160/",
-    "source_type": "review",
-    "research_quotes": [
-      {
-        "research_id": "L7",
-        "quote": "Published trials have low sample sizes, and few replications have been performed.",
-        "research_status": "VERIFIED"
-      },
-      {
-        "research_id": "L8",
-        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
-        "research_status": "PARTIALLY_VERIFIED"
-      }
-    ],
-    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
-  },
-  {
-    "id": "ldn-12",
-    "treatment": "ldn",
     "location": "notice_items[1]",
-    "text": "Studies have followed LDN for 8 to 12 weeks. If it's going to help, plan on giving it about that long before judging it.",
+    "text": "Studies have followed LDN for 8 to 12 weeks. Your clinician will tell you when to check in on how it's going.",
     "tier": "Early human studies",
     "source_id": "s_younger_2009",
-    "source_citation": "Younger J, Mackey S. Pilot study of low-dose naltrexone (n=10, 8 weeks). Pain Med. 2009.",
+    "source_citation": "Younger J, Mackey S. Pain Med. 2009. Pilot study, n=10, 8 weeks (description, not title).",
     "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
     "source_type": "RCT",
     "research_quotes": [
@@ -698,13 +674,13 @@
     "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
   },
   {
-    "id": "ldn-13",
+    "id": "ldn-12",
     "treatment": "ldn",
     "location": "notice_items[1]",
-    "text": "Studies have followed LDN for 8 to 12 weeks. If it's going to help, plan on giving it about that long before judging it.",
+    "text": "Studies have followed LDN for 8 to 12 weeks. Your clinician will tell you when to check in on how it's going.",
     "tier": "Early human studies",
     "source_id": "s_younger_2013",
-    "source_citation": "Younger J, et al. Low-dose naltrexone crossover trial (n=31 women; 12 weeks LDN, dosed about 1 hour before bed). Arthritis Rheum. 2013.",
+    "source_citation": "Younger J, et al. Arthritis Rheum. 2013. Crossover trial, n=31 women, 12 weeks of LDN (description, not title).",
     "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/art.37734",
     "source_type": "RCT",
     "research_quotes": [
@@ -720,33 +696,19 @@
       }
     ],
     "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-13",
+    "treatment": "ldn",
+    "location": "notice_items[2]",
+    "text": "Your clinician may adjust your strength or the time of day you take it. Tell them about any sleep changes.",
+    "tier": "No human data yet",
+    "source_url": null,
+    "source_type": null,
+    "status": "clinician-owned: drafted, no external source"
   },
   {
     "id": "ldn-14",
-    "treatment": "ldn",
-    "location": "notice_items[2]",
-    "text": "Your clinician may adjust your strength or the time of day you take it. Some guidance suggests moving the dose to the morning if sleep is affected. No study has compared bedtime and morning head to head yet.",
-    "tier": "Early human studies",
-    "source_id": "s_younger_2013",
-    "source_citation": "Younger J, et al. Low-dose naltrexone crossover trial (n=31 women; 12 weeks LDN, dosed about 1 hour before bed). Arthritis Rheum. 2013.",
-    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/art.37734",
-    "source_type": "RCT",
-    "research_quotes": [
-      {
-        "research_id": "L12",
-        "quote": "baseline (2 weeks), placebo (2 weeks), drug (8 weeks), and washout (2 weeks)",
-        "research_status": "VERIFIED"
-      },
-      {
-        "research_id": "L13",
-        "quote": "Patients took naltrexone daily ... approximately 1 hour before bedtime",
-        "research_status": "VERIFIED"
-      }
-    ],
-    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
-  },
-  {
-    "id": "ldn-15",
     "treatment": "ldn",
     "location": "route_steps[0]",
     "text": "You take one capsule a day, at the strength and time your clinician sets.",
@@ -756,7 +718,7 @@
     "status": "clinician-owned: drafted, no external source"
   },
   {
-    "id": "ldn-16",
+    "id": "ldn-15",
     "treatment": "ldn",
     "location": "route_steps[1]",
     "text": "Naltrexone itself clears quickly, with a half-life of about 4 hours. Its main active by-product lasts about 13 hours.",
@@ -785,7 +747,7 @@
     "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
   },
   {
-    "id": "ldn-17",
+    "id": "ldn-16",
     "treatment": "ldn",
     "location": "route_steps[2]",
     "text": "No FDA-approved low-dose product exists, so a pharmacy compounds your capsules from naltrexone. This is an off-label use your clinician prescribes for you.",
@@ -804,7 +766,7 @@
     "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
   },
   {
-    "id": "ldn-18",
+    "id": "ldn-17",
     "treatment": "ldn",
     "location": "not_for_you_if[0]",
     "text": "You take any opioid, including prescription pain medicine, methadone or buprenorphine. Naltrexone blocks opioids and can bring on withdrawal.",
@@ -823,7 +785,7 @@
     "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
   },
   {
-    "id": "ldn-19",
+    "id": "ldn-18",
     "treatment": "ldn",
     "location": "not_for_you_if[1]",
     "text": "You have acute hepatitis or liver failure. The naltrexone label lists both as reasons not to use it.",
@@ -842,13 +804,37 @@
     "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
   },
   {
-    "id": "ldn-20",
+    "id": "ldn-19",
     "treatment": "ldn",
     "location": "what_to_watch[0]",
     "text": "Sleep changes or vivid dreams, especially in the first weeks.",
     "tier": "untiered framing copy",
     "source_id": "s_younger_2009",
-    "source_citation": "Younger J, Mackey S. Pilot study of low-dose naltrexone (n=10, 8 weeks). Pain Med. 2009.",
+    "source_citation": "Younger J, Mackey S. Pain Med. 2009. Pilot study, n=10, 8 weeks (description, not title).",
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "L8",
+        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
+        "research_status": "PARTIALLY_VERIFIED"
+      },
+      {
+        "research_id": "L12",
+        "quote": "baseline (2 weeks), placebo (2 weeks), drug (8 weeks), and washout (2 weeks)",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-20",
+    "treatment": "ldn",
+    "location": "what_to_watch[1]",
+    "text": "Nausea, especially in the first few nights.",
+    "tier": "untiered framing copy",
+    "source_id": "s_younger_2009",
+    "source_citation": "Younger J, Mackey S. Pain Med. 2009. Pilot study, n=10, 8 weeks (description, not title).",
     "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
     "source_type": "RCT",
     "research_quotes": [
@@ -868,30 +854,6 @@
   {
     "id": "ldn-21",
     "treatment": "ldn",
-    "location": "what_to_watch[1]",
-    "text": "Nausea or dizziness.",
-    "tier": "untiered framing copy",
-    "source_id": "s_gouda_2026",
-    "source_citation": "Gouda et al. Low-dose naltrexone: a review of 105 studies including 15 randomized trials. Adv Ther. 2026;43:2852-2870.",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42060160/",
-    "source_type": "review",
-    "research_quotes": [
-      {
-        "research_id": "L7",
-        "quote": "Published trials have low sample sizes, and few replications have been performed.",
-        "research_status": "VERIFIED"
-      },
-      {
-        "research_id": "L8",
-        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
-        "research_status": "PARTIALLY_VERIFIED"
-      }
-    ],
-    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
-  },
-  {
-    "id": "ldn-22",
-    "treatment": "ldn",
     "location": "what_to_watch[2]",
     "text": "If you might need opioid pain relief, for example before a procedure, tell your clinician and care team that you take naltrexone.",
     "tier": "untiered framing copy",
@@ -909,7 +871,7 @@
     "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
   },
   {
-    "id": "ldn-23",
+    "id": "ldn-22",
     "treatment": "ldn",
     "location": "viz_scrub_states[0]",
     "text": "Hour 0. The dose is taken and naltrexone reaches opioid receptors.",
@@ -919,7 +881,7 @@
     "status": "illustrative: restates the theory shown in the visual (see mechanism_steps)"
   },
   {
-    "id": "ldn-24",
+    "id": "ldn-23",
     "treatment": "ldn",
     "location": "viz_scrub_states[1]",
     "text": "Early hours. Both doses occupy the receptors. The low dose is already fading.",
@@ -929,7 +891,7 @@
     "status": "illustrative: restates the theory shown in the visual (see mechanism_steps)"
   },
   {
-    "id": "ldn-25",
+    "id": "ldn-24",
     "treatment": "ldn",
     "location": "viz_scrub_states[2]",
     "text": "Midday. The standard dose is still blocking. The low-dose block has lifted, and the theory says your body has turned its own signaling up in response.",
@@ -939,7 +901,7 @@
     "status": "illustrative: restates the theory shown in the visual (see mechanism_steps)"
   },
   {
-    "id": "ldn-26",
+    "id": "ldn-25",
     "treatment": "ldn",
     "location": "viz_scrub_states[3]",
     "text": "Late day. Standard dose: still on duty. Low dose: the receptors are open, and any rebound in your own endorphins would be doing the work.",
@@ -1105,7 +1067,7 @@
     "id": "nad-09",
     "treatment": "nad",
     "location": "gauge_states[1]",
-    "text": "Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, so read it as a strong clue rather than the final word.",
+    "text": "Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, and few human studies have measured this, so read it as an early clue rather than the final word.",
     "tier": "Early human studies",
     "source_id": "s_massudi_2012",
     "source_citation": "Massudi H, et al. Age-associated changes in oxidative stress and NAD+ metabolism in human tissue. PLoS One. 2012;7:e42357.",
@@ -1220,7 +1182,7 @@
     "id": "nad-14",
     "treatment": "nad",
     "location": "mechanism_steps[1]",
-    "text": "In skin samples from 49 people aged from newborn to 77, NAD+ was lower in older skin, in women and men. Only a handful of human studies have measured this directly.",
+    "text": "In skin samples from 49 people, newborns and adults aged 15 to 77, NAD+ was lower in older skin, in women and men. Only a handful of human studies have measured this directly.",
     "tier": "Early human studies",
     "source_id": "s_massudi_2012",
     "source_citation": "Massudi H, et al. Age-associated changes in oxidative stress and NAD+ metabolism in human tissue. PLoS One. 2012;7:e42357.",
@@ -1239,7 +1201,7 @@
     "id": "nad-15",
     "treatment": "nad",
     "location": "mechanism_steps[1]",
-    "text": "In skin samples from 49 people aged from newborn to 77, NAD+ was lower in older skin, in women and men. Only a handful of human studies have measured this directly.",
+    "text": "In skin samples from 49 people, newborns and adults aged 15 to 77, NAD+ was lower in older skin, in women and men. Only a handful of human studies have measured this directly.",
     "tier": "Early human studies",
     "source_id": "s_natmetab_2025",
     "source_citation": "NAD+ precursor supplementation in human ageing: clinical evidence and challenges. Nat Metab. 2025;7:1974-1990.",
@@ -1277,7 +1239,7 @@
     "id": "nad-17",
     "treatment": "nad",
     "location": "mechanism_steps[3]",
-    "text": "Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found the effects people actually experience have been limited so far.",
+    "text": "Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found that measurable benefits in people have been limited so far.",
     "tier": "Early human studies",
     "source_id": "s_trammell_2016",
     "source_citation": "Trammell SAJ, et al. Nicotinamide riboside is uniquely and orally bioavailable in mice and humans. Nat Commun. 2016;7:12948.",
@@ -1296,7 +1258,7 @@
     "id": "nad-18",
     "treatment": "nad",
     "location": "mechanism_steps[3]",
-    "text": "Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found the effects people actually experience have been limited so far.",
+    "text": "Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found that measurable benefits in people have been limited so far.",
     "tier": "Early human studies",
     "source_id": "s_martens_2018",
     "source_citation": "Martens CR, et al. Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD+ in healthy middle-aged and older adults (n=30, 6 weeks). Nat Commun. 2018;9:1286.",
@@ -1315,7 +1277,7 @@
     "id": "nad-19",
     "treatment": "nad",
     "location": "mechanism_steps[3]",
-    "text": "Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found the effects people actually experience have been limited so far.",
+    "text": "Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found that measurable benefits in people have been limited so far.",
     "tier": "Early human studies",
     "source_id": "s_natmetab_2025",
     "source_citation": "NAD+ precursor supplementation in human ageing: clinical evidence and challenges. Nat Metab. 2025;7:1974-1990.",
@@ -1334,8 +1296,8 @@
     "id": "nad-20",
     "treatment": "nad",
     "location": "notice_items[0]",
-    "text": "Human studies of NAD+ building blocks ran for weeks, for example 6 weeks in one trial of 30 adults. If you notice a change, expect it to be gradual.",
-    "tier": "Early human studies",
+    "text": "Studies of oral NAD+ building blocks, a different form from a nasal spray, ran for weeks: for example, 6 weeks in one trial of 30 adults. There are no human studies of nasal NAD+ yet, so your clinician will set expectations with you.",
+    "tier": "Lab and animal research",
     "source_id": "s_martens_2018",
     "source_citation": "Martens CR, et al. Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD+ in healthy middle-aged and older adults (n=30, 6 weeks). Nat Commun. 2018;9:1286.",
     "source_url": "https://www.nature.com/articles/s41467-018-03421-7",
@@ -1352,11 +1314,11 @@
   {
     "id": "nad-21",
     "treatment": "nad",
-    "location": "notice_items[1]",
-    "text": "Nasal NAD+ hasn't been studied in people yet, so what you notice is real information. Tell your clinician about anything new, including nasal discomfort, headache or sleep changes.",
+    "location": "notice_items[0]",
+    "text": "Studies of oral NAD+ building blocks, a different form from a nasal spray, ran for weeks: for example, 6 weeks in one trial of 30 adults. There are no human studies of nasal NAD+ yet, so your clinician will set expectations with you.",
     "tier": "Lab and animal research",
     "source_id": "s_ying_2007",
-    "source_citation": "Ying W, et al. Rat study of NAD+ given through the nose: brain NAD+ levels rose. Front Biosci. 2007;12:2728-34.",
+    "source_citation": "Ying W, et al. Front Biosci. 2007;12:2728-34. Rat study of NAD+ given through the nose; brain NAD+ rose (description, not title).",
     "source_url": "https://www.imrpress.com/journal/fbl/12/7/10.2741/2267",
     "source_type": "animal",
     "research_quotes": [
@@ -1371,31 +1333,11 @@
   {
     "id": "nad-22",
     "treatment": "nad",
-    "location": "route_steps[0]",
-    "text": "Draft plan: 1 to 2 sprays once daily on weekdays, two months on and one month off.",
-    "tier": "untiered framing copy",
-    "source_url": null,
-    "source_type": null,
-    "status": "clinician-owned: drafted, no external source"
-  },
-  {
-    "id": "nad-23",
-    "treatment": "nad",
-    "location": "route_steps[1]",
-    "text": "Each bottle holds 300 mg/mL NAD+ in a water-based spray. Use it within about 35 days of opening.",
-    "tier": "untiered framing copy",
-    "source_url": null,
-    "source_type": null,
-    "status": "clinician-owned: drafted, no external source"
-  },
-  {
-    "id": "nad-24",
-    "treatment": "nad",
-    "location": "route_steps[2]",
-    "text": "There are no published human studies of nasal NAD+ yet. In rat studies, NAD+ given through the nose raised NAD+ levels in the brain.",
+    "location": "notice_items[1]",
+    "text": "Nasal NAD+ hasn't been studied in people yet. Tell your clinician about anything new, including nasal discomfort, headache or sleep changes.",
     "tier": "Lab and animal research",
     "source_id": "s_ying_2007",
-    "source_citation": "Ying W, et al. Rat study of NAD+ given through the nose: brain NAD+ levels rose. Front Biosci. 2007;12:2728-34.",
+    "source_citation": "Ying W, et al. Front Biosci. 2007;12:2728-34. Rat study of NAD+ given through the nose; brain NAD+ rose (description, not title).",
     "source_url": "https://www.imrpress.com/journal/fbl/12/7/10.2741/2267",
     "source_type": "animal",
     "research_quotes": [
@@ -1408,13 +1350,33 @@
     "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
   },
   {
+    "id": "nad-23",
+    "treatment": "nad",
+    "location": "route_steps[0]",
+    "text": "Draft plan: 1 to 2 sprays once daily on weekdays, two months on and one month off.",
+    "tier": "untiered framing copy",
+    "source_url": null,
+    "source_type": null,
+    "status": "clinician-owned: drafted, no external source"
+  },
+  {
+    "id": "nad-24",
+    "treatment": "nad",
+    "location": "route_steps[1]",
+    "text": "Each bottle holds 300 mg/mL NAD+ in a water-based spray. Use it within about 35 days of opening.",
+    "tier": "untiered framing copy",
+    "source_url": null,
+    "source_type": null,
+    "status": "clinician-owned: drafted, no external source"
+  },
+  {
     "id": "nad-25",
     "treatment": "nad",
-    "location": "not_for_you_if[0]",
-    "text": "Your clinician will set this list with you. Published human data for nasal NAD+ don't yet define who should avoid it.",
-    "tier": "untiered framing copy",
+    "location": "route_steps[2]",
+    "text": "There are no published human studies of nasal NAD+ yet. In a rat study, NAD+ given through the nose raised NAD+ levels in the brain.",
+    "tier": "Lab and animal research",
     "source_id": "s_ying_2007",
-    "source_citation": "Ying W, et al. Rat study of NAD+ given through the nose: brain NAD+ levels rose. Front Biosci. 2007;12:2728-34.",
+    "source_citation": "Ying W, et al. Front Biosci. 2007;12:2728-34. Rat study of NAD+ given through the nose; brain NAD+ rose (description, not title).",
     "source_url": "https://www.imrpress.com/journal/fbl/12/7/10.2741/2267",
     "source_type": "animal",
     "research_quotes": [
@@ -1429,11 +1391,30 @@
   {
     "id": "nad-26",
     "treatment": "nad",
+    "location": "not_for_you_if[0]",
+    "text": "Your clinician will set this list with you. Published human data for nasal NAD+ don't yet define who should avoid it.",
+    "tier": "untiered framing copy",
+    "source_id": "s_ying_2007",
+    "source_citation": "Ying W, et al. Front Biosci. 2007;12:2728-34. Rat study of NAD+ given through the nose; brain NAD+ rose (description, not title).",
+    "source_url": "https://www.imrpress.com/journal/fbl/12/7/10.2741/2267",
+    "source_type": "animal",
+    "research_quotes": [
+      {
+        "research_id": "N7",
+        "quote": "Intranasal NAD+ delivery significantly increased NAD+ contents in the brains",
+        "research_status": "VERIFIED that animal-only data exist. Human intranasal NAD+ data: NONE FOUND (searched with extended mode)."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-27",
+    "treatment": "nad",
     "location": "what_to_watch[0]",
-    "text": "When NAD+ is given by IV drip too quickly, people have reported cramping, nausea, chest pressure and a racing heart, which stopped once the drip ended. Nasal sprays haven't been studied this way, so report anything similar.",
+    "text": "In one small study of NAD+ given by IV drip, a different route and a much larger dose, people reported stomach upset, a faster heart rate and chest pressure during the drip, which stopped once it ended. Nasal sprays haven't been studied this way. Tell your clinician about anything new.",
     "tier": "untiered framing copy",
     "source_id": "s_iv_2026",
-    "source_citation": "Intravenous infusion of NAD+ versus NR: a retrospective tolerability pilot study in a real-world setting. Front Aging. 2026.",
+    "source_citation": "Front Aging. 2026. Retrospective tolerability pilot of IV NAD+ vs NR, 500 mg IV; industry-affiliated authors (description, not title).",
     "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12907335/",
     "source_type": "observational",
     "research_quotes": [
@@ -1446,7 +1427,7 @@
     "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
   },
   {
-    "id": "nad-27",
+    "id": "nad-28",
     "treatment": "nad",
     "location": "what_to_watch[1]",
     "text": "Any nasal irritation, headache or change in sleep after you start.",
@@ -1459,10 +1440,10 @@
     "id": "mots-c-01",
     "treatment": "mots-c",
     "location": "lede",
-    "text": "Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide your mitochondria make that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.",
+    "text": "Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide made in mitochondria that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.",
     "tier": "untiered framing copy",
     "source_id": "s_lee_2015",
-    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_citation": "Lee C, et al. Cell Metab. 2015;21:443-454. Discovery of MOTS-c, a 16-amino-acid mitochondrial-derived peptide (description, not title).",
     "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
     "source_type": "animal",
     "research_quotes": [
@@ -1488,7 +1469,7 @@
     "id": "mots-c-02",
     "treatment": "mots-c",
     "location": "lede",
-    "text": "Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide your mitochondria make that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.",
+    "text": "Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide made in mitochondria that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.",
     "tier": "untiered framing copy",
     "source_id": "s_cohbar_2021",
     "source_citation": "CohBar press release (Aug 10, 2021): topline Phase 1a/1b results for CB4211, a modified MOTS-c analog. No peer-reviewed publication.",
@@ -1529,7 +1510,7 @@
     "text": "MOTS-c gets attention because exercise appears to raise it, and because in animals it acts on the same energy-sensing switch that exercise flips. Whether giving it to people does anything comparable hasn't been tested in a published trial.",
     "tier": "untiered framing copy",
     "source_id": "s_lee_2015",
-    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_citation": "Lee C, et al. Cell Metab. 2015;21:443-454. Discovery of MOTS-c, a 16-amino-acid mitochondrial-derived peptide (description, not title).",
     "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
     "source_type": "animal",
     "research_quotes": [
@@ -1644,7 +1625,7 @@
     "text": "MOTS-c is coded by a short stretch of mitochondrial DNA inside a gene called 12S. It's 16 amino acids long.",
     "tier": "Established",
     "source_id": "s_lee_2015",
-    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_citation": "Lee C, et al. Cell Metab. 2015;21:443-454. Discovery of MOTS-c, a 16-amino-acid mitochondrial-derived peptide (description, not title).",
     "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
     "source_type": "animal",
     "research_quotes": [
@@ -1670,10 +1651,10 @@
     "id": "mots-c-11",
     "treatment": "mots-c",
     "location": "viz_nodes[1]",
-    "text": "In cells and mice, MOTS-c switched on AMPK, an energy sensor, and cells used more sugar and fat. Under stress it moved into the nucleus.",
+    "text": "In cells and mice, MOTS-c switched on AMPK, an energy sensor, and cells used more sugar and fat.",
     "tier": "Lab and animal research",
     "source_id": "s_lee_2015",
-    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_citation": "Lee C, et al. Cell Metab. 2015;21:443-454. Discovery of MOTS-c, a 16-amino-acid mitochondrial-derived peptide (description, not title).",
     "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
     "source_type": "animal",
     "research_quotes": [
@@ -1702,7 +1683,7 @@
     "text": "Your mitochondria carry their own small set of DNA. MOTS-c is one of the few peptides made from it.",
     "tier": "Established",
     "source_id": "s_lee_2015",
-    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_citation": "Lee C, et al. Cell Metab. 2015;21:443-454. Discovery of MOTS-c, a 16-amino-acid mitochondrial-derived peptide (description, not title).",
     "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
     "source_type": "animal",
     "research_quotes": [
@@ -1731,7 +1712,7 @@
     "text": "In mice, MOTS-c switched on AMPK and changed how the body used sugar and fat.",
     "tier": "Lab and animal research",
     "source_id": "s_lee_2015",
-    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_citation": "Lee C, et al. Cell Metab. 2015;21:443-454. Discovery of MOTS-c, a 16-amino-acid mitochondrial-derived peptide (description, not title).",
     "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
     "source_type": "animal",
     "research_quotes": [
@@ -1796,7 +1777,7 @@
     "treatment": "mots-c",
     "location": "mechanism_steps[4]",
     "text": "A modified version was tested in a small early trial, with results shared only in a company press release.",
-    "tier": "Early human studies",
+    "tier": "No human data yet",
     "source_id": "s_cohbar_2021",
     "source_citation": "CohBar press release (Aug 10, 2021): topline Phase 1a/1b results for CB4211, a modified MOTS-c analog. No peer-reviewed publication.",
     "source_url": "https://www.globenewswire.com/news-release/2021/08/10/2278324/0/en/CohBar-Announces-Positive-Topline-Results-from-the-Phase-1a-1b-Study-of-CB4211-Under-Development-for-NASH-and-Obesity.html",
@@ -1815,7 +1796,7 @@
     "treatment": "mots-c",
     "location": "notice_items[0]",
     "text": "No published human studies describe what people notice on MOTS-c. Your clinician will set expectations with you.",
-    "tier": "Early human studies",
+    "tier": "No human data yet",
     "source_id": "s_cohbar_2021",
     "source_citation": "CohBar press release (Aug 10, 2021): topline Phase 1a/1b results for CB4211, a modified MOTS-c analog. No peer-reviewed publication.",
     "source_url": "https://www.globenewswire.com/news-release/2021/08/10/2278324/0/en/CohBar-Announces-Positive-Topline-Results-from-the-Phase-1a-1b-Study-of-CB4211-Under-Development-for-NASH-and-Obesity.html",

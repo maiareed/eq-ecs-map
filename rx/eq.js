@@ -89,6 +89,7 @@
   M.pending = function (on) { return on ? ' <span class="pending">' + esc(SYS.ui_pending_label) + '</span>' : ''; };
 
   M.tierChip = function (tierId) {
+    if (tierId === 'none') return '<span class="tier-chip"><span class="tier-line none" aria-hidden="true"></span>' + esc(SYS.ui_no_data_label) + '</span>';
     var t = SYS.tiers.filter(function (x) { return x.tier_id === tierId; })[0];
     if (!t) return '';
     return '<span class="tier-chip"><span class="tier-line ' + esc(t.tier_id) + '" aria-hidden="true"></span>' + esc(t.short_label) + '</span>';
@@ -315,7 +316,7 @@
       var bandY = y0 + (compact ? 38 : 16), bandH = 30;
       svg('rect', { x: x(0), y: bandY, width: Math.max(4, x(ln.occupancy_hours) - x(0)), height: bandH, rx: 8, fill: 'url(#' + gradId + ')' }, g);
       svg('rect', { x: x(0), y: bandY, width: Math.max(4, x(ln.occupancy_hours) - x(0)), height: bandH, rx: 8, fill: 'none', stroke: 'var(--plum)', 'stroke-width': ln.occupancy_tier === 't1' ? 3 : 2, 'stroke-dasharray': ln.occupancy_tier === 't3' ? '8 6' : (ln.occupancy_tier === 't4' ? '2 6' : 'none') }, g);
-      svgText(g, x(0) + 10, bandY + 21, ln.occupancy_label, { 'font-size': 16, 'font-weight': 700, fill: '#fff' });
+      svgText(g, x(0) + 10, bandY + 21, ln.occupancy_label, { 'font-size': 16, 'font-weight': 700, fill: 'var(--bg-panel)' });
       // response curve (theory): dotted line
       if (ln.response_points && ln.response_points.length) {
         var baseY = y0 + laneH - (compact ? 40 : 26), amp = compact ? 38 : 52;
@@ -425,7 +426,7 @@
       notes.ref(n.source_ids);
       var g = svg('g', { class: 'node', tabindex: 0, role: 'button', 'aria-label': plain(n.node_label, rec) }, root);
       g.style.cursor = 'pointer';
-      svg('circle', { cx: n.x, cy: n.y, r: compact ? 40 : 24, fill: 'transparent' }, g);
+      svg('circle', { cx: n.x, cy: n.y, r: signal ? 48 : 40, fill: 'transparent' }, g);
       svg('circle', { cx: n.x, cy: n.y, r: compact ? 22 : 11, fill: 'var(--plum)' }, g);
       if (compact) svgText(g, n.x, n.y + 10, String(i + 1), { 'text-anchor': 'middle', 'font-size': 28, 'font-weight': 700, fill: 'var(--bg-panel)' });
       else svgText(g, n.x + (n.label_dx || 0), n.y + (n.label_dy || -22), n.node_label, { 'text-anchor': n.anchor || 'middle', 'font-size': 17, 'font-weight': 700, fill: 'var(--text)' });
@@ -637,15 +638,17 @@
         var app = shell();
         app.appendChild(M.hero(hub));
         if (hub.intro) app.appendChild(el('p', { class: 'body-copy', style: 'margin-top:-12px' }, fmt(hub.intro)));
-        var cards = el('div', { class: 'cards' });
+        var cards = el('div', { class: 'cards' }), internal = el('div', { class: 'cards' });
         hub.cards.forEach(function (c, i) {
           var r = recs[i];
+          var target = c.internal ? internal : cards;
           var a = el('a', { class: 'card rise d' + Math.min(3, i + 1), href: c.href });
           a.innerHTML = '<div class="kicker">' + fmt(r.card_kicker || r.kicker, r) + '</div><h3>' + fmt(r.card_title, r) + '</h3><p>' + fmt(r.card_summary, r) + '</p>' +
             (r.internal_banner ? '<p><span class="pending">' + fmt(r.internal_banner) + '</span></p>' : '');
-          cards.appendChild(a);
+          target.appendChild(a);
         });
         app.appendChild(cards);
+        if (internal.children.length) { var sec = M.section(SYS.ui_internal_title, null, hub); sec.appendChild(internal); app.appendChild(sec); }
         var legend = M.section(null, null, hub); legend.appendChild(M.tierLegend()); app.appendChild(legend);
         app.appendChild(M.footer(hub));
         document.documentElement.setAttribute('data-ready', '1');

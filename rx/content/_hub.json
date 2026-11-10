@@ -19,7 +19,8 @@
     },
     {
       "slug": "mots-c",
-      "href": "mots-c.html"
+      "href": "mots-c.html",
+      "internal": true
     }
   ],
   "footer_note": "Educational content for Equilibria members. It isn't medical advice. Every Rx is prescribed only after a licensed clinician reviews your health history."
