@@ -54,3 +54,9 @@ One line per judgment call. Each is reversible unless noted.
 - Cautions, cadence, the tier legend and sources moved into one collapsed "For your clinician conversation" drawer. Tapping any footnote opens it.
 - A crosslink card links back to the ECS map. In the published artifact it points to a bundled copy (`ecs-map.html`).
 - The new stop copy has not been through the independent audit yet. It reuses the audited sources, but its wording is new.
+
+## v2 data pass (2026-11-10)
+- Stopped at the step 1 gate. The binding constraint is exposure: Rx has had about 400 landing sessions since its Oct 26 alpha, the pages are SEO-hidden, and the 1,700-respondent send hasn't gone out. Education can't fix that. Full write-up: `findings.md`.
+- Shopify can't supply the Rx funnel past the page view. Rx items are pages, not products, so price, cart, intake and orders live in Wizlo. Order-confirmed page landings stand in for completed orders.
+- Gorgias needs re-authorization (category 4). shop.myeq.com is outside the session's network allowlist (category 3), so the page records were read through the Shopify Admin API instead.
+- Logged open items, not resolved: the LDN strength conflict, the 503A status (Wolverine and Gut Peptides held out as pending), the Wolverine name, the PDE5 double-up in the Intimacy Stack, and the Intimacy Melt formula mismatch.
