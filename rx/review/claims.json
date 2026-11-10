@@ -413,7 +413,7 @@
     "id": "ldn-01",
     "treatment": "ldn",
     "location": "lede",
-    "text": "Standard naltrexone is a 50 mg daily tablet. Low-dose naltrexone, as studied, uses a small fraction of that. Here's why researchers think the size of the dose may change what it does, and what's still an open question.",
+    "text": "Low-dose naltrexone uses a sliver of the standard dose. Follow one dose through the body to see why researchers think the size changes what it does, and where the open questions are.",
     "tier": "untiered framing copy",
     "source_id": "s_label_naltrexone",
     "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h.",
@@ -442,7 +442,7 @@
     "id": "ldn-02",
     "treatment": "ldn",
     "location": "lede",
-    "text": "Standard naltrexone is a 50 mg daily tablet. Low-dose naltrexone, as studied, uses a small fraction of that. Here's why researchers think the size of the dose may change what it does, and what's still an open question.",
+    "text": "Low-dose naltrexone uses a sliver of the standard dose. Follow one dose through the body to see why researchers think the size changes what it does, and where the open questions are.",
     "tier": "untiered framing copy",
     "source_id": "s_toljan_2018",
     "source_citation": "Toljan K, Vrooman B. Low-Dose Naltrexone (LDN): Review of Therapeutic Utilization. Med Sci. 2018.",
@@ -459,174 +459,6 @@
   },
   {
     "id": "ldn-03",
-    "treatment": "ldn",
-    "location": "reframe",
-    "text": "LDN is naltrexone at doses studied around 1 to 5 mg a day, compared with the 50 mg tablet the FDA approved. Your clinician sets your strength. Researchers think a dose this small may act differently: a short, light touch on the same receptors. The leading theory is that your body responds to the touch.",
-    "tier": "untiered framing copy",
-    "source_id": "s_toljan_2018",
-    "source_citation": "Toljan K, Vrooman B. Low-Dose Naltrexone (LDN): Review of Therapeutic Utilization. Med Sci. 2018.",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6313374/",
-    "source_type": "review",
-    "research_quotes": [
-      {
-        "research_id": "L4",
-        "quote": "Low-dose naltrexone (LDN), considered in a daily dose of 1 to 5 mg, has been shown to reduce glial inflammatory response",
-        "research_status": "VERIFIED"
-      }
-    ],
-    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
-  },
-  {
-    "id": "ldn-04",
-    "treatment": "ldn",
-    "location": "reframe",
-    "text": "LDN is naltrexone at doses studied around 1 to 5 mg a day, compared with the 50 mg tablet the FDA approved. Your clinician sets your strength. Researchers think a dose this small may act differently: a short, light touch on the same receptors. The leading theory is that your body responds to the touch.",
-    "tier": "untiered framing copy",
-    "source_id": "s_label_naltrexone",
-    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h.",
-    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f256d4f-4509-87c7-e053-2a91aa0a79ef",
-    "source_type": "label",
-    "research_quotes": [
-      {
-        "research_id": "L1",
-        "quote": "104 alcohol-dependent patients were randomized to receive either naltrexone hydrochloride 50 mg once daily or placebo.",
-        "research_status": "PARTIALLY_VERIFIED"
-      },
-      {
-        "research_id": "L2",
-        "quote": "Label: 'blocks the effects of opioids by competitive binding at opioid receptors.' Younger 2014: 'In addition to the antagonist effect on mu-opioid and other opioid receptors...'",
-        "research_status": "VERIFIED"
-      },
-      {
-        "research_id": "L3",
-        "quote": "mean elimination half-life ... of 4 hours and 13 hours, respectively for naltrexone and 6-β-naltrexol",
-        "research_status": "VERIFIED"
-      }
-    ],
-    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
-  },
-  {
-    "id": "ldn-05",
-    "treatment": "ldn",
-    "location": "viz_caption",
-    "text": "Illustration, not measured data. Band lengths show the idea, not exact hours, and the doses are the label dose and the studied range, not your dose. For scale: naltrexone itself has a half-life of about 4 hours, and its main active by-product about 13 hours.",
-    "tier": "untiered framing copy",
-    "source_id": "s_label_naltrexone",
-    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h.",
-    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f256d4f-4509-87c7-e053-2a91aa0a79ef",
-    "source_type": "label",
-    "research_quotes": [
-      {
-        "research_id": "L1",
-        "quote": "104 alcohol-dependent patients were randomized to receive either naltrexone hydrochloride 50 mg once daily or placebo.",
-        "research_status": "PARTIALLY_VERIFIED"
-      },
-      {
-        "research_id": "L2",
-        "quote": "Label: 'blocks the effects of opioids by competitive binding at opioid receptors.' Younger 2014: 'In addition to the antagonist effect on mu-opioid and other opioid receptors...'",
-        "research_status": "VERIFIED"
-      },
-      {
-        "research_id": "L3",
-        "quote": "mean elimination half-life ... of 4 hours and 13 hours, respectively for naltrexone and 6-β-naltrexol",
-        "research_status": "VERIFIED"
-      }
-    ],
-    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
-  },
-  {
-    "id": "ldn-06",
-    "treatment": "ldn",
-    "location": "mechanism_steps[0]",
-    "text": "A brief block on opioid receptors may prompt your body to make more of its own endorphins and add more receptors. Over a full day, the net effect could be more of your own signaling, not less. Most of the support for this comes from animal and cell research.",
-    "tier": "Leading theory",
-    "source_id": "s_moura_2016",
-    "source_citation": "Narrative review of low-dose naltrexone mechanisms (Research Inventy, 2016): proposed compensatory rise in endorphins and enkephalins after temporary receptor blockade.",
-    "source_url": "https://repositorio.ufc.br/ri/bitstream/riufc/19251/1/2016_art_fcmoura.pdf",
-    "source_type": "review",
-    "research_quotes": [
-      {
-        "research_id": "L5",
-        "quote": "LDN possibly increase opioid receptors expression, as well as enkephalins and endorphins levels by a compensatory mechanism due to temporary blocking of these receptors",
-        "research_status": "VERIFIED"
-      }
-    ],
-    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
-  },
-  {
-    "id": "ldn-07",
-    "treatment": "ldn",
-    "location": "mechanism_steps[1]",
-    "text": "Separately from opioid receptors, naltrexone appears to quiet a receptor called TLR4 on microglia, the resident immune cells of the brain and spinal cord. In lab work, a mirror-image form of naltrexone that doesn't touch opioid receptors still blocked TLR4. Researchers note the data don't fit this explanation perfectly.",
-    "tier": "Lab and animal research",
-    "source_id": "s_younger_2014",
-    "source_citation": "Younger J, Parkitny L, McLain D. Clin Rheumatol. 2014. Review of low-dose naltrexone mechanisms and human studies (description, not title).",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/",
-    "source_type": "review",
-    "research_quotes": [
-      {
-        "research_id": "L6",
-        "quote": "naltrexone simultaneously has an antagonist effect on non-opioid receptors (Toll-like receptor 4 or TLR4) that are found on macrophages such as microglia",
-        "research_status": "VERIFIED"
-      },
-      {
-        "research_id": "L7",
-        "quote": "Published trials have low sample sizes, and few replications have been performed.",
-        "research_status": "VERIFIED"
-      }
-    ],
-    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
-  },
-  {
-    "id": "ldn-08",
-    "treatment": "ldn",
-    "location": "mechanism_steps[2]",
-    "text": "Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies, 15 of them randomized trials, found it was generally well tolerated but that the evidence lacks methodological strength. Early positive results from uncontrolled studies were rarely repeated in placebo-controlled trials. That's the honest state of the science, and it's why a clinician decides whether it's worth trying for you.",
-    "tier": "Early human studies",
-    "source_id": "s_younger_2014",
-    "source_citation": "Younger J, Parkitny L, McLain D. Clin Rheumatol. 2014. Review of low-dose naltrexone mechanisms and human studies (description, not title).",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/",
-    "source_type": "review",
-    "research_quotes": [
-      {
-        "research_id": "L6",
-        "quote": "naltrexone simultaneously has an antagonist effect on non-opioid receptors (Toll-like receptor 4 or TLR4) that are found on macrophages such as microglia",
-        "research_status": "VERIFIED"
-      },
-      {
-        "research_id": "L7",
-        "quote": "Published trials have low sample sizes, and few replications have been performed.",
-        "research_status": "VERIFIED"
-      }
-    ],
-    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
-  },
-  {
-    "id": "ldn-09",
-    "treatment": "ldn",
-    "location": "mechanism_steps[2]",
-    "text": "Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies, 15 of them randomized trials, found it was generally well tolerated but that the evidence lacks methodological strength. Early positive results from uncontrolled studies were rarely repeated in placebo-controlled trials. That's the honest state of the science, and it's why a clinician decides whether it's worth trying for you.",
-    "tier": "Early human studies",
-    "source_id": "s_gouda_2026",
-    "source_citation": "Gouda et al. Adv Ther. 2026. Review of 105 low-dose naltrexone studies, 15 of them randomized trials (description, not title; volume and pages to confirm).",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42060160/",
-    "source_type": "review",
-    "research_quotes": [
-      {
-        "research_id": "L7",
-        "quote": "Published trials have low sample sizes, and few replications have been performed.",
-        "research_status": "VERIFIED"
-      },
-      {
-        "research_id": "L8",
-        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
-        "research_status": "PARTIALLY_VERIFIED"
-      }
-    ],
-    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
-  },
-  {
-    "id": "ldn-10",
     "treatment": "ldn",
     "location": "notice_items[0]",
     "text": "Some people notice vivid dreams or lighter sleep early on. In small studies these were mostly mild and passed.",
@@ -650,7 +482,7 @@
     "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
   },
   {
-    "id": "ldn-11",
+    "id": "ldn-04",
     "treatment": "ldn",
     "location": "notice_items[1]",
     "text": "Studies have followed LDN for 8 to 12 weeks. Your clinician will tell you when to check in on how it's going.",
@@ -674,7 +506,7 @@
     "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
   },
   {
-    "id": "ldn-12",
+    "id": "ldn-05",
     "treatment": "ldn",
     "location": "notice_items[1]",
     "text": "Studies have followed LDN for 8 to 12 weeks. Your clinician will tell you when to check in on how it's going.",
@@ -698,7 +530,7 @@
     "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
   },
   {
-    "id": "ldn-13",
+    "id": "ldn-06",
     "treatment": "ldn",
     "location": "notice_items[2]",
     "text": "Your clinician may adjust your strength or the time of day you take it. Tell them about any sleep changes.",
@@ -708,21 +540,183 @@
     "status": "clinician-owned: drafted, no external source"
   },
   {
+    "id": "ldn-07",
+    "treatment": "ldn",
+    "location": "not_for_you_if[0]",
+    "text": "You take any opioid, including prescription pain medicine, methadone or buprenorphine. Naltrexone blocks opioids and can bring on withdrawal.",
+    "tier": "untiered framing copy",
+    "source_id": "s_label_naltrexone_contra",
+    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): contraindications, including opioid analgesics, opioid dependence and acute withdrawal.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adb7c4dc-221a-4d91-9687-0d78913a92ad",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "L9",
+        "quote": "contraindicated in: patients receiving opioid analgesics; patients currently dependent on opioids, including those maintained on opiate agonists [e.g., methadone] or partial agonists [e.g., buprenorphine]; patients in acute opioid withdrawal",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-08",
+    "treatment": "ldn",
+    "location": "not_for_you_if[1]",
+    "text": "You have acute hepatitis or liver failure. The naltrexone label lists both as reasons not to use it.",
+    "tier": "untiered framing copy",
+    "source_id": "s_label_naltrexone_liver",
+    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): hepatotoxicity warning; contraindicated in acute hepatitis or liver failure.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3c7da2bc-e2c1-48f6-8c3f-287119b427e2",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "L10",
+        "quote": "Naltrexone hydrochloride has the capacity to cause hepatocellular injury when given in excessive doses.",
+        "research_status": "PARTIALLY_VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-09",
+    "treatment": "ldn",
+    "location": "what_to_watch[0]",
+    "text": "Sleep changes or vivid dreams, especially in the first weeks.",
+    "tier": "untiered framing copy",
+    "source_id": "s_younger_2009",
+    "source_citation": "Younger J, Mackey S. Pain Med. 2009. Pilot study, n=10, 8 weeks (description, not title).",
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "L8",
+        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
+        "research_status": "PARTIALLY_VERIFIED"
+      },
+      {
+        "research_id": "L12",
+        "quote": "baseline (2 weeks), placebo (2 weeks), drug (8 weeks), and washout (2 weeks)",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-10",
+    "treatment": "ldn",
+    "location": "what_to_watch[1]",
+    "text": "Nausea, especially in the first few nights.",
+    "tier": "untiered framing copy",
+    "source_id": "s_younger_2009",
+    "source_citation": "Younger J, Mackey S. Pain Med. 2009. Pilot study, n=10, 8 weeks (description, not title).",
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "L8",
+        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
+        "research_status": "PARTIALLY_VERIFIED"
+      },
+      {
+        "research_id": "L12",
+        "quote": "baseline (2 weeks), placebo (2 weeks), drug (8 weeks), and washout (2 weeks)",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-11",
+    "treatment": "ldn",
+    "location": "what_to_watch[2]",
+    "text": "If you might need opioid pain relief, for example before a procedure, tell your clinician and care team that you take naltrexone.",
+    "tier": "untiered framing copy",
+    "source_id": "s_label_naltrexone_contra",
+    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): contraindications, including opioid analgesics, opioid dependence and acute withdrawal.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adb7c4dc-221a-4d91-9687-0d78913a92ad",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "L9",
+        "quote": "contraindicated in: patients receiving opioid analgesics; patients currently dependent on opioids, including those maintained on opiate agonists [e.g., methadone] or partial agonists [e.g., buprenorphine]; patients in acute opioid withdrawal",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-12",
+    "treatment": "ldn",
+    "location": "story_stops[0]",
+    "text": "It starts as one small capsule. LDN is naltrexone at doses studied around 1 to 5 mg a day. The FDA-approved tablet is 50 mg. No approved low-dose product exists, so a pharmacy compounds your capsules, and your clinician sets the strength.",
+    "tier": "Established",
+    "source_id": "s_toljan_2018",
+    "source_citation": "Toljan K, Vrooman B. Low-Dose Naltrexone (LDN): Review of Therapeutic Utilization. Med Sci. 2018.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6313374/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "L4",
+        "quote": "Low-dose naltrexone (LDN), considered in a daily dose of 1 to 5 mg, has been shown to reduce glial inflammatory response",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-13",
+    "treatment": "ldn",
+    "location": "story_stops[0]",
+    "text": "It starts as one small capsule. LDN is naltrexone at doses studied around 1 to 5 mg a day. The FDA-approved tablet is 50 mg. No approved low-dose product exists, so a pharmacy compounds your capsules, and your clinician sets the strength.",
+    "tier": "Established",
+    "source_id": "s_label_naltrexone",
+    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f256d4f-4509-87c7-e053-2a91aa0a79ef",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "L1",
+        "quote": "104 alcohol-dependent patients were randomized to receive either naltrexone hydrochloride 50 mg once daily or placebo.",
+        "research_status": "PARTIALLY_VERIFIED"
+      },
+      {
+        "research_id": "L2",
+        "quote": "Label: 'blocks the effects of opioids by competitive binding at opioid receptors.' Younger 2014: 'In addition to the antagonist effect on mu-opioid and other opioid receptors...'",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L3",
+        "quote": "mean elimination half-life ... of 4 hours and 13 hours, respectively for naltrexone and 6-β-naltrexol",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
     "id": "ldn-14",
     "treatment": "ldn",
-    "location": "route_steps[0]",
-    "text": "You take one capsule a day, at the strength and time your clinician sets.",
-    "tier": "untiered framing copy",
-    "source_url": null,
-    "source_type": null,
-    "status": "clinician-owned: drafted, no external source"
+    "location": "story_stops[0]",
+    "text": "It starts as one small capsule. LDN is naltrexone at doses studied around 1 to 5 mg a day. The FDA-approved tablet is 50 mg. No approved low-dose product exists, so a pharmacy compounds your capsules, and your clinician sets the strength.",
+    "tier": "Established",
+    "source_id": "s_mdedge_ldn",
+    "source_citation": "MDedge news coverage: no FDA-approved low-dose naltrexone product; LDN must be custom compounded.",
+    "source_url": "https://www.mdedge.com/content/label-low-dose-naltrexone-reduced-fibromyalgia-pain",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "L11",
+        "quote": "LDN is not approved by the Food and Drug Administration and must be custom compounded",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
   },
   {
     "id": "ldn-15",
     "treatment": "ldn",
-    "location": "route_steps[1]",
-    "text": "Naltrexone itself clears quickly, with a half-life of about 4 hours. Its main active by-product lasts about 13 hours.",
-    "tier": "untiered framing copy",
+    "location": "story_stops[1]",
+    "text": "It finds your opioid receptors. Naltrexone docks on opioid receptors in the brain and spinal cord, the same receptors your own endorphins use, and blocks them for a while.",
+    "tier": "Established",
     "source_id": "s_label_naltrexone",
     "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h.",
     "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f256d4f-4509-87c7-e053-2a91aa0a79ef",
@@ -749,17 +743,22 @@
   {
     "id": "ldn-16",
     "treatment": "ldn",
-    "location": "route_steps[2]",
-    "text": "No FDA-approved low-dose product exists, so a pharmacy compounds your capsules from naltrexone. This is an off-label use your clinician prescribes for you.",
-    "tier": "untiered framing copy",
-    "source_id": "s_mdedge_ldn",
-    "source_citation": "MDedge news coverage: no FDA-approved low-dose naltrexone product; LDN must be custom compounded.",
-    "source_url": "https://www.mdedge.com/content/label-low-dose-naltrexone-reduced-fibromyalgia-pain",
+    "location": "story_stops[1]",
+    "text": "It finds your opioid receptors. Naltrexone docks on opioid receptors in the brain and spinal cord, the same receptors your own endorphins use, and blocks them for a while.",
+    "tier": "Established",
+    "source_id": "s_younger_2014",
+    "source_citation": "Younger J, Parkitny L, McLain D. Clin Rheumatol. 2014. Review of low-dose naltrexone mechanisms and human studies (description, not title).",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/",
     "source_type": "review",
     "research_quotes": [
       {
-        "research_id": "L11",
-        "quote": "LDN is not approved by the Food and Drug Administration and must be custom compounded",
+        "research_id": "L6",
+        "quote": "naltrexone simultaneously has an antagonist effect on non-opioid receptors (Toll-like receptor 4 or TLR4) that are found on macrophages such as microglia",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L7",
+        "quote": "Published trials have low sample sizes, and few replications have been performed.",
         "research_status": "VERIFIED"
       }
     ],
@@ -768,17 +767,27 @@
   {
     "id": "ldn-17",
     "treatment": "ldn",
-    "location": "not_for_you_if[0]",
-    "text": "You take any opioid, including prescription pain medicine, methadone or buprenorphine. Naltrexone blocks opioids and can bring on withdrawal.",
-    "tier": "untiered framing copy",
-    "source_id": "s_label_naltrexone_contra",
-    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): contraindications, including opioid analgesics, opioid dependence and acute withdrawal.",
-    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adb7c4dc-221a-4d91-9687-0d78913a92ad",
+    "location": "story_stops[2]",
+    "text": "At a low dose, the block is brief. A standard dose is meant to block around the clock. A low dose is a lighter touch, and researchers think its block lifts within hours. Naltrexone itself has a half-life of about 4 hours.",
+    "tier": "Leading theory",
+    "source_id": "s_label_naltrexone",
+    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f256d4f-4509-87c7-e053-2a91aa0a79ef",
     "source_type": "label",
     "research_quotes": [
       {
-        "research_id": "L9",
-        "quote": "contraindicated in: patients receiving opioid analgesics; patients currently dependent on opioids, including those maintained on opiate agonists [e.g., methadone] or partial agonists [e.g., buprenorphine]; patients in acute opioid withdrawal",
+        "research_id": "L1",
+        "quote": "104 alcohol-dependent patients were randomized to receive either naltrexone hydrochloride 50 mg once daily or placebo.",
+        "research_status": "PARTIALLY_VERIFIED"
+      },
+      {
+        "research_id": "L2",
+        "quote": "Label: 'blocks the effects of opioids by competitive binding at opioid receptors.' Younger 2014: 'In addition to the antagonist effect on mu-opioid and other opioid receptors...'",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L3",
+        "quote": "mean elimination half-life ... of 4 hours and 13 hours, respectively for naltrexone and 6-β-naltrexol",
         "research_status": "VERIFIED"
       }
     ],
@@ -787,18 +796,18 @@
   {
     "id": "ldn-18",
     "treatment": "ldn",
-    "location": "not_for_you_if[1]",
-    "text": "You have acute hepatitis or liver failure. The naltrexone label lists both as reasons not to use it.",
-    "tier": "untiered framing copy",
-    "source_id": "s_label_naltrexone_liver",
-    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): hepatotoxicity warning; contraindicated in acute hepatitis or liver failure.",
-    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3c7da2bc-e2c1-48f6-8c3f-287119b427e2",
-    "source_type": "label",
+    "location": "story_stops[2]",
+    "text": "At a low dose, the block is brief. A standard dose is meant to block around the clock. A low dose is a lighter touch, and researchers think its block lifts within hours. Naltrexone itself has a half-life of about 4 hours.",
+    "tier": "Leading theory",
+    "source_id": "s_toljan_2018",
+    "source_citation": "Toljan K, Vrooman B. Low-Dose Naltrexone (LDN): Review of Therapeutic Utilization. Med Sci. 2018.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6313374/",
+    "source_type": "review",
     "research_quotes": [
       {
-        "research_id": "L10",
-        "quote": "Naltrexone hydrochloride has the capacity to cause hepatocellular injury when given in excessive doses.",
-        "research_status": "PARTIALLY_VERIFIED"
+        "research_id": "L4",
+        "quote": "Low-dose naltrexone (LDN), considered in a daily dose of 1 to 5 mg, has been shown to reduce glial inflammatory response",
+        "research_status": "VERIFIED"
       }
     ],
     "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
@@ -806,22 +815,17 @@
   {
     "id": "ldn-19",
     "treatment": "ldn",
-    "location": "what_to_watch[0]",
-    "text": "Sleep changes or vivid dreams, especially in the first weeks.",
-    "tier": "untiered framing copy",
-    "source_id": "s_younger_2009",
-    "source_citation": "Younger J, Mackey S. Pain Med. 2009. Pilot study, n=10, 8 weeks (description, not title).",
-    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
-    "source_type": "RCT",
+    "location": "story_stops[3]",
+    "text": "Then your body may answer. Once the block lifts, the theory goes, your body makes more of its own endorphins and adds receptors. Over a day, that could mean more of your own signaling, not less. Most support for this comes from animal and cell research.",
+    "tier": "Leading theory",
+    "source_id": "s_moura_2016",
+    "source_citation": "Narrative review of low-dose naltrexone mechanisms (Research Inventy, 2016): proposed compensatory rise in endorphins and enkephalins after temporary receptor blockade.",
+    "source_url": "https://repositorio.ufc.br/ri/bitstream/riufc/19251/1/2016_art_fcmoura.pdf",
+    "source_type": "review",
     "research_quotes": [
       {
-        "research_id": "L8",
-        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
-        "research_status": "PARTIALLY_VERIFIED"
-      },
-      {
-        "research_id": "L12",
-        "quote": "baseline (2 weeks), placebo (2 weeks), drug (8 weeks), and washout (2 weeks)",
+        "research_id": "L5",
+        "quote": "LDN possibly increase opioid receptors expression, as well as enkephalins and endorphins levels by a compensatory mechanism due to temporary blocking of these receptors",
         "research_status": "VERIFIED"
       }
     ],
@@ -830,22 +834,22 @@
   {
     "id": "ldn-20",
     "treatment": "ldn",
-    "location": "what_to_watch[1]",
-    "text": "Nausea, especially in the first few nights.",
-    "tier": "untiered framing copy",
-    "source_id": "s_younger_2009",
-    "source_citation": "Younger J, Mackey S. Pain Med. 2009. Pilot study, n=10, 8 weeks (description, not title).",
-    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
-    "source_type": "RCT",
+    "location": "story_stops[4]",
+    "text": "Calmer immune cells, possibly. Naltrexone also appears to quiet TLR4, a receptor on microglia, the resident immune cells of the brain and spinal cord. In lab work this didn't depend on opioid receptors at all. Researchers say the fit isn't perfect yet.",
+    "tier": "Lab and animal research",
+    "source_id": "s_younger_2014",
+    "source_citation": "Younger J, Parkitny L, McLain D. Clin Rheumatol. 2014. Review of low-dose naltrexone mechanisms and human studies (description, not title).",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/",
+    "source_type": "review",
     "research_quotes": [
       {
-        "research_id": "L8",
-        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
-        "research_status": "PARTIALLY_VERIFIED"
+        "research_id": "L6",
+        "quote": "naltrexone simultaneously has an antagonist effect on non-opioid receptors (Toll-like receptor 4 or TLR4) that are found on macrophages such as microglia",
+        "research_status": "VERIFIED"
       },
       {
-        "research_id": "L12",
-        "quote": "baseline (2 weeks), placebo (2 weeks), drug (8 weeks), and washout (2 weeks)",
+        "research_id": "L7",
+        "quote": "Published trials have low sample sizes, and few replications have been performed.",
         "research_status": "VERIFIED"
       }
     ],
@@ -854,17 +858,22 @@
   {
     "id": "ldn-21",
     "treatment": "ldn",
-    "location": "what_to_watch[2]",
-    "text": "If you might need opioid pain relief, for example before a procedure, tell your clinician and care team that you take naltrexone.",
-    "tier": "untiered framing copy",
-    "source_id": "s_label_naltrexone_contra",
-    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): contraindications, including opioid analgesics, opioid dependence and acute withdrawal.",
-    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adb7c4dc-221a-4d91-9687-0d78913a92ad",
-    "source_type": "label",
+    "location": "story_stops[5]",
+    "text": "What the human studies say. Most LDN studies in people have been small. A 2026 review of 105 studies found it generally well tolerated, but the evidence still lacks strength, and early results from uncontrolled studies rarely held up in placebo-controlled trials. That's why a clinician decides whether it's worth trying for you.",
+    "tier": "Early human studies",
+    "source_id": "s_younger_2014",
+    "source_citation": "Younger J, Parkitny L, McLain D. Clin Rheumatol. 2014. Review of low-dose naltrexone mechanisms and human studies (description, not title).",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/",
+    "source_type": "review",
     "research_quotes": [
       {
-        "research_id": "L9",
-        "quote": "contraindicated in: patients receiving opioid analgesics; patients currently dependent on opioids, including those maintained on opiate agonists [e.g., methadone] or partial agonists [e.g., buprenorphine]; patients in acute opioid withdrawal",
+        "research_id": "L6",
+        "quote": "naltrexone simultaneously has an antagonist effect on non-opioid receptors (Toll-like receptor 4 or TLR4) that are found on macrophages such as microglia",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L7",
+        "quote": "Published trials have low sample sizes, and few replications have been performed.",
         "research_status": "VERIFIED"
       }
     ],
@@ -873,29 +882,43 @@
   {
     "id": "ldn-22",
     "treatment": "ldn",
-    "location": "viz_scrub_states[0]",
-    "text": "Hour 0. The dose is taken and naltrexone reaches opioid receptors.",
-    "tier": "Leading theory",
-    "source_url": null,
-    "source_type": null,
-    "status": "illustrative: restates the theory shown in the visual (see mechanism_steps)"
+    "location": "story_stops[5]",
+    "text": "What the human studies say. Most LDN studies in people have been small. A 2026 review of 105 studies found it generally well tolerated, but the evidence still lacks strength, and early results from uncontrolled studies rarely held up in placebo-controlled trials. That's why a clinician decides whether it's worth trying for you.",
+    "tier": "Early human studies",
+    "source_id": "s_gouda_2026",
+    "source_citation": "Gouda et al. Adv Ther. 2026. Review of 105 low-dose naltrexone studies, 15 of them randomized trials (description, not title; volume and pages to confirm).",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42060160/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "L7",
+        "quote": "Published trials have low sample sizes, and few replications have been performed.",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L8",
+        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
+        "research_status": "PARTIALLY_VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
   },
   {
     "id": "ldn-23",
     "treatment": "ldn",
-    "location": "viz_scrub_states[1]",
-    "text": "Early hours. Both doses occupy the receptors. The low dose is already fading.",
-    "tier": "Leading theory",
+    "location": "story_stops[6]",
+    "text": "What you might notice. Every member is different. This is what studies have measured, not a promise.",
+    "tier": "Early human studies",
     "source_url": null,
     "source_type": null,
-    "status": "illustrative: restates the theory shown in the visual (see mechanism_steps)"
+    "status": "clinician-owned: drafted, no external source"
   },
   {
     "id": "ldn-24",
     "treatment": "ldn",
-    "location": "viz_scrub_states[2]",
-    "text": "Midday. The standard dose is still blocking. The low-dose block has lifted, and the theory says your body has turned its own signaling up in response.",
-    "tier": "Leading theory",
+    "location": "dose_clock.rings[0]",
+    "text": "Outer ring: the standard 50 mg dose keeps receptors blocked around the clock.",
+    "tier": "Established",
     "source_url": null,
     "source_type": null,
     "status": "illustrative: restates the theory shown in the visual (see mechanism_steps)"
@@ -903,8 +926,18 @@
   {
     "id": "ldn-25",
     "treatment": "ldn",
-    "location": "viz_scrub_states[3]",
-    "text": "Late day. Standard dose: still on duty. Low dose: the receptors are open, and any rebound in your own endorphins would be doing the work.",
+    "location": "dose_clock.rings[1]",
+    "text": "Middle ring: a low dose blocks them for a few hours.",
+    "tier": "Leading theory",
+    "source_url": null,
+    "source_type": null,
+    "status": "illustrative: restates the theory shown in the visual (see mechanism_steps)"
+  },
+  {
+    "id": "ldn-26",
+    "treatment": "ldn",
+    "location": "dose_clock.rings[2]",
+    "text": "Inner dots: the theorized rise in your own signaling once the block lifts.",
     "tier": "Leading theory",
     "source_url": null,
     "source_type": null,

@@ -46,3 +46,11 @@ One line per judgment call. Each is reversible unless noted.
 - Rendered copy is extracted from the live DOM, including SVG text, image descriptions, sheet details and slider states, so the banned-word grep checks what members actually see.
 - The screenshots are full-page. Reduced-motion runs are light theme only (motion is theme-independent).
 - Published two private Artifacts: Learn hub https://claude.ai/artifact/MAzJg6ToXue9dzGWVxLBK4 and review board https://claude.ai/artifact/1cYjZGLB5TAjGVtpJ5KUme. Both are stripped of the document skeleton per the Artifact contract. The board artifact uses compressed JPEG screenshots; the full PNGs stay in the repo.
+
+## Redesign: LDN in the ECS map's format (after morning feedback)
+- LDN now uses a story layout (`rx/eq-story.js`, `rx/eq-story.css`, archetype `receptor_story`). The ECS map's figure is the sticky stage; seven stops scroll beside it, and each stop names the figure layers it lights up. Copy still lives entirely in `content/ldn.json`.
+- Evidence tiers are drawn into the figure itself. Plum points with solid rings are the established block, gold dotted waves are the rebound theory, and olive dashed stars are the lab-research immune-cell idea.
+- The 24-hour lane chart became a three-ring dose clock inside stop 3. The evidence ladder in stop 6 places each LDN idea on its tier.
+- Cautions, cadence, the tier legend and sources moved into one collapsed "For your clinician conversation" drawer. Tapping any footnote opens it.
+- A crosslink card links back to the ECS map. In the published artifact it points to a bundled copy (`ecs-map.html`).
+- The new stop copy has not been through the independent audit yet. It reuses the audited sources, but its wording is new.

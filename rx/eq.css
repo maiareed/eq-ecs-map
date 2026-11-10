@@ -230,3 +230,4 @@ footer.foot { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--l
 
 .tier-line.none { border-top: 2px solid var(--line); }
 .tiered.none { border-left: 3px solid var(--line); padding-left: 16px; }
+.tier-line { color: var(--plum); }

@@ -1,7 +1,7 @@
 // Screenshot + layout checks for every Rx Learn page.
 // Usage: node shoot.js <baseUrl> <outDir>   (serve rx/ first, e.g. python3 -m http.server)
 const { chromium } = require('playwright');
-const base = process.argv[2] || 'http://localhost:8765/';
+const base = process.argv[2] || 'http://localhost:8766/rx/';
 const out = process.argv[3] || 'screens';
 const pages = ['index', 'peptides', 'ldn', 'nad', 'mots-c'];
 const combos = [

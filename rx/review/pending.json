@@ -14,10 +14,6 @@
       "text": "Your clinician may adjust your strength or the time of day you take it. Tell them about any sleep changes."
     },
     {
-      "location": "route_steps[0]",
-      "text": "You take one capsule a day, at the strength and time your clinician sets."
-    },
-    {
       "location": "not_for_you_if[0]",
       "text": "You take any opioid, including prescription pain medicine, methadone or buprenorphine. Naltrexone blocks opioids and can bring on withdrawal."
     },
@@ -36,6 +32,14 @@
     {
       "location": "what_to_watch[2]",
       "text": "If you might need opioid pain relief, for example before a procedure, tell your clinician and care team that you take naltrexone."
+    },
+    {
+      "location": "story_stops[0]",
+      "text": "It starts as one small capsule. LDN is naltrexone at doses studied around 1 to 5 mg a day. The FDA-approved tablet is 50 mg. No approved low-dose product exists, so a pharmacy compounds your capsules, and your clinician sets the strength."
+    },
+    {
+      "location": "story_stops[6]",
+      "text": "What you might notice. Every member is different. This is what studies have measured, not a promise."
     },
     {
       "location": "dose_standard_value",

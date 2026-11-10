@@ -65,6 +65,12 @@ def walk(rec):
                 text = f"{it['row_label']}: {it['count_label']}. {text}"
             pending = bool(it.get('pending_clinician')) or g in ('not_for_you_if', 'what_to_watch')
             yield f'{g}[{i}]', text, it.get('tier'), it.get('source_ids', []), pending
+    for i, st in enumerate(rec.get('story_stops') or []):
+        if st.get('source_ids') or st.get('tier') not in (None, 'none'):
+            yield f'story_stops[{i}]', st['stop_title'] + '. ' + st['stop_body'], st.get('tier'), st.get('source_ids', []), bool(st.get('pending_clinician'))
+    dc = rec.get('dose_clock') or {}
+    for i, rg in enumerate(dc.get('rings') or []):
+        yield f'dose_clock.rings[{i}]', rg['ring_text'], 't4' if i else 't1', [], False
     for i, st in enumerate(rec.get('viz_scrub_states') or []):
         yield f'viz_scrub_states[{i}]', st['state_text'], 't4', [], False
 
@@ -82,7 +88,7 @@ def main():
             if is_pending:
                 pend.append({'location': loc, 'text': txt})
             if not sids:
-                if loc.startswith('viz_scrub_states'):
+                if loc.startswith('viz_scrub_states') or loc.startswith('dose_clock'):
                     status = 'illustrative: restates the theory shown in the visual (see mechanism_steps)'
                 elif is_pending:
                     status = 'clinician-owned: drafted, no external source'

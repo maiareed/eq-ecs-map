@@ -1,172 +1,18 @@
 {
   "record_type": "rx_learn_explainer",
   "slug": "ldn",
-  "archetype": "receptor_signal",
+  "archetype": "receptor_story",
   "page_title": "LDN, explained | Equilibria",
   "card_kicker": "LDN Rx",
   "card_title": "Same molecule, a very different idea",
   "card_summary": "Why a tiny dose of a decades-old medicine is a different conversation from the standard one.",
   "kicker": "LDN Rx · How it works",
   "headline": "Same molecule. A *very* different idea.",
-  "lede": "Standard naltrexone is a {{dose_standard_value}} daily tablet. Low-dose naltrexone, as studied, uses a small fraction of that. Here's why researchers think the size of the dose may change what it does, and what's still an open question.",
+  "lede": "Low-dose naltrexone uses a sliver of the standard dose. Follow one dose through the body to see why researchers think the size changes what it does, and where the open questions are.",
   "dose_standard_value": "50 mg",
   "dose_low_range": "1 to 5 mg",
   "dose_eq_strengths": "Pending clinician review",
   "dose_pending_clinician": true,
-  "recognition": "Maybe a friend mentioned LDN, or you saw it in a forum thread. Then you looked it up and found a medicine best known at a much higher dose, for a very different purpose. Both of those things are true.",
-  "reframe": "LDN is naltrexone at doses studied around {{dose_low_range}} a day, compared with the {{dose_standard_value}} tablet the FDA approved. Your clinician sets your strength. Researchers think a dose this small may act differently: a short, light touch on the same receptors. The leading theory is that your body responds to the touch.",
-  "reframe_source_ids": [
-    "s_toljan_2018",
-    "s_label_naltrexone"
-  ],
-  "viz_title": "A brief block, then a response",
-  "viz_intro": "Each lane follows one dose across a day. The plum band shows how long opioid receptors stay occupied. The gold dotted line is the leading theory of what your body does next.",
-  "viz_alt": "Two timelines over 24 hours. Standard-dose naltrexone occupies opioid receptors all day. Low-dose naltrexone occupies them briefly, then a dotted line rises to show the theorized increase in the body's own signaling.",
-  "viz_axis_hours": 24,
-  "viz_axis_ticks": [
-    {
-      "hour": 0,
-      "tick_label": "Dose"
-    },
-    {
-      "hour": 6,
-      "tick_label": "6 h"
-    },
-    {
-      "hour": 12,
-      "tick_label": "12 h"
-    },
-    {
-      "hour": 18,
-      "tick_label": "18 h"
-    },
-    {
-      "hour": 24,
-      "tick_label": "24 h"
-    }
-  ],
-  "viz_lanes": [
-    {
-      "lane_id": "standard",
-      "lane_label": "Standard",
-      "lane_sublabel": "{{dose_standard_value}}",
-      "occupancy_hours": 24,
-      "occupancy_label": "Receptors occupied",
-      "occupancy_tier": "t1"
-    },
-    {
-      "lane_id": "low",
-      "lane_label": "Low dose",
-      "lane_sublabel": "{{dose_low_range}}",
-      "occupancy_hours": 6,
-      "occupancy_label": "Brief block",
-      "occupancy_tier": "t4",
-      "response_label": "Your own signaling (theory)",
-      "response_tier": "t4",
-      "response_points": [
-        {
-          "hour": 0,
-          "level": 0.15
-        },
-        {
-          "hour": 4,
-          "level": 0.12
-        },
-        {
-          "hour": 6,
-          "level": 0.2
-        },
-        {
-          "hour": 9,
-          "level": 0.45
-        },
-        {
-          "hour": 12,
-          "level": 0.68
-        },
-        {
-          "hour": 16,
-          "level": 0.8
-        },
-        {
-          "hour": 20,
-          "level": 0.78
-        },
-        {
-          "hour": 24,
-          "level": 0.7
-        }
-      ]
-    }
-  ],
-  "viz_caption": "Illustration, not measured data. Band lengths show the idea, not exact hours, and the doses are the label dose and the studied range, not your dose. For scale: naltrexone itself has a half-life of about 4 hours, and its main active by-product about 13 hours.",
-  "viz_legend": [
-    {
-      "tier": "t1",
-      "swatch": "plum",
-      "legend_text": "Solid edge: naltrexone blocks opioid receptors. Established, from the FDA label."
-    },
-    {
-      "tier": "t4",
-      "swatch": "gold",
-      "legend_text": "Dotted line: the rebound idea. A leading theory, mostly supported by animal research."
-    }
-  ],
-  "viz_focus_label": "Focus on",
-  "viz_focus_all": "Both",
-  "viz_scrub_label": "Move through the day",
-  "viz_scrub_prompt": "Drag the slider to see what each dose is doing at that hour.",
-  "viz_scrub_states": [
-    {
-      "from_hour": 0,
-      "to_hour": 1,
-      "state_text": "Hour 0. The dose is taken and naltrexone reaches opioid receptors."
-    },
-    {
-      "from_hour": 2,
-      "to_hour": 6,
-      "state_text": "Early hours. Both doses occupy the receptors. The low dose is already fading."
-    },
-    {
-      "from_hour": 7,
-      "to_hour": 14,
-      "state_text": "Midday. The standard dose is still blocking. The low-dose block has lifted, and the theory says your body has turned its own signaling up in response."
-    },
-    {
-      "from_hour": 15,
-      "to_hour": 24,
-      "state_text": "Late day. Standard dose: still on duty. Low dose: the receptors are open, and any rebound in your own endorphins would be doing the work."
-    }
-  ],
-  "mechanism_title": "Two theories, both still being tested",
-  "mechanism_intro": "Nobody has fully pinned down how LDN works. These are the two explanations researchers take most seriously, followed by an honest read of the human data.",
-  "mechanism_steps": [
-    {
-      "step_title": "The rebound idea",
-      "step_body": "A brief block on opioid receptors may prompt your body to make more of its own endorphins and add more receptors. Over a full day, the net effect could be more of your own signaling, not less. Most of the support for this comes from animal and cell research.",
-      "tier": "t4",
-      "source_ids": [
-        "s_moura_2016"
-      ]
-    },
-    {
-      "step_title": "The immune-cell idea",
-      "step_body": "Separately from opioid receptors, naltrexone appears to quiet a receptor called TLR4 on microglia, the resident immune cells of the brain and spinal cord. In lab work, a mirror-image form of naltrexone that doesn't touch opioid receptors still blocked TLR4. Researchers note the data don't fit this explanation perfectly.",
-      "tier": "t3",
-      "source_ids": [
-        "s_younger_2014"
-      ]
-    },
-    {
-      "step_title": "What the human studies show so far",
-      "step_body": "Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies, 15 of them randomized trials, found it was generally well tolerated but that the evidence lacks methodological strength. Early positive results from uncontrolled studies were rarely repeated in placebo-controlled trials. That's the honest state of the science, and it's why a clinician decides whether it's worth trying for you.",
-      "tier": "t2",
-      "source_ids": [
-        "s_younger_2014",
-        "s_gouda_2026"
-      ]
-    }
-  ],
   "notice_intro": "Every member is different. This is what studies have measured, not a promise.",
   "notice_items": [
     {
@@ -193,43 +39,6 @@
       "notice_text": "Your clinician may adjust your strength or the time of day you take it. Tell them about any sleep changes.",
       "tier": "none",
       "pending_clinician": true
-    }
-  ],
-  "route_intro": "A capsule, compounded for you, on the schedule your clinician sets.",
-  "route_figure_label": "Figure showing an oral capsule route from the mouth to the gut, with opioid receptors in the brain and spinal cord.",
-  "route_points": [
-    {
-      "x": 241,
-      "y": 92,
-      "point_label": "Swallowed as a capsule"
-    },
-    {
-      "x": 228,
-      "y": 318,
-      "point_label": "Absorbed from the gut"
-    },
-    {
-      "x": 241,
-      "y": 40,
-      "point_label": "Opioid receptors in the brain and spinal cord"
-    }
-  ],
-  "route_steps": [
-    {
-      "route_text": "You take one capsule a day, at the strength and time your clinician sets.",
-      "pending_clinician": true
-    },
-    {
-      "route_text": "Naltrexone itself clears quickly, with a half-life of about 4 hours. Its main active by-product lasts about 13 hours.",
-      "source_ids": [
-        "s_label_naltrexone"
-      ]
-    },
-    {
-      "route_text": "No FDA-approved low-dose product exists, so a pharmacy compounds your capsules from naltrexone. This is an off-label use your clinician prescribes for you.",
-      "source_ids": [
-        "s_mdedge_ldn"
-      ]
     }
   ],
   "cautions_intro": "Your clinician screens for these during your intake. Read them anyway.",
@@ -343,7 +152,301 @@
     "s_label_naltrexone",
     "s_toljan_2018"
   ],
-  "viz_caption_source_ids": [
-    "s_label_naltrexone"
+  "figure": {
+    "figure_alt": "Line drawing of a woman. Plum points mark opioid receptors in the brain and spinal cord. Gold dotted rings spread from them to show the theorized rise in the body's own signaling.",
+    "overview_layers": [
+      "receptors",
+      "block",
+      "rebound"
+    ],
+    "overview_label": "Scroll to follow one dose",
+    "block_tier": "t1",
+    "receptor_points": [
+      {
+        "x": 229,
+        "y": 30
+      },
+      {
+        "x": 254,
+        "y": 30
+      },
+      {
+        "x": 241,
+        "y": 150
+      },
+      {
+        "x": 241,
+        "y": 230
+      },
+      {
+        "x": 241,
+        "y": 310
+      }
+    ],
+    "receptor_labels": [
+      {
+        "x": 286,
+        "y": 28,
+        "label_text": "Brain"
+      },
+      {
+        "x": 262,
+        "y": 236,
+        "label_text": "Spinal cord"
+      }
+    ],
+    "capsule_path": [
+      {
+        "x": 241,
+        "y": 92
+      },
+      {
+        "x": 241,
+        "y": 132
+      },
+      {
+        "x": 246,
+        "y": 210
+      },
+      {
+        "x": 252,
+        "y": 300
+      }
+    ],
+    "rebound_glows": [
+      {
+        "x": 241,
+        "y": 46,
+        "r": 80
+      },
+      {
+        "x": 241,
+        "y": 230,
+        "r": 120
+      }
+    ],
+    "glia_points": [
+      {
+        "x": 216,
+        "y": 44
+      },
+      {
+        "x": 266,
+        "y": 50
+      },
+      {
+        "x": 254,
+        "y": 190
+      },
+      {
+        "x": 228,
+        "y": 272
+      }
+    ],
+    "glia_labels": [
+      {
+        "x": 292,
+        "y": 66,
+        "label_text": "Microglia"
+      }
+    ],
+    "moon_point": {
+      "x": 312,
+      "y": 18,
+      "label_text": "Sleep and dreams"
+    },
+    "key_items": [
+      {
+        "key_style": "dot",
+        "key_text": "Naltrexone at opioid receptors"
+      },
+      {
+        "key_style": "gold",
+        "key_text": "Your own signaling (theory)"
+      },
+      {
+        "key_style": "olive",
+        "key_text": "Immune cells (lab research)"
+      }
+    ]
+  },
+  "story_stops": [
+    {
+      "stop_kicker": "1 · The dose",
+      "stop_title": "It starts as one small capsule",
+      "figure_layers": [
+        "capsule"
+      ],
+      "tier": "t1",
+      "pending_clinician": true,
+      "source_ids": [
+        "s_toljan_2018",
+        "s_label_naltrexone",
+        "s_mdedge_ldn"
+      ],
+      "stop_body": "LDN is naltrexone at doses studied around {{dose_low_range}} a day. The FDA-approved tablet is {{dose_standard_value}}. No approved low-dose product exists, so a pharmacy compounds your capsules, and your clinician sets the strength."
+    },
+    {
+      "stop_kicker": "2 · Where it acts",
+      "stop_title": "It finds your opioid receptors",
+      "figure_layers": [
+        "receptors",
+        "block"
+      ],
+      "tier": "t1",
+      "source_ids": [
+        "s_label_naltrexone",
+        "s_younger_2014"
+      ],
+      "stop_body": "Naltrexone docks on opioid receptors in the brain and spinal cord, the same receptors your own endorphins use, and blocks them for a while."
+    },
+    {
+      "stop_kicker": "3 · Why the dose matters",
+      "stop_title": "At a low dose, the block is brief",
+      "figure_layers": [
+        "receptors",
+        "block"
+      ],
+      "tier": "t4",
+      "card_visual": "dose_clock",
+      "source_ids": [
+        "s_label_naltrexone",
+        "s_toljan_2018"
+      ],
+      "stop_body": "A standard dose is meant to block around the clock. A low dose is a lighter touch, and researchers think its block lifts within hours. Naltrexone itself has a half-life of about 4 hours."
+    },
+    {
+      "stop_kicker": "4 · The leading theory",
+      "stop_title": "Then your body may answer",
+      "figure_layers": [
+        "receptors",
+        "rebound"
+      ],
+      "tier": "t4",
+      "source_ids": [
+        "s_moura_2016"
+      ],
+      "stop_body": "Once the block lifts, the theory goes, your body makes more of its own endorphins and adds receptors. Over a day, that could mean more of your own signaling, not less. Most support for this comes from animal and cell research."
+    },
+    {
+      "stop_kicker": "5 · A second idea",
+      "stop_title": "Calmer immune cells, possibly",
+      "figure_layers": [
+        "glia"
+      ],
+      "tier": "t3",
+      "source_ids": [
+        "s_younger_2014"
+      ],
+      "stop_body": "Naltrexone also appears to quiet TLR4, a receptor on microglia, the resident immune cells of the brain and spinal cord. In lab work this didn't depend on opioid receptors at all. Researchers say the fit isn't perfect yet."
+    },
+    {
+      "stop_kicker": "6 · The honest read",
+      "stop_title": "What the human studies say",
+      "figure_layers": [
+        "dim"
+      ],
+      "tier": "t2",
+      "card_visual": "evidence_ladder",
+      "source_ids": [
+        "s_younger_2014",
+        "s_gouda_2026"
+      ],
+      "stop_body": "Most LDN studies in people have been small. A 2026 review of 105 studies found it generally well tolerated, but the evidence still lacks strength, and early results from uncontrolled studies rarely held up in placebo-controlled trials. That's why a clinician decides whether it's worth trying for you."
+    },
+    {
+      "stop_kicker": "7 · Day to day",
+      "stop_title": "What you might notice",
+      "figure_layers": [
+        "receptors",
+        "moon"
+      ],
+      "tier": "t2",
+      "card_visual": "notice_timeline",
+      "pending_clinician": true,
+      "source_ids": [],
+      "stop_body": "Every member is different. This is what studies have measured, not a promise."
+    }
+  ],
+  "dose_clock": {
+    "hours": 24,
+    "standard_hours": 24,
+    "low_hours": 6,
+    "clock_alt": "Three rings over one day. The outer ring is fully plum: a standard dose blocks all day. The middle ring is plum for a quarter of the day: a low dose blocks briefly. Gold dots fill the rest of the inner ring: the theorized rebound.",
+    "ticks": [
+      {
+        "hour": 0,
+        "tick_label": "Dose"
+      },
+      {
+        "hour": 12,
+        "tick_label": "12 h"
+      }
+    ],
+    "rings": [
+      {
+        "ring_style": "",
+        "ring_text": "Outer ring: the standard {{dose_standard_value}} dose keeps receptors blocked around the clock."
+      },
+      {
+        "ring_style": "low",
+        "ring_text": "Middle ring: a low dose blocks them for a few hours."
+      },
+      {
+        "ring_style": "gold",
+        "ring_text": "Inner dots: the theorized rise in your own signaling once the block lifts."
+      }
+    ],
+    "clock_caption": "An illustration of the idea, not measured data. Doses shown are the label dose and the studied range, not your dose."
+  },
+  "ladder_items": [
+    {
+      "tier": "t1",
+      "item_label": "Blocks opioid receptors"
+    },
+    {
+      "tier": "t1",
+      "item_label": "Clears within hours"
+    },
+    {
+      "tier": "t2",
+      "item_label": "Small human studies, mixed results"
+    },
+    {
+      "tier": "t3",
+      "item_label": "Quiets TLR4 on immune cells"
+    },
+    {
+      "tier": "t4",
+      "item_label": "Endorphin rebound"
+    },
+    {
+      "tier": "t4",
+      "item_label": "Brief block at low dose"
+    }
+  ],
+  "crosslink_kicker": "Another system worth knowing",
+  "crosslink_title": "Your endocannabinoid system",
+  "crosslink_body": "LDN works through one family of receptors. Your endocannabinoid system is another, woven through nearly all of you.",
+  "crosslink_label": "Explore the ECS map",
+  "crosslink_href": "../index.html",
+  "crosslink_alt": "The Equilibria figure with receptor points, from the ECS map.",
+  "crosslink_points": [
+    {
+      "x": 241,
+      "y": 40
+    },
+    {
+      "x": 212,
+      "y": 195
+    },
+    {
+      "x": 263,
+      "y": 205
+    },
+    {
+      "x": 218,
+      "y": 375
+    }
   ]
 }

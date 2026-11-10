@@ -270,80 +270,79 @@ Established
 LDN RX · HOW IT WORKS
 Same molecule. A very different idea.
 
-Standard naltrexone is a 50 mg daily tablet. Low-dose naltrexone, as studied, uses a small fraction of that. Here's why researchers think the size of the dose may change what it does, and what's still an open question.
+Low-dose naltrexone uses a sliver of the standard dose. Follow one dose through the body to see why researchers think the size changes what it does, and where the open questions are.
 
-Maybe a friend mentioned LDN, or you saw it in a forum thread. Then you looked it up and found a medicine best known at a much higher dose, for a very different purpose. Both of those things are true.
+SCROLL TO FOLLOW ONE DOSE
+1 · THE DOSE
+It starts as one small capsule
 
-LDN is naltrexone at doses studied around 1 to 5 mg a day, compared with the 50 mg tablet the FDA approved. Your clinician sets your strength. Researchers think a dose this small may act differently: a short, light touch on the same receptors. The leading theory is that your body responds to the touch.[1][2]
+LDN is naltrexone at doses studied around 1 to 5 mg a day. The FDA-approved tablet is 50 mg. No approved low-dose product exists, so a pharmacy compounds your capsules, and your clinician sets the strength.[1][2][3]
 
-A brief block, then a response
+Established
+Pending clinician review
+2 · WHERE IT ACTS
+It finds your opioid receptors
 
-Each lane follows one dose across a day. The plum band shows how long opioid receptors stay occupied. The gold dotted line is the leading theory of what your body does next.
+Naltrexone docks on opioid receptors in the brain and spinal cord, the same receptors your own endorphins use, and blocks them for a while.[2][4]
 
-Dose
-6 h
-12 h
-18 h
-24 h
-Standard
-50 mg
-Receptors occupied
-Low dose
-1 to 5 mg
-Brief block
-Your own signaling (theory)
+Established
+3 · WHY THE DOSE MATTERS
+At a low dose, the block is brief
 
-Illustration, not measured data. Band lengths show the idea, not exact hours, and the doses are the label dose and the studied range, not your dose. For scale: naltrexone itself has a half-life of about 4 hours, and its main active by-product about 13 hours.[2]
-
-Solid edge: naltrexone blocks opioid receptors. Established, from the FDA label.
-Dotted line: the rebound idea. A leading theory, mostly supported by animal research.
-Focus on
-Both
-Standard
-Low dose
-Move through the day
-
-Drag the slider to see what each dose is doing at that hour.
-
-Two theories, both still being tested
-
-Nobody has fully pinned down how LDN works. These are the two explanations researchers take most seriously, followed by an honest read of the human data.
-
-The rebound idea
-
-A brief block on opioid receptors may prompt your body to make more of its own endorphins and add more receptors. Over a full day, the net effect could be more of your own signaling, not less. Most of the support for this comes from animal and cell research.[3]
+A standard dose is meant to block around the clock. A low dose is a lighter touch, and researchers think its block lifts within hours. Naltrexone itself has a half-life of about 4 hours.[2][1]
 
 Leading theory
-The immune-cell idea
+Dose
+12 h
+Outer ring: the standard 50 mg dose keeps receptors blocked around the clock.
+Middle ring: a low dose blocks them for a few hours.
+Inner dots: the theorized rise in your own signaling once the block lifts.
 
-Separately from opioid receptors, naltrexone appears to quiet a receptor called TLR4 on microglia, the resident immune cells of the brain and spinal cord. In lab work, a mirror-image form of naltrexone that doesn't touch opioid receptors still blocked TLR4. Researchers note the data don't fit this explanation perfectly.[4]
+An illustration of the idea, not measured data. Doses shown are the label dose and the studied range, not your dose.
+
+4 · THE LEADING THEORY
+Then your body may answer
+
+Once the block lifts, the theory goes, your body makes more of its own endorphins and adds receptors. Over a day, that could mean more of your own signaling, not less. Most support for this comes from animal and cell research.[5]
+
+Leading theory
+5 · A SECOND IDEA
+Calmer immune cells, possibly
+
+Naltrexone also appears to quiet TLR4, a receptor on microglia, the resident immune cells of the brain and spinal cord. In lab work this didn't depend on opioid receptors at all. Researchers say the fit isn't perfect yet.[4]
 
 Lab and animal research
-What the human studies show so far
+6 · THE HONEST READ
+What the human studies say
 
-Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies, 15 of them randomized trials, found it was generally well tolerated but that the evidence lacks methodological strength. Early positive results from uncontrolled studies were rarely repeated in placebo-controlled trials. That's the honest state of the science, and it's why a clinician decides whether it's worth trying for you.[4][5]
+Most LDN studies in people have been small. A 2026 review of 105 studies found it generally well tolerated, but the evidence still lacks strength, and early results from uncontrolled studies rarely held up in placebo-controlled trials. That's why a clinician decides whether it's worth trying for you.[4][6]
 
 Early human studies
-How sure is this?
-
-Every claim on this page carries one of four line styles. The heavier the line, the stronger the evidence.
-
-Established. Large human trials, an FDA drug label, or settled biology.
-Early human studies. Small or early studies in people. Worth knowing, still being confirmed.
-Lab and animal research. Studies in cells or animals. Clues about how something might work in people.
-Leading theory. The best current explanation. Researchers are still testing it.
-What you might notice, and when
+ESTABLISHED
+Blocks opioid receptors
+Clears within hours
+EARLY HUMAN STUDIES
+Small human studies, mixed results
+LAB AND ANIMAL RESEARCH
+Quiets TLR4 on immune cells
+LEADING THEORY
+Endorphin rebound
+Brief block at low dose
+7 · DAY TO DAY
+What you might notice
 
 Every member is different. This is what studies have measured, not a promise.
 
+Early human studies
+Pending clinician review
 The first nights
 
-Some people notice vivid dreams or lighter sleep early on. In small studies these were mostly mild and passed.[6]
+Some people notice vivid dreams or lighter sleep early on. In small studies these were mostly mild and passed.[7]
 
 Early human studies Pending clinician review
 Weeks, not days
 
-Studies have followed LDN for 8 to 12 weeks. Your clinician will tell you when to check in on how it's going.[6][7]
+Studies have followed LDN for 8 to 12 weeks. Your clinician will tell you when to check in on how it's going.[7][8]
 
 Early human studies Pending clinician review
 Along the way
@@ -351,80 +350,35 @@ Along the way
 Your clinician may adjust your strength or the time of day you take it. Tell them about any sleep changes.
 
 No human data yet Pending clinician review
-How it gets in
-
-A capsule, compounded for you, on the schedule your clinician sets.
-
-You take one capsule a day, at the strength and time your clinician sets. Pending clinician review
-Naltrexone itself clears quickly, with a half-life of about 4 hours. Its main active by-product lasts about 13 hours.[2]
-No FDA-approved low-dose product exists, so a pharmacy compounds your capsules from naltrexone. This is an off-label use your clinician prescribes for you.[8]
-Before you start
-
-Your clinician screens for these during your intake. Read them anyway.
-
-Not for you if
-You take any opioid, including prescription pain medicine, methadone or buprenorphine. Naltrexone blocks opioids and can bring on withdrawal.[9]
-You have acute hepatitis or liver failure. The naltrexone label lists both as reasons not to use it.[10]
-What to watch
-Sleep changes or vivid dreams, especially in the first weeks.[6]
-Nausea, especially in the first few nights.[6]
-If you might need opioid pain relief, for example before a procedure, tell your clinician and care team that you take naltrexone.[9]
-Pending clinician review
-
-Your clinician screens for these during your intake and owns every dosing decision. Wellness Advocates can help with your account, orders and shipping, and will route any dosing or prescription question to your clinician.
-
-How your plan runs
-
-Your plan as it's set up today.
-
-SHIPS
-30 capsules every month
-CLINICIAN RE-CHECK
-Every 90 days
-REFILLS
-Reviewed before each refill
-Pending clinician review
 Curious whether LDN fits?
 Start your intake
 
 A licensed clinician reviews your health history and decides whether LDN is appropriate for you. If it's prescribed, they choose your strength.
 
-Sources
-Toljan K, Vrooman B. Low-Dose Naltrexone (LDN): Review of Therapeutic Utilization. Med Sci. 2018. Read the source
-Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h. Read the source
-Narrative review of low-dose naltrexone mechanisms (Research Inventy, 2016): proposed compensatory rise in endorphins and enkephalins after temporary receptor blockade. Read the source
-Younger J, Parkitny L, McLain D. Clin Rheumatol. 2014. Review of low-dose naltrexone mechanisms and human studies (description, not title). Read the source
-Gouda et al. Adv Ther. 2026. Review of 105 low-dose naltrexone studies, 15 of them randomized trials (description, not title; volume and pages to confirm). Read the source
-Younger J, Mackey S. Pain Med. 2009. Pilot study, n=10, 8 weeks (description, not title). Read the source
-Younger J, et al. Arthritis Rheum. 2013. Crossover trial, n=31 women, 12 weeks of LDN (description, not title). Read the source
-MDedge news coverage: no FDA-approved low-dose naltrexone product; LDN must be custom compounded. Read the source
-Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): contraindications, including opioid analgesics, opioid dependence and acute withdrawal. Read the source
-Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): hepatotoxicity warning; contraindicated in acute hepatitis or liver failure. Read the source
+ANOTHER SYSTEM WORTH KNOWING
+Your endocannabinoid system
+
+LDN works through one family of receptors. Your endocannabinoid system is another, woven through nearly all of you.
+
+Explore the ECS map →
+For your clinician conversation
+
+Who it isn't for, what to watch, how your plan runs, and every source behind this page.
+
 Educational content for Equilibria members. It isn't medical advice. LDN is an off-label use of naltrexone, compounded by a pharmacy and prescribed only after a clinician's review.
 
 --- Text inside visuals ---
+Brain
+Spinal cord
+Microglia
+Sleep and dreams
 Dose
-6 h
 12 h
-18 h
-24 h
-Standard
-50 mg
-Receptors occupied
-Low dose
-1 to 5 mg
-Brief block
-Your own signaling (theory)
 
 --- Image descriptions ---
-[image description] Two timelines over 24 hours. Standard-dose naltrexone occupies opioid receptors all day. Low-dose naltrexone occupies them briefly, then a dotted line rises to show the theorized increase in the body's own signaling.
-[image description] Figure showing an oral capsule route from the mouth to the gut, with opioid receptors in the brain and spinal cord.
-
---- Interactive states ---
-Hour 0. The dose is taken and naltrexone reaches opioid receptors.
-Early hours. Both doses occupy the receptors. The low dose is already fading.
-Midday. The standard dose is still blocking. The low-dose block has lifted, and the theory says your body has turned its own signaling up in response.
-Late day. Standard dose: still on duty. Low dose: the receptors are open, and any rebound in your own endorphins would be doing the work.
+[image description] Line drawing of a woman. Plum points mark opioid receptors in the brain and spinal cord. Gold dotted rings spread from them to show the theorized rise in the body's own signaling.
+[image description] Three rings over one day. The outer ring is fully plum: a standard dose blocks all day. The middle ring is plum for a quarter of the day: a low dose blocks briefly. Gold dots fill the rest of the inner ring: the theorized rebound.
+[image description] The Equilibria figure with receptor points, from the ECS map.
 
 
 ---

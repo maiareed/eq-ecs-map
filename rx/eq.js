@@ -581,6 +581,14 @@
     return s;
   };
 
+  /* ---------- internals shared with page variants (eq-story.js) ---------- */
+  EQ.setContext = function (sys, rec) { SYS = sys; CUR = rec; };
+  EQ.Notes = Notes;
+  EQ.svg = svg;
+  EQ.svgText = svgText;
+  EQ.plain = plain;
+  EQ.reduced = REDUCED;
+
   /* ---------- page assembly ---------- */
   function shell() {
     var app = document.getElementById('app');

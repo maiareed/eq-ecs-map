@@ -45,5 +45,8 @@
   "ui_theme_light": "Switch to light mode",
   "ui_footer": "Educational content for Equilibria members. It isn't medical advice, and it doesn't replace a conversation with your clinician.",
   "ui_no_data_label": "No human data yet",
-  "ui_internal_title": "Internal"
+  "ui_internal_title": "Internal",
+  "ui_tracker": "Stop {n} of {total}",
+  "ui_drawer_title": "For your clinician conversation",
+  "ui_drawer_sub": "Who it isn't for, what to watch, how your plan runs, and every source behind this page."
 }

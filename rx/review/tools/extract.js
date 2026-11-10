@@ -3,7 +3,7 @@
 // Usage: node tools/extract.js <baseUrl> <outDir>
 const { chromium } = require('playwright');
 const fs = require('fs');
-const base = process.argv[2] || 'http://localhost:8765/';
+const base = process.argv[2] || 'http://localhost:8766/rx/';
 const out = process.argv[3] || 'rendered';
 fs.mkdirSync(out, { recursive: true });
 (async () => {
