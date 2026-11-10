@@ -1,0 +1,261 @@
+{
+  "record_type": "rx_learn_explainer",
+  "slug": "nad",
+  "archetype": "cell_energy",
+  "page_title": "NAD+, explained | Equilibria",
+  "card_kicker": "Energy Spray Rx · NAD+",
+  "card_title": "The shuttle inside every cell",
+  "card_summary": "What NAD+ actually does, why levels draw attention after 40, and what we still don't know about a nasal spray.",
+  "kicker": "Energy Spray Rx · How it works",
+  "headline": "The molecule that keeps your cells' *power line* moving.",
+  "lede": "NAD+ isn't a peptide and it isn't a stimulant. It's a working part inside every cell, and research suggests you have less of it as you age. Here's what it does, what the evidence says, and where the real questions are.",
+  "dose_concentration": "300 mg/mL",
+  "dose_spray_pattern": "1 to 2 sprays once daily on weekdays, two months on and one month off",
+  "dose_pending_clinician": true,
+  "recognition": "The second coffee used to be optional. A hard week used to take a weekend to shake off, not the whole next week. When energy shifts like that, it's natural to wonder what's changing underneath.",
+  "reframe": "NAD+ is a molecule your cells use to turn food into usable energy. Researchers are interested in it for two reasons: levels appear to fall with age, and it's now possible to raise them. Whether raising them changes how you feel day to day is still the open question.",
+  "reframe_source_ids": [
+    "s_covarrubias_2021",
+    "s_massudi_2012",
+    "s_natmetab_2025"
+  ],
+  "viz_role": "shuttle",
+  "viz_title": "Inside the power plant",
+  "viz_intro": "Mitochondria turn the food you eat into energy your cells can spend. NAD+ is the shuttle that keeps that line moving.",
+  "viz_alt": "A mitochondrion with gold dots circling inside it. On the left, NAD+ picks up electrons from broken-down food. On the right, it drops them off to make cellular energy, then loops back.",
+  "viz_organelle_label": "One mitochondrion",
+  "viz_molecule_label": "Gold dots: NAD+ on its loop",
+  "viz_path_tier": "t1",
+  "viz_particles": 6,
+  "viz_nodes": [
+    {
+      "x": 240,
+      "y": 170,
+      "node_label": "Picks up",
+      "label_dy": -26,
+      "tier": "t1",
+      "source_ids": [
+        "s_covarrubias_2021"
+      ],
+      "node_detail": "As your cells break down sugar and fat, NAD+ collects electrons and becomes NADH. Think of it as a delivery truck being loaded."
+    },
+    {
+      "x": 480,
+      "y": 170,
+      "node_label": "Drops off",
+      "label_dy": -26,
+      "tier": "t1",
+      "source_ids": [
+        "s_covarrubias_2021"
+      ],
+      "node_detail": "NADH hands those electrons to the mitochondria's energy chain, which makes ATP, the energy every cell spends. Then it's NAD+ again and ready for another trip."
+    },
+    {
+      "x": 360,
+      "y": 100,
+      "node_label": "Also spent on upkeep",
+      "label_dy": 36,
+      "tier": "t1",
+      "source_ids": [
+        "s_covarrubias_2021"
+      ],
+      "node_detail": "Other enzymes, including sirtuins, PARPs and CD38, use NAD+ up for jobs like DNA maintenance. Your cells have to keep rebuilding their supply."
+    }
+  ],
+  "viz_caption": "Simplified. Your cells run this loop constantly, in every mitochondrion.",
+  "viz_tap_hint": "Tap a plum dot for detail.",
+  "gauge_title": "NAD+ in human skin, younger vs. older",
+  "gauge_tier": "t2",
+  "gauge_default_index": 1,
+  "gauge_states": [
+    {
+      "state_label": "Younger",
+      "level_pct": 88,
+      "state_note": "Skin samples from younger people had higher NAD+."
+    },
+    {
+      "state_label": "Older",
+      "level_pct": 52,
+      "state_note": "Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, so read it as a strong clue rather than the final word."
+    }
+  ],
+  "gauge_scale_note": "Bars show direction, not measured amounts.",
+  "gauge_source_ids": [
+    "s_massudi_2012"
+  ],
+  "mechanism_title": "What we know, and what we don't",
+  "mechanism_intro": "Four ideas, each with a different level of certainty.",
+  "mechanism_steps": [
+    {
+      "step_title": "It's a shuttle, not a stimulant",
+      "step_body": "NAD+ carries electrons from the food you break down to the machinery that makes cellular energy. It's part of the basic equipment in every cell, the way a delivery truck is part of a supply chain.",
+      "tier": "t1",
+      "source_ids": [
+        "s_covarrubias_2021"
+      ]
+    },
+    {
+      "step_title": "Levels appear to drop with age",
+      "step_body": "In skin samples from 49 people aged from newborn to 77, NAD+ was lower in older skin, in women and men. Only a handful of human studies have measured this directly.",
+      "tier": "t2",
+      "source_ids": [
+        "s_massudi_2012",
+        "s_natmetab_2025"
+      ]
+    },
+    {
+      "step_title": "One reason it might drop",
+      "step_body": "In mice, an enzyme called CD38 that uses up NAD+ rises with age and accounts for much of the decline. Whether the same holds in people is still being worked out.",
+      "tier": "t3",
+      "source_ids": [
+        "s_camacho_2016"
+      ]
+    },
+    {
+      "step_title": "Raising it is possible. Feeling different is the open question.",
+      "step_body": "Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found the effects people actually experience have been limited so far.",
+      "tier": "t2",
+      "source_ids": [
+        "s_trammell_2016",
+        "s_martens_2018",
+        "s_natmetab_2025"
+      ]
+    }
+  ],
+  "notice_intro": "There's less human data here than for most of what we offer. This is what's known, stated plainly.",
+  "notice_items": [
+    {
+      "when_label": "The first weeks",
+      "tier": "t2",
+      "pending_clinician": true,
+      "source_ids": [
+        "s_martens_2018"
+      ],
+      "notice_text": "Human studies of NAD+ building blocks ran for weeks, for example 6 weeks in one trial of 30 adults. If you notice a change, expect it to be gradual."
+    },
+    {
+      "when_label": "Throughout",
+      "tier": "t3",
+      "pending_clinician": true,
+      "source_ids": [
+        "s_ying_2007"
+      ],
+      "notice_text": "Nasal NAD+ hasn't been studied in people yet, so what you notice is real information. Tell your clinician about anything new, including nasal discomfort, headache or sleep changes."
+    }
+  ],
+  "route_intro": "A nasal spray, on a schedule your clinician sets.",
+  "route_figure_label": "Figure showing a nasal spray route from the nose, with a dotted path to the brain.",
+  "route_points": [
+    {
+      "x": 241,
+      "y": 76,
+      "point_label": "Sprayed into the nose"
+    },
+    {
+      "x": 241,
+      "y": 40,
+      "point_label": "Animal studies: reached the brain"
+    }
+  ],
+  "route_steps": [
+    {
+      "route_text": "Draft plan: {{dose_spray_pattern}}.",
+      "pending_clinician": true
+    },
+    {
+      "route_text": "Each bottle holds {{dose_concentration}} NAD+ in a water-based spray. Use it within about 35 days of opening.",
+      "pending_clinician": true
+    },
+    {
+      "route_text": "There are no published human studies of nasal NAD+ yet. In rat studies, NAD+ given through the nose raised NAD+ levels in the brain.",
+      "tier": "t3",
+      "source_ids": [
+        "s_ying_2007"
+      ]
+    }
+  ],
+  "cautions_intro": "Your clinician screens your health history and medications during intake. Here's what the evidence can and can't tell you so far.",
+  "not_for_you_if": [
+    {
+      "item_text": "Your clinician will set this list with you. Published human data for nasal NAD+ don't yet define who should avoid it.",
+      "source_ids": [
+        "s_ying_2007"
+      ]
+    }
+  ],
+  "what_to_watch": [
+    {
+      "item_text": "When NAD+ is given by IV drip too quickly, people have reported cramping, nausea, chest pressure and a racing heart, which stopped once the drip ended. Nasal sprays haven't been studied this way, so report anything similar.",
+      "source_ids": [
+        "s_iv_2026"
+      ]
+    },
+    {
+      "item_text": "Any nasal irritation, headache or change in sleep after you start."
+    }
+  ],
+  "cadence_intro": "Your plan as it's set up today.",
+  "cadence_ships": "One bottle a month, skipped in off months",
+  "cadence_recheck": "Every 90 days",
+  "cadence_refills": "Reviewed before each refill",
+  "cadence_pending": true,
+  "cta_title": "Want to explore NAD+ with a clinician?",
+  "cta_label": "Start your intake",
+  "cta_href": "https://shop.myeq.com/pages/rx-alpha",
+  "cta_note": "A licensed clinician reviews your health history and decides whether Energy Spray Rx is appropriate for you. It's compounded by a pharmacy and isn't an FDA-approved product.",
+  "footer_note": "Educational content for Equilibria members. It isn't medical advice. Energy Spray Rx is a compounded preparation prescribed only after a clinician's review.",
+  "sources": [
+    {
+      "source_id": "s_covarrubias_2021",
+      "citation": "Covarrubias AJ, et al. NAD+ metabolism and its roles in cellular processes during ageing. Nat Rev Mol Cell Biol. 2021.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33353981/",
+      "source_type": "review"
+    },
+    {
+      "source_id": "s_massudi_2012",
+      "citation": "Massudi H, et al. Age-associated changes in oxidative stress and NAD+ metabolism in human tissue. PLoS One. 2012;7:e42357.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3407129/",
+      "source_type": "observational"
+    },
+    {
+      "source_id": "s_camacho_2016",
+      "citation": "Camacho-Pereira J, et al. CD38 dictates age-related NAD decline and mitochondrial dysfunction through an SIRT3-dependent mechanism. Cell Metab. 2016.",
+      "url": "https://www.cell.com/cell-metabolism/fulltext/S1550-4131(16)30244-3",
+      "source_type": "animal"
+    },
+    {
+      "source_id": "s_trammell_2016",
+      "citation": "Trammell SAJ, et al. Nicotinamide riboside is uniquely and orally bioavailable in mice and humans. Nat Commun. 2016;7:12948.",
+      "url": "https://www.nature.com/articles/ncomms12948",
+      "source_type": "RCT"
+    },
+    {
+      "source_id": "s_martens_2018",
+      "citation": "Martens CR, et al. Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD+ in healthy middle-aged and older adults (n=30, 6 weeks). Nat Commun. 2018;9:1286.",
+      "url": "https://www.nature.com/articles/s41467-018-03421-7",
+      "source_type": "RCT"
+    },
+    {
+      "source_id": "s_natmetab_2025",
+      "citation": "NAD+ precursor supplementation in human ageing: clinical evidence and challenges. Nat Metab. 2025;7:1974-1990.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41083806/",
+      "source_type": "review"
+    },
+    {
+      "source_id": "s_ying_2007",
+      "citation": "Ying W, et al. Rat study of NAD+ given through the nose: brain NAD+ levels rose. Front Biosci. 2007;12:2728-34.",
+      "url": "https://www.imrpress.com/journal/fbl/12/7/10.2741/2267",
+      "source_type": "animal"
+    },
+    {
+      "source_id": "s_iv_2026",
+      "citation": "Intravenous infusion of NAD+ versus NR: a retrospective tolerability pilot study in a real-world setting. Front Aging. 2026.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12907335/",
+      "source_type": "observational"
+    }
+  ],
+  "lede_source_ids": [
+    "s_covarrubias_2021",
+    "s_massudi_2012"
+  ]
+}

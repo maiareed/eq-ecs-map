@@ -1,0 +1,144 @@
+[
+  {
+    "id": "L1",
+    "claim": "Oral naltrexone hydrochloride, the FDA-approved product, comes as 50 mg tablets, and 50 mg once daily is the dosing used in the label's clinical studies. The label's own Dosage and Administration sentence could not be quoted directly.",
+    "quote": "104 alcohol-dependent patients were randomized to receive either naltrexone hydrochloride 50 mg once daily or placebo.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f256d4f-4509-87c7-e053-2a91aa0a79ef",
+    "secondary_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/018932s017lbl.pdf",
+    "source_type": "label",
+    "tier": "T1",
+    "status": "PARTIALLY_VERIFIED",
+    "notes": "The quote comes from a search snippet of the DailyMed label. DailyMed could not be fetched from this session. The 50 mg strength appears in the REVIA label title ('REVIA (naltrexone hydrochloride tablets USP) 50 mg'). Confirm the Dosage and Administration wording when DailyMed or accessdata can be reached."
+  },
+  {
+    "id": "L2",
+    "claim": "Naltrexone is a pure opioid receptor antagonist. It blocks the effects of opioids by competitive binding at opioid receptors. The label snippets say 'opioid receptors'. The mu-opioid receptor is named explicitly in the Younger 2014 review.",
+    "quote": "Label: 'blocks the effects of opioids by competitive binding at opioid receptors.' Younger 2014: 'In addition to the antagonist effect on mu-opioid and other opioid receptors...'",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f256d4f-4509-87c7-e053-2a91aa0a79ef",
+    "secondary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/",
+    "source_type": "label",
+    "tier": "T1",
+    "status": "VERIFIED",
+    "notes": "Both quotes come from search snippets. Neither page could be fetched directly."
+  },
+  {
+    "id": "L3",
+    "claim": "Mean elimination half-life is 4 hours for naltrexone and 13 hours for its major active metabolite 6-beta-naltrexol. Canadian monograph: 4 h and 12.9 h.",
+    "quote": "mean elimination half-life ... of 4 hours and 13 hours, respectively for naltrexone and 6-β-naltrexol",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f256d4f-4509-87c7-e053-2a91aa0a79ef",
+    "secondary_url": "https://pdf.hres.ca/dpd_pm/00031667.PDF",
+    "source_type": "label",
+    "tier": "T1",
+    "status": "VERIFIED",
+    "notes": "The label also says activity 'is believed to be due to both parent and the 6-β-naltrexol metabolite.' The quote comes from a search snippet."
+  },
+  {
+    "id": "L4",
+    "claim": "Toljan & Vrooman 2018 define LDN as a daily dose of 1 to 5 mg. 4.5 mg/day is the dose used in the key fibromyalgia trials (Younger 2009, 2013).",
+    "quote": "Low-dose naltrexone (LDN), considered in a daily dose of 1 to 5 mg, has been shown to reduce glial inflammatory response",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6313374/",
+    "secondary_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/art.37734",
+    "source_type": "review",
+    "tier": "T2",
+    "status": "VERIFIED",
+    "notes": "The 4.5 mg figure is confirmed from the trial descriptions (2013 trial: '4.5 mg/day of naltrexone'). No review sentence calling 4.5 mg 'most common' was captured. The 2026 Gouda review searched doses of 12.5 mg or less."
+  },
+  {
+    "id": "L5",
+    "claim": "Hypothesis: a brief opioid-receptor blockade from LDN may cause a compensatory rise in endogenous opioids (beta-endorphin, met-enkephalin/opioid growth factor) and higher opioid-receptor expression. This is a theory, not established in controlled human trials.",
+    "quote": "LDN possibly increase opioid receptors expression, as well as enkephalins and endorphins levels by a compensatory mechanism due to temporary blocking of these receptors",
+    "source_url": "https://repositorio.ufc.br/ri/bitstream/riufc/19251/1/2016_art_fcmoura.pdf",
+    "secondary_url": "https://openaccess.sgul.ac.uk/114135/1/Naltrexone%20at%20low%20doses%20LDN%20and%20its%20relevance%20to%20cancer%20therapy.pdf",
+    "source_type": "review",
+    "tier": "T4",
+    "status": "VERIFIED",
+    "notes": "The source is a 2016 narrative review (Research Inventy) and is lower quality. Toljan & Vrooman 2018 (PMC6313374) covers the same rebound/OGF mechanism, but its wording could not be fetched. Most of the supporting OGF/OGFr data comes from animal and cell studies."
+  },
+  {
+    "id": "L6",
+    "claim": "Hypothesis: LDN may act as a central anti-inflammatory through microglia by antagonizing TLR4, independent of opioid receptors. In vitro, (+)-naltrexone, the non-opioid isomer, inhibited TLR4 signaling about as strongly as the (+)-naloxone comparator. Younger 2014 notes the data do not perfectly fit a TLR4 hypothesis.",
+    "quote": "naltrexone simultaneously has an antagonist effect on non-opioid receptors (Toll-like receptor 4 or TLR4) that are found on macrophages such as microglia",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/",
+    "secondary_url": "https://onlinelibrary.wiley.com/doi/10.1111/bph.13394",
+    "source_type": "review",
+    "tier": "T3",
+    "status": "VERIFIED",
+    "notes": "Wang et al. 2016 Br J Pharmacol: '(+)-Naltrexone and (+)-naloxone were equi-potent inhibitors of the LPS-induced TLR4 downstream signalling.' The secondary_url is the expected Wiley DOI for that paper but was not confirmed. The mechanism evidence is lab and animal work, so tier T3, with the theory itself at T4. The July 2026 correction to the Gouda review says some key mechanistic studies for ultra-low-dose naltrexone were retracted."
+  },
+  {
+    "id": "L7",
+    "claim": "The human evidence for LDN is mostly small, early-phase or uncontrolled studies, with few replications. Larger well-designed RCTs are needed. The 2026 review reports that early positive chronic-pain findings were not reproduced in larger, more recent trials.",
+    "quote": "Published trials have low sample sizes, and few replications have been performed.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/",
+    "secondary_url": "https://pubmed.ncbi.nlm.nih.gov/42060160/",
+    "source_type": "review",
+    "tier": "T2",
+    "status": "VERIFIED",
+    "notes": "Gouda et al. 2026 (Adv Ther 43:2852-2870) reviewed 105 studies, 15 of them RCTs. It calls LDN 'a low-risk but unproven therapy' and asks for 'larger, well-designed RCTs.' Toljan & Vrooman 2018 say most studies 'would get excluded with specific systematic criteria.' Revise 'large trials are lacking': some larger RCTs now exist and were negative or did not replicate."
+  },
+  {
+    "id": "L8",
+    "claim": "Reported side effects at low dose are mostly mild and transient. The most common are insomnia/sleep disturbance and vivid dreams. Nausea and dizziness are also reported. Headache appears in clinic and patient materials but was not confirmed in the primary trial abstracts found.",
+    "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
+    "secondary_url": "https://link.springer.com/article/10.1007/s12325-026-03612-5",
+    "source_type": "RCT",
+    "tier": "T2",
+    "status": "PARTIALLY_VERIFIED",
+    "notes": "The quote is from Younger & Mackey 2009, a single-blind pilot with n=10. Gouda 2026 lists insomnia, vivid dreams, nausea and dizziness. Headache is UNVERIFIED in a primary or peer-reviewed source and appears only in a BC Women's clinic sheet (https://www.bcwomens.ca/Specialized-Services-Site/Documents/Complex%20Chronic%20Diseases%20(CCDP)/Naltrexone_27Jan2025.pdf). Younger 2014 notes placebo recipients also report vivid dreams."
+  },
+  {
+    "id": "L9",
+    "claim": "The naltrexone label contraindicates use in patients receiving opioid analgesics, patients currently dependent on opioids (including those on methadone or buprenorphine), and patients in acute opioid withdrawal. Naltrexone blocks opioid effects and can precipitate withdrawal in opioid-dependent patients.",
+    "quote": "contraindicated in: patients receiving opioid analgesics; patients currently dependent on opioids, including those maintained on opiate agonists [e.g., methadone] or partial agonists [e.g., buprenorphine]; patients in acute opioid withdrawal",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adb7c4dc-221a-4d91-9687-0d78913a92ad",
+    "source_type": "label",
+    "tier": "T1",
+    "status": "VERIFIED",
+    "notes": "The quote is condensed from a search summary of the DailyMed Contraindications section and is not a direct page fetch. Check the exact punctuation before publishing it verbatim. The claim applies to the drug at any dose, but the label tested 50 mg."
+  },
+  {
+    "id": "L10",
+    "claim": "Current naltrexone tablet labels have no hepatotoxicity boxed warning; a protocol document reports FDA removed it in July 2013. They warn that naltrexone can cause hepatocellular injury when given in excessive doses and contraindicate it in acute hepatitis or liver failure.",
+    "quote": "Naltrexone hydrochloride has the capacity to cause hepatocellular injury when given in excessive doses.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3c7da2bc-e2c1-48f6-8c3f-287119b427e2",
+    "secondary_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT04056182/Prot_SAP_000.pdf",
+    "source_type": "label",
+    "tier": "T1",
+    "status": "PARTIALLY_VERIFIED",
+    "notes": "The search tool summarized the current DailyMed wording as 'can injure liver cells at excessive doses.' The quote above is the expected label sentence but could not be confirmed character for character. Boxed-warning removal in 2013 comes from a ClinicalTrials.gov protocol, not from FDA directly. Older labels (e.g. accessdata 2010) had a boxed warning. Check the current label before stating this."
+  },
+  {
+    "id": "L11",
+    "claim": "There is no FDA-approved low-dose naltrexone product. LDN is off-label use of naltrexone and must be custom compounded, typically from 50 mg tablets or bulk powder.",
+    "quote": "LDN is not approved by the Food and Drug Administration and must be custom compounded",
+    "source_url": "https://www.mdedge.com/content/label-low-dose-naltrexone-reduced-fibromyalgia-pain",
+    "secondary_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT04313972/Prot_SAP_000.pdf",
+    "source_type": "review",
+    "tier": "T1",
+    "status": "VERIFIED",
+    "notes": "The source is news coverage of the Younger 2013 trial, not a peer-reviewed review, so the source_type is approximate. The tier reflects regulatory fact rather than efficacy. A trial protocol (NCT04313972) gives compounding guidance (avoid calcium carbonate filler). Toljan & Vrooman 2018 likely makes the same point, but this could not be fetched."
+  },
+  {
+    "id": "L12",
+    "claim": "Effects in trials are measured over weeks. In Younger & Mackey 2009 (pilot, n=10), drug was given for 8 weeks after a 2-week placebo phase. In Younger 2013 (crossover RCT, n=31 women), it was 12 weeks of LDN versus 4 weeks of placebo.",
+    "quote": "baseline (2 weeks), placebo (2 weeks), drug (8 weeks), and washout (2 weeks)",
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
+    "secondary_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/art.37734",
+    "source_type": "RCT",
+    "tier": "T2",
+    "status": "VERIFIED",
+    "notes": "The 2013 durations ('12 weeks of naltrexone or 4 weeks of placebo', n=31) come from secondary coverage and abstract snippets. Confirm them against the full paper. No review sentence about typical durations across all LDN trials was captured."
+  },
+  {
+    "id": "L13",
+    "claim": "Guidance on dose timing is mixed. The Younger 2013 fibromyalgia trial dosed about 1 hour before bedtime. Later clinical protocols and clinic guidance suggest switching to morning dosing if vivid dreams or insomnia occur.",
+    "quote": "Patients took naltrexone daily ... approximately 1 hour before bedtime",
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/art.37734",
+    "secondary_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT04313972/Prot_SAP_000.pdf",
+    "source_type": "RCT",
+    "tier": "T2",
+    "status": "VERIFIED",
+    "notes": "The NCT04313972 protocol says sleep-related effects can be eased by moving the dose from bedtime to morning. The BC Women's CCDP sheet also advises morning dosing if dreams or sleep problems occur. No comparative trial of bedtime versus morning dosing was found."
+  }
+]

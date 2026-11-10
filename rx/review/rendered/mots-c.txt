@@ -1,0 +1,146 @@
+Template test. Internal only.
+MOTS-C RX · HOW IT WORKS
+A message your mitochondria send out.
+
+Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide your mitochondria make that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.
+
+You've kept moving and you still notice it: workouts land differently than they did, and your body seems to respond to effort on a slower clock.
+
+MOTS-c gets attention because exercise appears to raise it, and because in animals it acts on the same energy-sensing switch that exercise flips. Whether giving it to people does anything comparable hasn't been tested in a published trial.[1][2][3]
+
+Made inside, sent outside
+
+MOTS-c is coded in your mitochondria's own DNA. It leaves the mitochondrion and, in lab studies, switches on an energy sensor in the cell.
+
+1
+2
+Gold dots: MOTS-c on the move
+One mitochondrion
+Energy sensor (AMPK)
+1
+Made here
+2
+Acts here
+
+Simplified, and based on lab and animal research. Tap a plum dot for detail.
+
+Muscle MOTS-c, before and after one workout
+At rest
+After
+
+Roughly to scale for muscle. A small study in men only.[1]
+
+Early human studies
+At rest
+After
+
+In 10 young men after one cycling session, muscle MOTS-c rose about 12-fold. Blood levels rose about 1.5-fold.
+
+What we know, and what we don't
+
+Most rungs here sit low on the evidence ladder.
+
+It's coded in your mitochondria
+
+Your mitochondria carry their own small set of DNA. MOTS-c is one of the few peptides made from it.[2]
+
+Established
+In animals, it acts on an energy switch
+
+In mice, MOTS-c switched on AMPK and changed how the body used sugar and fat.[2]
+
+Lab and animal research
+Exercise appears to raise it
+
+In one small study of young men, a single workout raised MOTS-c in muscle and, more modestly, in blood.[1]
+
+Early human studies
+Age findings are mixed
+
+In men, blood MOTS-c was lower with age while muscle MOTS-c was higher. There isn't a clean story here yet.[4]
+
+Early human studies
+No published human trials of MOTS-c itself
+
+A modified version was tested in a small early trial, with results shared only in a company press release.[3]
+
+Early human studies
+How sure is this?
+
+Every claim on this page carries one of four line styles. The heavier the line, the stronger the evidence.
+
+Established. Large human trials, an FDA drug label, or settled biology.
+Early human studies. Small or early studies in people. Worth knowing, still being confirmed.
+Lab and animal research. Studies in cells or animals. Clues about how something might work in people.
+Leading theory. The best current explanation. Researchers are still testing it.
+What you might notice, and when
+
+To be written with our clinicians once directions are set.
+
+To be set
+
+No published human studies describe what people notice on MOTS-c. Your clinician will set expectations with you.[3]
+
+Early human studies Pending clinician review
+How it gets in
+
+An injection under the skin, in cycles.
+
+Each vial holds 2 mg/mL MOTS-c. Draft plan: two months on, one month off. Pending clinician review
+Your clinician sets the dose within each cycle. Pending clinician review
+Before you start
+
+To be drafted with our clinicians.
+
+Not for you if
+Your clinician will set this list with you. No published human trials define it yet.[3]
+What to watch
+Anything new after you start, including changes at the injection site.
+Pending clinician review
+
+Your clinician screens for these during your intake and owns every dosing decision. Wellness Advocates can help with your account, orders and shipping, and will route any dosing or prescription question to your clinician.
+
+How your plan runs
+SHIPS
+One vial a month, two months on and one off
+CLINICIAN RE-CHECK
+Every 90 days, and at each new cycle
+REFILLS
+Reviewed before each refill
+Pending clinician review
+Template test
+Back to Learn
+
+This page exists to check that a new Rx renders from a content record alone. It isn't for members.
+
+Sources
+Reynolds JC, et al. MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis. Nat Commun. 2021;12:470. Read the source
+Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454. Read the source
+CohBar press release (Aug 10, 2021): topline Phase 1a/1b results for CB4211, a modified MOTS-c analog. No peer-reviewed publication. Read the source
+D'Souza RF, et al. Increased expression of MOTS-c in skeletal muscle of healthy aging men. Aging (Albany NY). 2020;12:5244. Read the source
+Educational content for Equilibria members. It isn't medical advice, and it doesn't replace a conversation with your clinician.
+
+--- Text inside visuals ---
+1
+2
+
+--- Image descriptions ---
+[image description] A mitochondrion on the left sends gold dots along a dotted path to a cell nucleus on the right, showing MOTS-c traveling as a signal.
+[image description] Figure showing an injection site on the abdomen.
+
+--- Tap-to-open details ---
+Made here
+
+MOTS-c is coded by a short stretch of mitochondrial DNA inside a gene called 12S. It's 16 amino acids long.[2]
+
+Established
+
+Acts here
+
+In cells and mice, MOTS-c switched on AMPK, an energy sensor, and cells used more sugar and fat. Under stress it moved into the nucleus.[2]
+
+Lab and animal research
+
+--- Interactive states ---
+Baseline levels in muscle before exercise.
+In 10 young men after one cycling session, muscle MOTS-c rose about 12-fold. Blood levels rose about 1.5-fold.

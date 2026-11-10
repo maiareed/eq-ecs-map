@@ -1,0 +1,1881 @@
+[
+  {
+    "id": "peptides-01",
+    "treatment": "peptides",
+    "location": "lede",
+    "text": "A peptide is a short chain of amino acids, the same building blocks that make up proteins. The difference is length. Here's how the molecules you'll see at Equilibria compare, bead for bead.",
+    "tier": "untiered framing copy",
+    "source_id": "s_fda_protein_2020",
+    "source_citation": "FDA final rule, Definition of the Term \"Biological Product\", 85 FR 10057 (Feb 21, 2020): a protein is an alpha amino acid polymer with a defined sequence greater than 40 amino acids.",
+    "source_url": "https://www.govinfo.gov/content/pkg/FR-2020-02-21/html/2020-03505.htm",
+    "source_type": "regulation",
+    "research_quotes": [
+      {
+        "research_id": "A10",
+        "quote": "the term protein as any alpha amino acid polymer with a specific, defined sequence that is greater than 40 amino acids in size",
+        "research_status": "VERIFIED. Wording note: the rule defines 'protein' (>40 aa) and treats peptides as ≤40 aa. Present the 'peptide = 40 or fewer' line as following from the protein definition, not as a separately codified peptide definition. Confirm the exact 21 CFR 600.3 text before quoting it in compliance material."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-02",
+    "treatment": "peptides",
+    "location": "reframe",
+    "text": "Size is the simplest way in. Each bead below is one amino acid. Count the beads and you know what kind of molecule you're dealing with. You'll also see why the word peptide on its own tells you so little.",
+    "tier": "untiered framing copy",
+    "source_url": null,
+    "source_type": null,
+    "status": "no_source: instruction or framing, not a factual claim"
+  },
+  {
+    "id": "peptides-03",
+    "treatment": "peptides",
+    "location": "viz_caption",
+    "text": "Plum beads: in an Equilibria Rx formula. Gold beads: shown for scale. Tap any row for detail.",
+    "tier": "untiered framing copy",
+    "source_url": null,
+    "source_type": null,
+    "status": "no_source: instruction or framing, not a factual claim"
+  },
+  {
+    "id": "peptides-04",
+    "treatment": "peptides",
+    "location": "viz_intro",
+    "text": "One bead is one amino acid, and each full line holds 40. That's the FDA's cutoff: a chain longer than 40 counts as a protein.",
+    "tier": "Established",
+    "source_id": "s_fda_protein_2020",
+    "source_citation": "FDA final rule, Definition of the Term \"Biological Product\", 85 FR 10057 (Feb 21, 2020): a protein is an alpha amino acid polymer with a defined sequence greater than 40 amino acids.",
+    "source_url": "https://www.govinfo.gov/content/pkg/FR-2020-02-21/html/2020-03505.htm",
+    "source_type": "regulation",
+    "research_quotes": [
+      {
+        "research_id": "A10",
+        "quote": "the term protein as any alpha amino acid polymer with a specific, defined sequence that is greater than 40 amino acids in size",
+        "research_status": "VERIFIED. Wording note: the rule defines 'protein' (>40 aa) and treats peptides as ≤40 aa. Present the 'peptide = 40 or fewer' line as following from the protein definition, not as a separately codified peptide definition. Confirm the exact 21 CFR 600.3 text before quoting it in compliance material."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-05",
+    "treatment": "peptides",
+    "location": "scale_rows[0]",
+    "text": "KPV: 3 beads. A three-bead fragment from the end of a longer hormone called alpha-MSH.",
+    "tier": "Established",
+    "source_id": "s_kpv",
+    "source_citation": "KPV (Lys-Pro-Val), the C-terminal tripeptide of alpha-MSH (PMC2431115).",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2431115/",
+    "source_type": "reference_database",
+    "research_quotes": [
+      {
+        "research_id": "A1",
+        "quote": "the minimum sequence required for anti-inflammatory activity of α-MSH is the C-terminal tripeptide",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-06",
+    "treatment": "peptides",
+    "location": "scale_rows[1]",
+    "text": "GHK: 3 beads. The peptide in GHK-Cu. Three beads paired with copper. It was first isolated from human plasma in 1973. You'll find GHK-Cu in Radiance Cream Rx and Copper Glow Cream Rx.",
+    "tier": "Established",
+    "source_id": "s_ghk",
+    "source_citation": "Pickart L. GHK (glycyl-histidyl-lysine) and its copper complex (PMC3359723).",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3359723/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "A2",
+        "quote": "GHK is a tripeptide composed of glycine, L-histidine, and L-lysine. The peptide exhibits a high affinity for copper (II), forming the bioactive complex GHK-Cu",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-07",
+    "treatment": "peptides",
+    "location": "scale_rows[2]",
+    "text": "PT-141: 7 beads. Also called bremelanotide. Seven beads closed into a ring, including two building blocks you won't find in everyday proteins. Part of Intimacy Melt Rx.",
+    "tier": "Established",
+    "source_id": "s_pt141",
+    "source_citation": "Bremelanotide prescribing information: cyclic 7-residue alpha-MSH analog.",
+    "source_url": "https://www.rxlist.com/vyleesi-drug.htm",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "A4",
+        "quote": "Ac-Nle-cyclo-(Asp-His-D-Phe-Arg-Trp-Lys-OH)",
+        "research_status": "VERIFIED (better to swap the URL for the FDA label / DailyMed; FDA hosts were not reachable here). Caveat: it is called a 7-'amino acid' peptide even though Nle and D-Phe are non-standard."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-08",
+    "treatment": "peptides",
+    "location": "scale_rows[3]",
+    "text": "Oxytocin: 9 beads. Nine beads, with a small ring formed by two linked building blocks. Part of Intimacy Melt Rx.",
+    "tier": "Established",
+    "source_id": "s_oxytocin",
+    "source_citation": "Oxytocin structure: nonapeptide with a Cys1-Cys6 disulfide ring (PMC2689929).",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2689929/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "A3",
+        "quote": "Cysteine residues form a disulfide bond to create a cyclic six amino acid ring for both neuropeptides.",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-09",
+    "treatment": "peptides",
+    "location": "scale_rows[4]",
+    "text": "BPC-157: 15 beads. A lab-made chain of fifteen, described as derived from a protein in gastric juice. In Gut Peptides Rx and Wolverine Recovery Rx.",
+    "tier": "Established",
+    "source_id": "s_bpc",
+    "source_citation": "BPC-157 as an investigational peptide: synthetic 15-amino-acid peptide derived from a gastric juice protein (PMC13210877).",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13210877/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "A5",
+        "quote": "synthetic pentadecapeptide derived from a gastric protein fragment",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-10",
+    "treatment": "peptides",
+    "location": "scale_rows[5]",
+    "text": "MOTS-c: 16 beads. Sixteen beads, coded in the DNA of your mitochondria rather than the cell's nucleus.",
+    "tier": "Established",
+    "source_id": "s_lee_2015",
+    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
+    "source_type": "animal",
+    "research_quotes": [
+      {
+        "research_id": "M1",
+        "quote": "MOTSC is encoded as a 51-bp short open reading frame (sORF) in the mitochondrial 12S rRNA",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "M2",
+        "quote": "increased glucose utilization and fatty acid oxidation, decreased oxidative phosphorylation, increased endogenous AICAR levels, and AMPK activation",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "A6",
+        "quote": "MOTS-c ... a 16-amino-acid peptide encoded in the mitochondrial genome",
+        "research_status": "VERIFIED (count); sequence string not verified, so omit it from the graphic or check it"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-11",
+    "treatment": "peptides",
+    "location": "scale_rows[6]",
+    "text": "Tirzepatide: 39 beads. Thirty-nine beads, one short of the FDA's protein line. The active ingredient in our GLP/GIP Rx options.",
+    "tier": "Established",
+    "source_id": "s_tirzepatide",
+    "source_citation": "Tirzepatide prescribing information, Description: 39-amino-acid linear peptide.",
+    "source_url": "https://globalrph.com/rx-list/mounjaro-drug/",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "A7",
+        "quote": "39 amino acids ... molecular weight of about 4813.53 Da and the formula C225H348N48O68",
+        "research_status": "VERIFIED (count); fatty-diacid detail UNVERIFIED. Note: 39 is under FDA's 40-aa protein threshold, so it regulates as a peptide/drug."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-12",
+    "treatment": "peptides",
+    "location": "scale_rows[7]",
+    "text": "Insulin: 51 beads. Two chains of 21 and 30 beads, counted together. That puts insulin over the line, so the FDA regulates it as a protein. Shown for scale.",
+    "tier": "Established",
+    "source_id": "s_insulin",
+    "source_citation": "Insulin structure: A chain 21 and B chain 30 amino acids (NCBI Bookshelf NBK278938).",
+    "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK278938/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "A8",
+        "quote": "The insulin molecule consists of 51 amino acids arranged in two chains, an A chain (21 amino acids) and B chain (30 amino acids).",
+        "research_status": "VERIFIED. Under the 2020 FDA rule, insulin counts as a 'protein' because its chains are summed (51 > 40)."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-13",
+    "treatment": "peptides",
+    "location": "scale_rows[7]",
+    "text": "Insulin: 51 beads. Two chains of 21 and 30 beads, counted together. That puts insulin over the line, so the FDA regulates it as a protein. Shown for scale.",
+    "tier": "Established",
+    "source_id": "s_fda_protein_2020",
+    "source_citation": "FDA final rule, Definition of the Term \"Biological Product\", 85 FR 10057 (Feb 21, 2020): a protein is an alpha amino acid polymer with a defined sequence greater than 40 amino acids.",
+    "source_url": "https://www.govinfo.gov/content/pkg/FR-2020-02-21/html/2020-03505.htm",
+    "source_type": "regulation",
+    "research_quotes": [
+      {
+        "research_id": "A10",
+        "quote": "the term protein as any alpha amino acid polymer with a specific, defined sequence that is greater than 40 amino acids in size",
+        "research_status": "VERIFIED. Wording note: the rule defines 'protein' (>40 aa) and treats peptides as ≤40 aa. Present the 'peptide = 40 or fewer' line as following from the protein definition, not as a separately codified peptide definition. Confirm the exact 21 CFR 600.3 text before quoting it in compliance material."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-14",
+    "treatment": "peptides",
+    "location": "scale_rows[8]",
+    "text": "Serum albumin: 585 beads. A blood protein, 585 beads long once it's fully made. It's here so you can see what a full-size protein looks like next to a peptide. Shown for scale.",
+    "tier": "Established",
+    "source_id": "s_albumin",
+    "source_citation": "UniProt P02768, serum albumin: mature chain residues 25-609 (585 amino acids).",
+    "source_url": "https://www.uniprot.org/uniprotkb/P02768/entry",
+    "source_type": "reference_database",
+    "research_quotes": [
+      {
+        "research_id": "A9",
+        "quote": "serum albumin chain at 585 residues",
+        "research_status": "VERIFIED (585 is consistent across two mirrors; UniProt itself was unreachable). The propeptide boundary was not confirmed, so cite only 585 mature / 609 precursor."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-15",
+    "treatment": "peptides",
+    "location": "scale_rows[9]",
+    "text": "NAD+: Not a chain. NAD+ isn't made of amino acids at all. It's a dinucleotide, two nucleotides joined together. The active ingredient in Energy Spray Rx.",
+    "tier": "Established",
+    "source_id": "s_nad_pubchem",
+    "source_citation": "PubChem CID 5892, NAD+: C21H27N7O14P2, about 663.4 g/mol.",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5892",
+    "source_type": "reference_database",
+    "research_quotes": [
+      {
+        "research_id": "N9",
+        "quote": "formula C21H27N7O14P2 and a molecular weight of 663.43 g/mol",
+        "research_status": "VERIFIED (via secondary mirrors; the PubChem page itself was not reachable)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-16",
+    "treatment": "peptides",
+    "location": "scale_rows[10]",
+    "text": "Naltrexone: Not a chain. A classic small-molecule medicine, and the active ingredient in LDN Rx.",
+    "tier": "Established",
+    "source_id": "s_naltrexone_pubchem",
+    "source_citation": "PubChem CID 5360515, naltrexone: C20H23NO4, about 341.4 g/mol.",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5360515",
+    "source_type": "reference_database",
+    "research_quotes": [
+      {
+        "research_id": "N10",
+        "quote": "Average Molecular Weight 341.4009",
+        "research_status": "VERIFIED (via mirrors)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-17",
+    "treatment": "peptides",
+    "location": "scale_takeaways[0]",
+    "text": "The word tells you a molecule is a short chain. It doesn't tell you what the chain does, how well it's been studied, or whether it suits you. That's what each explainer is for.",
+    "tier": "Established",
+    "source_id": "s_fda_protein_2020",
+    "source_citation": "FDA final rule, Definition of the Term \"Biological Product\", 85 FR 10057 (Feb 21, 2020): a protein is an alpha amino acid polymer with a defined sequence greater than 40 amino acids.",
+    "source_url": "https://www.govinfo.gov/content/pkg/FR-2020-02-21/html/2020-03505.htm",
+    "source_type": "regulation",
+    "research_quotes": [
+      {
+        "research_id": "A10",
+        "quote": "the term protein as any alpha amino acid polymer with a specific, defined sequence that is greater than 40 amino acids in size",
+        "research_status": "VERIFIED. Wording note: the rule defines 'protein' (>40 aa) and treats peptides as ≤40 aa. Present the 'peptide = 40 or fewer' line as following from the protein definition, not as a separately codified peptide definition. Confirm the exact 21 CFR 600.3 text before quoting it in compliance material."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-18",
+    "treatment": "peptides",
+    "location": "scale_takeaways[1]",
+    "text": "Some short chains are closed into rings, like PT-141 and oxytocin. Some are paired with something else, like the copper in GHK-Cu.",
+    "tier": "Established",
+    "source_id": "s_pt141",
+    "source_citation": "Bremelanotide prescribing information: cyclic 7-residue alpha-MSH analog.",
+    "source_url": "https://www.rxlist.com/vyleesi-drug.htm",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "A4",
+        "quote": "Ac-Nle-cyclo-(Asp-His-D-Phe-Arg-Trp-Lys-OH)",
+        "research_status": "VERIFIED (better to swap the URL for the FDA label / DailyMed; FDA hosts were not reachable here). Caveat: it is called a 7-'amino acid' peptide even though Nle and D-Phe are non-standard."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-19",
+    "treatment": "peptides",
+    "location": "scale_takeaways[1]",
+    "text": "Some short chains are closed into rings, like PT-141 and oxytocin. Some are paired with something else, like the copper in GHK-Cu.",
+    "tier": "Established",
+    "source_id": "s_oxytocin",
+    "source_citation": "Oxytocin structure: nonapeptide with a Cys1-Cys6 disulfide ring (PMC2689929).",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2689929/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "A3",
+        "quote": "Cysteine residues form a disulfide bond to create a cyclic six amino acid ring for both neuropeptides.",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-20",
+    "treatment": "peptides",
+    "location": "scale_takeaways[1]",
+    "text": "Some short chains are closed into rings, like PT-141 and oxytocin. Some are paired with something else, like the copper in GHK-Cu.",
+    "tier": "Established",
+    "source_id": "s_ghk",
+    "source_citation": "Pickart L. GHK (glycyl-histidyl-lysine) and its copper complex (PMC3359723).",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3359723/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "A2",
+        "quote": "GHK is a tripeptide composed of glycine, L-histidine, and L-lysine. The peptide exhibits a high affinity for copper (II), forming the bioactive complex GHK-Cu",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-21",
+    "treatment": "peptides",
+    "location": "scale_takeaways[2]",
+    "text": "NAD+ and naltrexone are small molecules, not chains. If someone calls everything in this category a peptide, you now know better.",
+    "tier": "Established",
+    "source_id": "s_nad_pubchem",
+    "source_citation": "PubChem CID 5892, NAD+: C21H27N7O14P2, about 663.4 g/mol.",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5892",
+    "source_type": "reference_database",
+    "research_quotes": [
+      {
+        "research_id": "N9",
+        "quote": "formula C21H27N7O14P2 and a molecular weight of 663.43 g/mol",
+        "research_status": "VERIFIED (via secondary mirrors; the PubChem page itself was not reachable)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "peptides-22",
+    "treatment": "peptides",
+    "location": "scale_takeaways[2]",
+    "text": "NAD+ and naltrexone are small molecules, not chains. If someone calls everything in this category a peptide, you now know better.",
+    "tier": "Established",
+    "source_id": "s_naltrexone_pubchem",
+    "source_citation": "PubChem CID 5360515, naltrexone: C20H23NO4, about 341.4 g/mol.",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5360515",
+    "source_type": "reference_database",
+    "research_quotes": [
+      {
+        "research_id": "N10",
+        "quote": "Average Molecular Weight 341.4009",
+        "research_status": "VERIFIED (via mirrors)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-01",
+    "treatment": "ldn",
+    "location": "lede",
+    "text": "Standard naltrexone is a 50 mg daily tablet. Low-dose naltrexone uses a small fraction of that. Here's why researchers think the size of the dose changes what it does, and what's still an open question.",
+    "tier": "untiered framing copy",
+    "source_id": "s_label_naltrexone",
+    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f256d4f-4509-87c7-e053-2a91aa0a79ef",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "L1",
+        "quote": "104 alcohol-dependent patients were randomized to receive either naltrexone hydrochloride 50 mg once daily or placebo.",
+        "research_status": "PARTIALLY_VERIFIED"
+      },
+      {
+        "research_id": "L2",
+        "quote": "Label: 'blocks the effects of opioids by competitive binding at opioid receptors.' Younger 2014: 'In addition to the antagonist effect on mu-opioid and other opioid receptors...'",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L3",
+        "quote": "mean elimination half-life ... of 4 hours and 13 hours, respectively for naltrexone and 6-β-naltrexol",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-02",
+    "treatment": "ldn",
+    "location": "lede",
+    "text": "Standard naltrexone is a 50 mg daily tablet. Low-dose naltrexone uses a small fraction of that. Here's why researchers think the size of the dose changes what it does, and what's still an open question.",
+    "tier": "untiered framing copy",
+    "source_id": "s_toljan_2018",
+    "source_citation": "Toljan K, Vrooman B. Low-Dose Naltrexone (LDN): Review of Therapeutic Utilization. Med Sci. 2018.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6313374/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "L4",
+        "quote": "Low-dose naltrexone (LDN), considered in a daily dose of 1 to 5 mg, has been shown to reduce glial inflammatory response",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-03",
+    "treatment": "ldn",
+    "location": "reframe",
+    "text": "LDN is naltrexone at roughly 1 to 5 mg a day, compared with the 50 mg tablet the FDA approved. At that size it isn't doing the standard job. It's a short, light touch on the same receptors, and the leading theory is that your body responds to the touch.",
+    "tier": "untiered framing copy",
+    "source_id": "s_toljan_2018",
+    "source_citation": "Toljan K, Vrooman B. Low-Dose Naltrexone (LDN): Review of Therapeutic Utilization. Med Sci. 2018.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6313374/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "L4",
+        "quote": "Low-dose naltrexone (LDN), considered in a daily dose of 1 to 5 mg, has been shown to reduce glial inflammatory response",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-04",
+    "treatment": "ldn",
+    "location": "reframe",
+    "text": "LDN is naltrexone at roughly 1 to 5 mg a day, compared with the 50 mg tablet the FDA approved. At that size it isn't doing the standard job. It's a short, light touch on the same receptors, and the leading theory is that your body responds to the touch.",
+    "tier": "untiered framing copy",
+    "source_id": "s_label_naltrexone",
+    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f256d4f-4509-87c7-e053-2a91aa0a79ef",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "L1",
+        "quote": "104 alcohol-dependent patients were randomized to receive either naltrexone hydrochloride 50 mg once daily or placebo.",
+        "research_status": "PARTIALLY_VERIFIED"
+      },
+      {
+        "research_id": "L2",
+        "quote": "Label: 'blocks the effects of opioids by competitive binding at opioid receptors.' Younger 2014: 'In addition to the antagonist effect on mu-opioid and other opioid receptors...'",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L3",
+        "quote": "mean elimination half-life ... of 4 hours and 13 hours, respectively for naltrexone and 6-β-naltrexol",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-05",
+    "treatment": "ldn",
+    "location": "viz_caption",
+    "text": "Illustration, not measured data. Band lengths show the idea, not exact hours. For scale: naltrexone itself has a half-life of about 4 hours, and its main active by-product about 13 hours.",
+    "tier": "untiered framing copy",
+    "source_id": "s_label_naltrexone",
+    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f256d4f-4509-87c7-e053-2a91aa0a79ef",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "L1",
+        "quote": "104 alcohol-dependent patients were randomized to receive either naltrexone hydrochloride 50 mg once daily or placebo.",
+        "research_status": "PARTIALLY_VERIFIED"
+      },
+      {
+        "research_id": "L2",
+        "quote": "Label: 'blocks the effects of opioids by competitive binding at opioid receptors.' Younger 2014: 'In addition to the antagonist effect on mu-opioid and other opioid receptors...'",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L3",
+        "quote": "mean elimination half-life ... of 4 hours and 13 hours, respectively for naltrexone and 6-β-naltrexol",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-06",
+    "treatment": "ldn",
+    "location": "mechanism_steps[0]",
+    "text": "A brief block on opioid receptors may prompt your body to make more of its own endorphins and add more receptors. Over a full day, the net effect could be more of your own signaling, not less. Most of the support for this comes from animal and cell research.",
+    "tier": "Leading theory",
+    "source_id": "s_moura_2016",
+    "source_citation": "Narrative review of low-dose naltrexone mechanisms (Research Inventy, 2016): proposed compensatory rise in endorphins and enkephalins after temporary receptor blockade.",
+    "source_url": "https://repositorio.ufc.br/ri/bitstream/riufc/19251/1/2016_art_fcmoura.pdf",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "L5",
+        "quote": "LDN possibly increase opioid receptors expression, as well as enkephalins and endorphins levels by a compensatory mechanism due to temporary blocking of these receptors",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-07",
+    "treatment": "ldn",
+    "location": "mechanism_steps[1]",
+    "text": "Separately from opioid receptors, naltrexone appears to quiet a receptor called TLR4 on microglia, the resident immune cells of the brain and spinal cord. In lab work, a mirror-image form of naltrexone that doesn't touch opioid receptors still blocked TLR4. Researchers note the data don't fit this explanation perfectly.",
+    "tier": "Lab and animal research",
+    "source_id": "s_younger_2014",
+    "source_citation": "Younger J, Parkitny L, McLain D. Review of low-dose naltrexone mechanisms and human studies. Clin Rheumatol. 2014.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "L6",
+        "quote": "naltrexone simultaneously has an antagonist effect on non-opioid receptors (Toll-like receptor 4 or TLR4) that are found on macrophages such as microglia",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L7",
+        "quote": "Published trials have low sample sizes, and few replications have been performed.",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-08",
+    "treatment": "ldn",
+    "location": "mechanism_steps[2]",
+    "text": "Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies called it low-risk, with benefits not yet established, and found that some early results did not hold up in larger trials. That is the honest state of the science, and it's why a clinician decides whether it's worth trying for you.",
+    "tier": "Early human studies",
+    "source_id": "s_younger_2014",
+    "source_citation": "Younger J, Parkitny L, McLain D. Review of low-dose naltrexone mechanisms and human studies. Clin Rheumatol. 2014.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3962576/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "L6",
+        "quote": "naltrexone simultaneously has an antagonist effect on non-opioid receptors (Toll-like receptor 4 or TLR4) that are found on macrophages such as microglia",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L7",
+        "quote": "Published trials have low sample sizes, and few replications have been performed.",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-09",
+    "treatment": "ldn",
+    "location": "mechanism_steps[2]",
+    "text": "Most human studies of LDN have been small, with few repeats. A 2026 review of 105 studies called it low-risk, with benefits not yet established, and found that some early results did not hold up in larger trials. That is the honest state of the science, and it's why a clinician decides whether it's worth trying for you.",
+    "tier": "Early human studies",
+    "source_id": "s_gouda_2026",
+    "source_citation": "Gouda et al. Low-dose naltrexone: a review of 105 studies including 15 randomized trials. Adv Ther. 2026;43:2852-2870.",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42060160/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "L7",
+        "quote": "Published trials have low sample sizes, and few replications have been performed.",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L8",
+        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
+        "research_status": "PARTIALLY_VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-10",
+    "treatment": "ldn",
+    "location": "notice_items[0]",
+    "text": "Some people notice vivid dreams or lighter sleep early on. In small studies these were mostly mild and passed.",
+    "tier": "Early human studies",
+    "source_id": "s_younger_2009",
+    "source_citation": "Younger J, Mackey S. Pilot study of low-dose naltrexone (n=10, 8 weeks). Pain Med. 2009.",
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "L8",
+        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
+        "research_status": "PARTIALLY_VERIFIED"
+      },
+      {
+        "research_id": "L12",
+        "quote": "baseline (2 weeks), placebo (2 weeks), drug (8 weeks), and washout (2 weeks)",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-11",
+    "treatment": "ldn",
+    "location": "notice_items[0]",
+    "text": "Some people notice vivid dreams or lighter sleep early on. In small studies these were mostly mild and passed.",
+    "tier": "Early human studies",
+    "source_id": "s_gouda_2026",
+    "source_citation": "Gouda et al. Low-dose naltrexone: a review of 105 studies including 15 randomized trials. Adv Ther. 2026;43:2852-2870.",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42060160/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "L7",
+        "quote": "Published trials have low sample sizes, and few replications have been performed.",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L8",
+        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
+        "research_status": "PARTIALLY_VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-12",
+    "treatment": "ldn",
+    "location": "notice_items[1]",
+    "text": "Studies have followed LDN for 8 to 12 weeks. If it's going to help, plan on giving it about that long before judging it.",
+    "tier": "Early human studies",
+    "source_id": "s_younger_2009",
+    "source_citation": "Younger J, Mackey S. Pilot study of low-dose naltrexone (n=10, 8 weeks). Pain Med. 2009.",
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "L8",
+        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
+        "research_status": "PARTIALLY_VERIFIED"
+      },
+      {
+        "research_id": "L12",
+        "quote": "baseline (2 weeks), placebo (2 weeks), drug (8 weeks), and washout (2 weeks)",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-13",
+    "treatment": "ldn",
+    "location": "notice_items[1]",
+    "text": "Studies have followed LDN for 8 to 12 weeks. If it's going to help, plan on giving it about that long before judging it.",
+    "tier": "Early human studies",
+    "source_id": "s_younger_2013",
+    "source_citation": "Younger J, et al. Low-dose naltrexone crossover trial (n=31 women; 12 weeks LDN, dosed about 1 hour before bed). Arthritis Rheum. 2013.",
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/art.37734",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "L12",
+        "quote": "baseline (2 weeks), placebo (2 weeks), drug (8 weeks), and washout (2 weeks)",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L13",
+        "quote": "Patients took naltrexone daily ... approximately 1 hour before bedtime",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-14",
+    "treatment": "ldn",
+    "location": "notice_items[2]",
+    "text": "Your clinician may adjust your strength or the time of day you take it. Some guidance suggests moving the dose to the morning if sleep is affected. No study has compared bedtime and morning head to head yet.",
+    "tier": "Early human studies",
+    "source_id": "s_younger_2013",
+    "source_citation": "Younger J, et al. Low-dose naltrexone crossover trial (n=31 women; 12 weeks LDN, dosed about 1 hour before bed). Arthritis Rheum. 2013.",
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/art.37734",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "L12",
+        "quote": "baseline (2 weeks), placebo (2 weeks), drug (8 weeks), and washout (2 weeks)",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L13",
+        "quote": "Patients took naltrexone daily ... approximately 1 hour before bedtime",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-15",
+    "treatment": "ldn",
+    "location": "route_steps[0]",
+    "text": "You take one capsule a day, at the strength and time your clinician sets.",
+    "tier": "untiered framing copy",
+    "source_url": null,
+    "source_type": null,
+    "status": "clinician-owned: drafted, no external source"
+  },
+  {
+    "id": "ldn-16",
+    "treatment": "ldn",
+    "location": "route_steps[1]",
+    "text": "Naltrexone itself clears quickly, with a half-life of about 4 hours. Its main active by-product lasts about 13 hours.",
+    "tier": "untiered framing copy",
+    "source_id": "s_label_naltrexone",
+    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): 50 mg tablets; pure opioid antagonist; half-life about 4 h, 6-beta-naltrexol about 13 h.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f256d4f-4509-87c7-e053-2a91aa0a79ef",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "L1",
+        "quote": "104 alcohol-dependent patients were randomized to receive either naltrexone hydrochloride 50 mg once daily or placebo.",
+        "research_status": "PARTIALLY_VERIFIED"
+      },
+      {
+        "research_id": "L2",
+        "quote": "Label: 'blocks the effects of opioids by competitive binding at opioid receptors.' Younger 2014: 'In addition to the antagonist effect on mu-opioid and other opioid receptors...'",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L3",
+        "quote": "mean elimination half-life ... of 4 hours and 13 hours, respectively for naltrexone and 6-β-naltrexol",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-17",
+    "treatment": "ldn",
+    "location": "route_steps[2]",
+    "text": "No FDA-approved low-dose product exists, so a pharmacy compounds your capsules from naltrexone. This is an off-label use your clinician prescribes for you.",
+    "tier": "untiered framing copy",
+    "source_id": "s_mdedge_ldn",
+    "source_citation": "MDedge news coverage: no FDA-approved low-dose naltrexone product; LDN must be custom compounded.",
+    "source_url": "https://www.mdedge.com/content/label-low-dose-naltrexone-reduced-fibromyalgia-pain",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "L11",
+        "quote": "LDN is not approved by the Food and Drug Administration and must be custom compounded",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-18",
+    "treatment": "ldn",
+    "location": "not_for_you_if[0]",
+    "text": "You take any opioid, including prescription pain medicine, methadone or buprenorphine. Naltrexone blocks opioids and can bring on withdrawal.",
+    "tier": "untiered framing copy",
+    "source_id": "s_label_naltrexone_contra",
+    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): contraindications, including opioid analgesics, opioid dependence and acute withdrawal.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adb7c4dc-221a-4d91-9687-0d78913a92ad",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "L9",
+        "quote": "contraindicated in: patients receiving opioid analgesics; patients currently dependent on opioids, including those maintained on opiate agonists [e.g., methadone] or partial agonists [e.g., buprenorphine]; patients in acute opioid withdrawal",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-19",
+    "treatment": "ldn",
+    "location": "not_for_you_if[1]",
+    "text": "You have acute hepatitis or liver failure. The naltrexone label lists both as reasons not to use it.",
+    "tier": "untiered framing copy",
+    "source_id": "s_label_naltrexone_liver",
+    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): hepatotoxicity warning; contraindicated in acute hepatitis or liver failure.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3c7da2bc-e2c1-48f6-8c3f-287119b427e2",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "L10",
+        "quote": "Naltrexone hydrochloride has the capacity to cause hepatocellular injury when given in excessive doses.",
+        "research_status": "PARTIALLY_VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-20",
+    "treatment": "ldn",
+    "location": "what_to_watch[0]",
+    "text": "Sleep changes or vivid dreams, especially in the first weeks.",
+    "tier": "untiered framing copy",
+    "source_id": "s_younger_2009",
+    "source_citation": "Younger J, Mackey S. Pilot study of low-dose naltrexone (n=10, 8 weeks). Pain Med. 2009.",
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1526-4637.2009.00613.x",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "L8",
+        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
+        "research_status": "PARTIALLY_VERIFIED"
+      },
+      {
+        "research_id": "L12",
+        "quote": "baseline (2 weeks), placebo (2 weeks), drug (8 weeks), and washout (2 weeks)",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-21",
+    "treatment": "ldn",
+    "location": "what_to_watch[1]",
+    "text": "Nausea or dizziness.",
+    "tier": "untiered framing copy",
+    "source_id": "s_gouda_2026",
+    "source_citation": "Gouda et al. Low-dose naltrexone: a review of 105 studies including 15 randomized trials. Adv Ther. 2026;43:2852-2870.",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42060160/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "L7",
+        "quote": "Published trials have low sample sizes, and few replications have been performed.",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "L8",
+        "quote": "side effects (including insomnia and vivid dreams) were rare, and described as minor and transient",
+        "research_status": "PARTIALLY_VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-22",
+    "treatment": "ldn",
+    "location": "what_to_watch[2]",
+    "text": "If you might need opioid pain relief, for example before a procedure, tell your clinician and care team that you take naltrexone.",
+    "tier": "untiered framing copy",
+    "source_id": "s_label_naltrexone_contra",
+    "source_citation": "Naltrexone hydrochloride tablets, FDA prescribing information (DailyMed): contraindications, including opioid analgesics, opioid dependence and acute withdrawal.",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adb7c4dc-221a-4d91-9687-0d78913a92ad",
+    "source_type": "label",
+    "research_quotes": [
+      {
+        "research_id": "L9",
+        "quote": "contraindicated in: patients receiving opioid analgesics; patients currently dependent on opioids, including those maintained on opiate agonists [e.g., methadone] or partial agonists [e.g., buprenorphine]; patients in acute opioid withdrawal",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "ldn-23",
+    "treatment": "ldn",
+    "location": "viz_scrub_states[0]",
+    "text": "Hour 0. The dose is taken and naltrexone reaches opioid receptors.",
+    "tier": "Leading theory",
+    "source_url": null,
+    "source_type": null,
+    "status": "illustrative: restates the theory shown in the visual (see mechanism_steps)"
+  },
+  {
+    "id": "ldn-24",
+    "treatment": "ldn",
+    "location": "viz_scrub_states[1]",
+    "text": "Early hours. Both doses occupy the receptors. The low dose is already fading.",
+    "tier": "Leading theory",
+    "source_url": null,
+    "source_type": null,
+    "status": "illustrative: restates the theory shown in the visual (see mechanism_steps)"
+  },
+  {
+    "id": "ldn-25",
+    "treatment": "ldn",
+    "location": "viz_scrub_states[2]",
+    "text": "Midday. The standard dose is still blocking. The low-dose block has lifted, and the theory says your body has turned its own signaling up in response.",
+    "tier": "Leading theory",
+    "source_url": null,
+    "source_type": null,
+    "status": "illustrative: restates the theory shown in the visual (see mechanism_steps)"
+  },
+  {
+    "id": "ldn-26",
+    "treatment": "ldn",
+    "location": "viz_scrub_states[3]",
+    "text": "Late day. Standard dose: still on duty. Low dose: the receptors are open, and any rebound in your own endorphins would be doing the work.",
+    "tier": "Leading theory",
+    "source_url": null,
+    "source_type": null,
+    "status": "illustrative: restates the theory shown in the visual (see mechanism_steps)"
+  },
+  {
+    "id": "nad-01",
+    "treatment": "nad",
+    "location": "lede",
+    "text": "NAD+ isn't a peptide and it isn't a stimulant. It's a working part inside every cell, and research suggests you have less of it as you age. Here's what it does, what the evidence says, and where the real questions are.",
+    "tier": "untiered framing copy",
+    "source_id": "s_covarrubias_2021",
+    "source_citation": "Covarrubias AJ, et al. NAD+ metabolism and its roles in cellular processes during ageing. Nat Rev Mol Cell Biol. 2021.",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/33353981/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "N1",
+        "quote": "NAD+ is a coenzyme for redox reactions, making it central to energy metabolism.",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "N2",
+        "quote": "NAD+ is also an essential cofactor for non-redox NAD+-dependent enzymes, including sirtuins, CD38 and poly(ADP-ribose) polymerases.",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-02",
+    "treatment": "nad",
+    "location": "lede",
+    "text": "NAD+ isn't a peptide and it isn't a stimulant. It's a working part inside every cell, and research suggests you have less of it as you age. Here's what it does, what the evidence says, and where the real questions are.",
+    "tier": "untiered framing copy",
+    "source_id": "s_massudi_2012",
+    "source_citation": "Massudi H, et al. Age-associated changes in oxidative stress and NAD+ metabolism in human tissue. PLoS One. 2012;7:e42357.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3407129/",
+    "source_type": "observational",
+    "research_quotes": [
+      {
+        "research_id": "N3",
+        "quote": "A strong negative correlation was observed between NAD(+) levels and age in both males (p = 0.001; r = -0.706) and females (p = 0.01; r = -0.537).",
+        "research_status": "VERIFIED (with caveat that the evidence is limited)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-03",
+    "treatment": "nad",
+    "location": "reframe",
+    "text": "NAD+ is a molecule your cells use to turn food into usable energy. Researchers are interested in it for two reasons: levels appear to fall with age, and it's now possible to raise them. Whether raising them changes how you feel day to day is still the open question.",
+    "tier": "untiered framing copy",
+    "source_id": "s_covarrubias_2021",
+    "source_citation": "Covarrubias AJ, et al. NAD+ metabolism and its roles in cellular processes during ageing. Nat Rev Mol Cell Biol. 2021.",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/33353981/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "N1",
+        "quote": "NAD+ is a coenzyme for redox reactions, making it central to energy metabolism.",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "N2",
+        "quote": "NAD+ is also an essential cofactor for non-redox NAD+-dependent enzymes, including sirtuins, CD38 and poly(ADP-ribose) polymerases.",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-04",
+    "treatment": "nad",
+    "location": "reframe",
+    "text": "NAD+ is a molecule your cells use to turn food into usable energy. Researchers are interested in it for two reasons: levels appear to fall with age, and it's now possible to raise them. Whether raising them changes how you feel day to day is still the open question.",
+    "tier": "untiered framing copy",
+    "source_id": "s_massudi_2012",
+    "source_citation": "Massudi H, et al. Age-associated changes in oxidative stress and NAD+ metabolism in human tissue. PLoS One. 2012;7:e42357.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3407129/",
+    "source_type": "observational",
+    "research_quotes": [
+      {
+        "research_id": "N3",
+        "quote": "A strong negative correlation was observed between NAD(+) levels and age in both males (p = 0.001; r = -0.706) and females (p = 0.01; r = -0.537).",
+        "research_status": "VERIFIED (with caveat that the evidence is limited)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-05",
+    "treatment": "nad",
+    "location": "reframe",
+    "text": "NAD+ is a molecule your cells use to turn food into usable energy. Researchers are interested in it for two reasons: levels appear to fall with age, and it's now possible to raise them. Whether raising them changes how you feel day to day is still the open question.",
+    "tier": "untiered framing copy",
+    "source_id": "s_natmetab_2025",
+    "source_citation": "NAD+ precursor supplementation in human ageing: clinical evidence and challenges. Nat Metab. 2025;7:1974-1990.",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41083806/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "N6",
+        "quote": "Although preclinical studies support NAD+ precursors as a promising strategy for healthy ageing, human clinical trials have shown limited efficacy.",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-06",
+    "treatment": "nad",
+    "location": "viz_caption",
+    "text": "Simplified. Your cells run this loop constantly, in every mitochondrion.",
+    "tier": "untiered framing copy",
+    "source_url": null,
+    "source_type": null,
+    "status": "no_source: instruction or framing, not a factual claim"
+  },
+  {
+    "id": "nad-07",
+    "treatment": "nad",
+    "location": "gauge_scale_note",
+    "text": "Bars show direction, not measured amounts.",
+    "tier": "Early human studies",
+    "source_id": "s_massudi_2012",
+    "source_citation": "Massudi H, et al. Age-associated changes in oxidative stress and NAD+ metabolism in human tissue. PLoS One. 2012;7:e42357.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3407129/",
+    "source_type": "observational",
+    "research_quotes": [
+      {
+        "research_id": "N3",
+        "quote": "A strong negative correlation was observed between NAD(+) levels and age in both males (p = 0.001; r = -0.706) and females (p = 0.01; r = -0.537).",
+        "research_status": "VERIFIED (with caveat that the evidence is limited)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-08",
+    "treatment": "nad",
+    "location": "gauge_states[0]",
+    "text": "Skin samples from younger people had higher NAD+.",
+    "tier": "Early human studies",
+    "source_id": "s_massudi_2012",
+    "source_citation": "Massudi H, et al. Age-associated changes in oxidative stress and NAD+ metabolism in human tissue. PLoS One. 2012;7:e42357.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3407129/",
+    "source_type": "observational",
+    "research_quotes": [
+      {
+        "research_id": "N3",
+        "quote": "A strong negative correlation was observed between NAD(+) levels and age in both males (p = 0.001; r = -0.706) and females (p = 0.01; r = -0.537).",
+        "research_status": "VERIFIED (with caveat that the evidence is limited)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-09",
+    "treatment": "nad",
+    "location": "gauge_states[1]",
+    "text": "Skin samples from older people had lower NAD+, in women and men alike. It's one study of 49 people, so read it as a strong clue rather than the final word.",
+    "tier": "Early human studies",
+    "source_id": "s_massudi_2012",
+    "source_citation": "Massudi H, et al. Age-associated changes in oxidative stress and NAD+ metabolism in human tissue. PLoS One. 2012;7:e42357.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3407129/",
+    "source_type": "observational",
+    "research_quotes": [
+      {
+        "research_id": "N3",
+        "quote": "A strong negative correlation was observed between NAD(+) levels and age in both males (p = 0.001; r = -0.706) and females (p = 0.01; r = -0.537).",
+        "research_status": "VERIFIED (with caveat that the evidence is limited)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-10",
+    "treatment": "nad",
+    "location": "viz_nodes[0]",
+    "text": "As your cells break down sugar and fat, NAD+ collects electrons and becomes NADH. Think of it as a delivery truck being loaded.",
+    "tier": "Established",
+    "source_id": "s_covarrubias_2021",
+    "source_citation": "Covarrubias AJ, et al. NAD+ metabolism and its roles in cellular processes during ageing. Nat Rev Mol Cell Biol. 2021.",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/33353981/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "N1",
+        "quote": "NAD+ is a coenzyme for redox reactions, making it central to energy metabolism.",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "N2",
+        "quote": "NAD+ is also an essential cofactor for non-redox NAD+-dependent enzymes, including sirtuins, CD38 and poly(ADP-ribose) polymerases.",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-11",
+    "treatment": "nad",
+    "location": "viz_nodes[1]",
+    "text": "NADH hands those electrons to the mitochondria's energy chain, which makes ATP, the energy every cell spends. Then it's NAD+ again and ready for another trip.",
+    "tier": "Established",
+    "source_id": "s_covarrubias_2021",
+    "source_citation": "Covarrubias AJ, et al. NAD+ metabolism and its roles in cellular processes during ageing. Nat Rev Mol Cell Biol. 2021.",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/33353981/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "N1",
+        "quote": "NAD+ is a coenzyme for redox reactions, making it central to energy metabolism.",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "N2",
+        "quote": "NAD+ is also an essential cofactor for non-redox NAD+-dependent enzymes, including sirtuins, CD38 and poly(ADP-ribose) polymerases.",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-12",
+    "treatment": "nad",
+    "location": "viz_nodes[2]",
+    "text": "Other enzymes, including sirtuins, PARPs and CD38, use NAD+ up for jobs like DNA maintenance. Your cells have to keep rebuilding their supply.",
+    "tier": "Established",
+    "source_id": "s_covarrubias_2021",
+    "source_citation": "Covarrubias AJ, et al. NAD+ metabolism and its roles in cellular processes during ageing. Nat Rev Mol Cell Biol. 2021.",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/33353981/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "N1",
+        "quote": "NAD+ is a coenzyme for redox reactions, making it central to energy metabolism.",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "N2",
+        "quote": "NAD+ is also an essential cofactor for non-redox NAD+-dependent enzymes, including sirtuins, CD38 and poly(ADP-ribose) polymerases.",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-13",
+    "treatment": "nad",
+    "location": "mechanism_steps[0]",
+    "text": "NAD+ carries electrons from the food you break down to the machinery that makes cellular energy. It's part of the basic equipment in every cell, the way a delivery truck is part of a supply chain.",
+    "tier": "Established",
+    "source_id": "s_covarrubias_2021",
+    "source_citation": "Covarrubias AJ, et al. NAD+ metabolism and its roles in cellular processes during ageing. Nat Rev Mol Cell Biol. 2021.",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/33353981/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "N1",
+        "quote": "NAD+ is a coenzyme for redox reactions, making it central to energy metabolism.",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "N2",
+        "quote": "NAD+ is also an essential cofactor for non-redox NAD+-dependent enzymes, including sirtuins, CD38 and poly(ADP-ribose) polymerases.",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-14",
+    "treatment": "nad",
+    "location": "mechanism_steps[1]",
+    "text": "In skin samples from 49 people aged from newborn to 77, NAD+ was lower in older skin, in women and men. Only a handful of human studies have measured this directly.",
+    "tier": "Early human studies",
+    "source_id": "s_massudi_2012",
+    "source_citation": "Massudi H, et al. Age-associated changes in oxidative stress and NAD+ metabolism in human tissue. PLoS One. 2012;7:e42357.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3407129/",
+    "source_type": "observational",
+    "research_quotes": [
+      {
+        "research_id": "N3",
+        "quote": "A strong negative correlation was observed between NAD(+) levels and age in both males (p = 0.001; r = -0.706) and females (p = 0.01; r = -0.537).",
+        "research_status": "VERIFIED (with caveat that the evidence is limited)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-15",
+    "treatment": "nad",
+    "location": "mechanism_steps[1]",
+    "text": "In skin samples from 49 people aged from newborn to 77, NAD+ was lower in older skin, in women and men. Only a handful of human studies have measured this directly.",
+    "tier": "Early human studies",
+    "source_id": "s_natmetab_2025",
+    "source_citation": "NAD+ precursor supplementation in human ageing: clinical evidence and challenges. Nat Metab. 2025;7:1974-1990.",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41083806/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "N6",
+        "quote": "Although preclinical studies support NAD+ precursors as a promising strategy for healthy ageing, human clinical trials have shown limited efficacy.",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-16",
+    "treatment": "nad",
+    "location": "mechanism_steps[2]",
+    "text": "In mice, an enzyme called CD38 that uses up NAD+ rises with age and accounts for much of the decline. Whether the same holds in people is still being worked out.",
+    "tier": "Lab and animal research",
+    "source_id": "s_camacho_2016",
+    "source_citation": "Camacho-Pereira J, et al. CD38 dictates age-related NAD decline and mitochondrial dysfunction through an SIRT3-dependent mechanism. Cell Metab. 2016.",
+    "source_url": "https://www.cell.com/cell-metabolism/fulltext/S1550-4131(16)30244-3",
+    "source_type": "animal",
+    "research_quotes": [
+      {
+        "research_id": "N4",
+        "quote": "CD38 protein levels rose in several tissues with age, along with its enzymatic activity, while SIRT1 and PARP1 did not show the same pattern.",
+        "research_status": "VERIFIED (substance confirmed; the quote is a paraphrase, so re-quote the abstract before publishing)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-17",
+    "treatment": "nad",
+    "location": "mechanism_steps[3]",
+    "text": "Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found the effects people actually experience have been limited so far.",
+    "tier": "Early human studies",
+    "source_id": "s_trammell_2016",
+    "source_citation": "Trammell SAJ, et al. Nicotinamide riboside is uniquely and orally bioavailable in mice and humans. Nat Commun. 2016;7:12948.",
+    "source_url": "https://www.nature.com/articles/ncomms12948",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "N5",
+        "quote": "single doses of 100, 300 and 1,000 mg of NR produce dose-dependent increases in the blood NAD+ metabolome in the first clinical trial of NR pharmacokinetics in humans",
+        "research_status": "VERIFIED. A ~60% PBMC figure sometimes attributed to Martens could not be confirmed; do not use it."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-18",
+    "treatment": "nad",
+    "location": "mechanism_steps[3]",
+    "text": "Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found the effects people actually experience have been limited so far.",
+    "tier": "Early human studies",
+    "source_id": "s_martens_2018",
+    "source_citation": "Martens CR, et al. Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD+ in healthy middle-aged and older adults (n=30, 6 weeks). Nat Commun. 2018;9:1286.",
+    "source_url": "https://www.nature.com/articles/s41467-018-03421-7",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "N5",
+        "quote": "single doses of 100, 300 and 1,000 mg of NR produce dose-dependent increases in the blood NAD+ metabolome in the first clinical trial of NR pharmacokinetics in humans",
+        "research_status": "VERIFIED. A ~60% PBMC figure sometimes attributed to Martens could not be confirmed; do not use it."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-19",
+    "treatment": "nad",
+    "location": "mechanism_steps[3]",
+    "text": "Small human trials show that oral NAD+ building blocks can raise NAD+ in the blood. A 2025 review found the effects people actually experience have been limited so far.",
+    "tier": "Early human studies",
+    "source_id": "s_natmetab_2025",
+    "source_citation": "NAD+ precursor supplementation in human ageing: clinical evidence and challenges. Nat Metab. 2025;7:1974-1990.",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41083806/",
+    "source_type": "review",
+    "research_quotes": [
+      {
+        "research_id": "N6",
+        "quote": "Although preclinical studies support NAD+ precursors as a promising strategy for healthy ageing, human clinical trials have shown limited efficacy.",
+        "research_status": "VERIFIED"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-20",
+    "treatment": "nad",
+    "location": "notice_items[0]",
+    "text": "Human studies of NAD+ building blocks ran for weeks, for example 6 weeks in one trial of 30 adults. If you notice a change, expect it to be gradual.",
+    "tier": "Early human studies",
+    "source_id": "s_martens_2018",
+    "source_citation": "Martens CR, et al. Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD+ in healthy middle-aged and older adults (n=30, 6 weeks). Nat Commun. 2018;9:1286.",
+    "source_url": "https://www.nature.com/articles/s41467-018-03421-7",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "N5",
+        "quote": "single doses of 100, 300 and 1,000 mg of NR produce dose-dependent increases in the blood NAD+ metabolome in the first clinical trial of NR pharmacokinetics in humans",
+        "research_status": "VERIFIED. A ~60% PBMC figure sometimes attributed to Martens could not be confirmed; do not use it."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-21",
+    "treatment": "nad",
+    "location": "notice_items[1]",
+    "text": "Nasal NAD+ hasn't been studied in people yet, so what you notice is real information. Tell your clinician about anything new, including nasal discomfort, headache or sleep changes.",
+    "tier": "Lab and animal research",
+    "source_id": "s_ying_2007",
+    "source_citation": "Ying W, et al. Rat study of NAD+ given through the nose: brain NAD+ levels rose. Front Biosci. 2007;12:2728-34.",
+    "source_url": "https://www.imrpress.com/journal/fbl/12/7/10.2741/2267",
+    "source_type": "animal",
+    "research_quotes": [
+      {
+        "research_id": "N7",
+        "quote": "Intranasal NAD+ delivery significantly increased NAD+ contents in the brains",
+        "research_status": "VERIFIED that animal-only data exist. Human intranasal NAD+ data: NONE FOUND (searched with extended mode)."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-22",
+    "treatment": "nad",
+    "location": "route_steps[0]",
+    "text": "Draft plan: 1 to 2 sprays once daily on weekdays, two months on and one month off.",
+    "tier": "untiered framing copy",
+    "source_url": null,
+    "source_type": null,
+    "status": "clinician-owned: drafted, no external source"
+  },
+  {
+    "id": "nad-23",
+    "treatment": "nad",
+    "location": "route_steps[1]",
+    "text": "Each bottle holds 300 mg/mL NAD+ in a water-based spray. Use it within about 35 days of opening.",
+    "tier": "untiered framing copy",
+    "source_url": null,
+    "source_type": null,
+    "status": "clinician-owned: drafted, no external source"
+  },
+  {
+    "id": "nad-24",
+    "treatment": "nad",
+    "location": "route_steps[2]",
+    "text": "There are no published human studies of nasal NAD+ yet. In rat studies, NAD+ given through the nose raised NAD+ levels in the brain.",
+    "tier": "Lab and animal research",
+    "source_id": "s_ying_2007",
+    "source_citation": "Ying W, et al. Rat study of NAD+ given through the nose: brain NAD+ levels rose. Front Biosci. 2007;12:2728-34.",
+    "source_url": "https://www.imrpress.com/journal/fbl/12/7/10.2741/2267",
+    "source_type": "animal",
+    "research_quotes": [
+      {
+        "research_id": "N7",
+        "quote": "Intranasal NAD+ delivery significantly increased NAD+ contents in the brains",
+        "research_status": "VERIFIED that animal-only data exist. Human intranasal NAD+ data: NONE FOUND (searched with extended mode)."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-25",
+    "treatment": "nad",
+    "location": "not_for_you_if[0]",
+    "text": "Your clinician will set this list with you. Published human data for nasal NAD+ don't yet define who should avoid it.",
+    "tier": "untiered framing copy",
+    "source_id": "s_ying_2007",
+    "source_citation": "Ying W, et al. Rat study of NAD+ given through the nose: brain NAD+ levels rose. Front Biosci. 2007;12:2728-34.",
+    "source_url": "https://www.imrpress.com/journal/fbl/12/7/10.2741/2267",
+    "source_type": "animal",
+    "research_quotes": [
+      {
+        "research_id": "N7",
+        "quote": "Intranasal NAD+ delivery significantly increased NAD+ contents in the brains",
+        "research_status": "VERIFIED that animal-only data exist. Human intranasal NAD+ data: NONE FOUND (searched with extended mode)."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-26",
+    "treatment": "nad",
+    "location": "what_to_watch[0]",
+    "text": "When NAD+ is given by IV drip too quickly, people have reported cramping, nausea, chest pressure and a racing heart, which stopped once the drip ended. Nasal sprays haven't been studied this way, so report anything similar.",
+    "tier": "untiered framing copy",
+    "source_id": "s_iv_2026",
+    "source_citation": "Intravenous infusion of NAD+ versus NR: a retrospective tolerability pilot study in a real-world setting. Front Aging. 2026.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12907335/",
+    "source_type": "observational",
+    "research_quotes": [
+      {
+        "research_id": "N8",
+        "quote": "these adverse experiences ceased immediately upon infusion completion, although did cause participants to reduce infusion rate",
+        "research_status": "PARTIALLY VERIFIED. 'Flushing' appears only in the 2026 review list and in clinic blogs, not in the primary studies. The 2026 study's authors are affiliated with the infusion-clinic chain. Intranasal irritation is UNVERIFIED: no source found."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "nad-27",
+    "treatment": "nad",
+    "location": "what_to_watch[1]",
+    "text": "Any nasal irritation, headache or change in sleep after you start.",
+    "tier": "untiered framing copy",
+    "source_url": null,
+    "source_type": null,
+    "status": "clinician-owned: drafted, no external source"
+  },
+  {
+    "id": "mots-c-01",
+    "treatment": "mots-c",
+    "location": "lede",
+    "text": "Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide your mitochondria make that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.",
+    "tier": "untiered framing copy",
+    "source_id": "s_lee_2015",
+    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
+    "source_type": "animal",
+    "research_quotes": [
+      {
+        "research_id": "M1",
+        "quote": "MOTSC is encoded as a 51-bp short open reading frame (sORF) in the mitochondrial 12S rRNA",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "M2",
+        "quote": "increased glucose utilization and fatty acid oxidation, decreased oxidative phosphorylation, increased endogenous AICAR levels, and AMPK activation",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "A6",
+        "quote": "MOTS-c ... a 16-amino-acid peptide encoded in the mitochondrial genome",
+        "research_status": "VERIFIED (count); sequence string not verified, so omit it from the graphic or check it"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-02",
+    "treatment": "mots-c",
+    "location": "lede",
+    "text": "Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide your mitochondria make that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.",
+    "tier": "untiered framing copy",
+    "source_id": "s_cohbar_2021",
+    "source_citation": "CohBar press release (Aug 10, 2021): topline Phase 1a/1b results for CB4211, a modified MOTS-c analog. No peer-reviewed publication.",
+    "source_url": "https://www.globenewswire.com/news-release/2021/08/10/2278324/0/en/CohBar-Announces-Positive-Topline-Results-from-the-Phase-1a-1b-Study-of-CB4211-Under-Development-for-NASH-and-Obesity.html",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "M5",
+        "quote": "CB4211 was well-tolerated and appeared safe with no serious adverse events.",
+        "research_status": "VERIFIED that native MOTS-c has no published human trials. The CB4211 data are non-peer-reviewed, and sources disagree on enrollment (65 vs 88)."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-03",
+    "treatment": "mots-c",
+    "location": "reframe",
+    "text": "MOTS-c gets attention because exercise appears to raise it, and because in animals it acts on the same energy-sensing switch that exercise flips. Whether giving it to people does anything comparable hasn't been tested in a published trial.",
+    "tier": "untiered framing copy",
+    "source_id": "s_reynolds_2021",
+    "source_citation": "Reynolds JC, et al. MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis. Nat Commun. 2021;12:470.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817689/",
+    "source_type": "observational",
+    "research_quotes": [
+      {
+        "research_id": "M3",
+        "quote": "endogenous MOTS-c levels in skeletal muscle significantly increased after exercise (11.9-fold) and remained elevated after a 4-hour rest (18.9-fold)",
+        "research_status": "VERIFIED (check the fold-change figures against the published version's figures)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-04",
+    "treatment": "mots-c",
+    "location": "reframe",
+    "text": "MOTS-c gets attention because exercise appears to raise it, and because in animals it acts on the same energy-sensing switch that exercise flips. Whether giving it to people does anything comparable hasn't been tested in a published trial.",
+    "tier": "untiered framing copy",
+    "source_id": "s_lee_2015",
+    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
+    "source_type": "animal",
+    "research_quotes": [
+      {
+        "research_id": "M1",
+        "quote": "MOTSC is encoded as a 51-bp short open reading frame (sORF) in the mitochondrial 12S rRNA",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "M2",
+        "quote": "increased glucose utilization and fatty acid oxidation, decreased oxidative phosphorylation, increased endogenous AICAR levels, and AMPK activation",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "A6",
+        "quote": "MOTS-c ... a 16-amino-acid peptide encoded in the mitochondrial genome",
+        "research_status": "VERIFIED (count); sequence string not verified, so omit it from the graphic or check it"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-05",
+    "treatment": "mots-c",
+    "location": "reframe",
+    "text": "MOTS-c gets attention because exercise appears to raise it, and because in animals it acts on the same energy-sensing switch that exercise flips. Whether giving it to people does anything comparable hasn't been tested in a published trial.",
+    "tier": "untiered framing copy",
+    "source_id": "s_cohbar_2021",
+    "source_citation": "CohBar press release (Aug 10, 2021): topline Phase 1a/1b results for CB4211, a modified MOTS-c analog. No peer-reviewed publication.",
+    "source_url": "https://www.globenewswire.com/news-release/2021/08/10/2278324/0/en/CohBar-Announces-Positive-Topline-Results-from-the-Phase-1a-1b-Study-of-CB4211-Under-Development-for-NASH-and-Obesity.html",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "M5",
+        "quote": "CB4211 was well-tolerated and appeared safe with no serious adverse events.",
+        "research_status": "VERIFIED that native MOTS-c has no published human trials. The CB4211 data are non-peer-reviewed, and sources disagree on enrollment (65 vs 88)."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-06",
+    "treatment": "mots-c",
+    "location": "viz_caption",
+    "text": "Simplified, and based on lab and animal research.",
+    "tier": "untiered framing copy",
+    "source_url": null,
+    "source_type": null,
+    "status": "no_source: instruction or framing, not a factual claim"
+  },
+  {
+    "id": "mots-c-07",
+    "treatment": "mots-c",
+    "location": "gauge_scale_note",
+    "text": "Roughly to scale for muscle. A small study in men only.",
+    "tier": "Early human studies",
+    "source_id": "s_reynolds_2021",
+    "source_citation": "Reynolds JC, et al. MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis. Nat Commun. 2021;12:470.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817689/",
+    "source_type": "observational",
+    "research_quotes": [
+      {
+        "research_id": "M3",
+        "quote": "endogenous MOTS-c levels in skeletal muscle significantly increased after exercise (11.9-fold) and remained elevated after a 4-hour rest (18.9-fold)",
+        "research_status": "VERIFIED (check the fold-change figures against the published version's figures)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-08",
+    "treatment": "mots-c",
+    "location": "gauge_states[0]",
+    "text": "Baseline levels in muscle before exercise.",
+    "tier": "Early human studies",
+    "source_id": "s_reynolds_2021",
+    "source_citation": "Reynolds JC, et al. MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis. Nat Commun. 2021;12:470.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817689/",
+    "source_type": "observational",
+    "research_quotes": [
+      {
+        "research_id": "M3",
+        "quote": "endogenous MOTS-c levels in skeletal muscle significantly increased after exercise (11.9-fold) and remained elevated after a 4-hour rest (18.9-fold)",
+        "research_status": "VERIFIED (check the fold-change figures against the published version's figures)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-09",
+    "treatment": "mots-c",
+    "location": "gauge_states[1]",
+    "text": "In 10 young men after one cycling session, muscle MOTS-c rose about 12-fold. Blood levels rose about 1.5-fold.",
+    "tier": "Early human studies",
+    "source_id": "s_reynolds_2021",
+    "source_citation": "Reynolds JC, et al. MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis. Nat Commun. 2021;12:470.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817689/",
+    "source_type": "observational",
+    "research_quotes": [
+      {
+        "research_id": "M3",
+        "quote": "endogenous MOTS-c levels in skeletal muscle significantly increased after exercise (11.9-fold) and remained elevated after a 4-hour rest (18.9-fold)",
+        "research_status": "VERIFIED (check the fold-change figures against the published version's figures)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-10",
+    "treatment": "mots-c",
+    "location": "viz_nodes[0]",
+    "text": "MOTS-c is coded by a short stretch of mitochondrial DNA inside a gene called 12S. It's 16 amino acids long.",
+    "tier": "Established",
+    "source_id": "s_lee_2015",
+    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
+    "source_type": "animal",
+    "research_quotes": [
+      {
+        "research_id": "M1",
+        "quote": "MOTSC is encoded as a 51-bp short open reading frame (sORF) in the mitochondrial 12S rRNA",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "M2",
+        "quote": "increased glucose utilization and fatty acid oxidation, decreased oxidative phosphorylation, increased endogenous AICAR levels, and AMPK activation",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "A6",
+        "quote": "MOTS-c ... a 16-amino-acid peptide encoded in the mitochondrial genome",
+        "research_status": "VERIFIED (count); sequence string not verified, so omit it from the graphic or check it"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-11",
+    "treatment": "mots-c",
+    "location": "viz_nodes[1]",
+    "text": "In cells and mice, MOTS-c switched on AMPK, an energy sensor, and cells used more sugar and fat. Under stress it moved into the nucleus.",
+    "tier": "Lab and animal research",
+    "source_id": "s_lee_2015",
+    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
+    "source_type": "animal",
+    "research_quotes": [
+      {
+        "research_id": "M1",
+        "quote": "MOTSC is encoded as a 51-bp short open reading frame (sORF) in the mitochondrial 12S rRNA",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "M2",
+        "quote": "increased glucose utilization and fatty acid oxidation, decreased oxidative phosphorylation, increased endogenous AICAR levels, and AMPK activation",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "A6",
+        "quote": "MOTS-c ... a 16-amino-acid peptide encoded in the mitochondrial genome",
+        "research_status": "VERIFIED (count); sequence string not verified, so omit it from the graphic or check it"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-12",
+    "treatment": "mots-c",
+    "location": "mechanism_steps[0]",
+    "text": "Your mitochondria carry their own small set of DNA. MOTS-c is one of the few peptides made from it.",
+    "tier": "Established",
+    "source_id": "s_lee_2015",
+    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
+    "source_type": "animal",
+    "research_quotes": [
+      {
+        "research_id": "M1",
+        "quote": "MOTSC is encoded as a 51-bp short open reading frame (sORF) in the mitochondrial 12S rRNA",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "M2",
+        "quote": "increased glucose utilization and fatty acid oxidation, decreased oxidative phosphorylation, increased endogenous AICAR levels, and AMPK activation",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "A6",
+        "quote": "MOTS-c ... a 16-amino-acid peptide encoded in the mitochondrial genome",
+        "research_status": "VERIFIED (count); sequence string not verified, so omit it from the graphic or check it"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-13",
+    "treatment": "mots-c",
+    "location": "mechanism_steps[1]",
+    "text": "In mice, MOTS-c switched on AMPK and changed how the body used sugar and fat.",
+    "tier": "Lab and animal research",
+    "source_id": "s_lee_2015",
+    "source_citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
+    "source_type": "animal",
+    "research_quotes": [
+      {
+        "research_id": "M1",
+        "quote": "MOTSC is encoded as a 51-bp short open reading frame (sORF) in the mitochondrial 12S rRNA",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "M2",
+        "quote": "increased glucose utilization and fatty acid oxidation, decreased oxidative phosphorylation, increased endogenous AICAR levels, and AMPK activation",
+        "research_status": "VERIFIED"
+      },
+      {
+        "research_id": "A6",
+        "quote": "MOTS-c ... a 16-amino-acid peptide encoded in the mitochondrial genome",
+        "research_status": "VERIFIED (count); sequence string not verified, so omit it from the graphic or check it"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-14",
+    "treatment": "mots-c",
+    "location": "mechanism_steps[2]",
+    "text": "In one small study of young men, a single workout raised MOTS-c in muscle and, more modestly, in blood.",
+    "tier": "Early human studies",
+    "source_id": "s_reynolds_2021",
+    "source_citation": "Reynolds JC, et al. MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis. Nat Commun. 2021;12:470.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817689/",
+    "source_type": "observational",
+    "research_quotes": [
+      {
+        "research_id": "M3",
+        "quote": "endogenous MOTS-c levels in skeletal muscle significantly increased after exercise (11.9-fold) and remained elevated after a 4-hour rest (18.9-fold)",
+        "research_status": "VERIFIED (check the fold-change figures against the published version's figures)"
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-15",
+    "treatment": "mots-c",
+    "location": "mechanism_steps[3]",
+    "text": "In men, blood MOTS-c was lower with age while muscle MOTS-c was higher. There isn't a clean story here yet.",
+    "tier": "Early human studies",
+    "source_id": "s_dsouza_2020",
+    "source_citation": "D'Souza RF, et al. Increased expression of MOTS-c in skeletal muscle of healthy aging men. Aging (Albany NY). 2020;12:5244.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7138593/",
+    "source_type": "observational",
+    "research_quotes": [
+      {
+        "research_id": "M4",
+        "quote": "plasma MOTS-c levels are reduced with age while muscle levels are increased",
+        "research_status": "VERIFIED, with correction: the decline is in plasma only; muscle MOTS-c increases with age. The 11%/21% figures come from reviews and were not checked against the primary data."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-16",
+    "treatment": "mots-c",
+    "location": "mechanism_steps[4]",
+    "text": "A modified version was tested in a small early trial, with results shared only in a company press release.",
+    "tier": "Early human studies",
+    "source_id": "s_cohbar_2021",
+    "source_citation": "CohBar press release (Aug 10, 2021): topline Phase 1a/1b results for CB4211, a modified MOTS-c analog. No peer-reviewed publication.",
+    "source_url": "https://www.globenewswire.com/news-release/2021/08/10/2278324/0/en/CohBar-Announces-Positive-Topline-Results-from-the-Phase-1a-1b-Study-of-CB4211-Under-Development-for-NASH-and-Obesity.html",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "M5",
+        "quote": "CB4211 was well-tolerated and appeared safe with no serious adverse events.",
+        "research_status": "VERIFIED that native MOTS-c has no published human trials. The CB4211 data are non-peer-reviewed, and sources disagree on enrollment (65 vs 88)."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-17",
+    "treatment": "mots-c",
+    "location": "notice_items[0]",
+    "text": "No published human studies describe what people notice on MOTS-c. Your clinician will set expectations with you.",
+    "tier": "Early human studies",
+    "source_id": "s_cohbar_2021",
+    "source_citation": "CohBar press release (Aug 10, 2021): topline Phase 1a/1b results for CB4211, a modified MOTS-c analog. No peer-reviewed publication.",
+    "source_url": "https://www.globenewswire.com/news-release/2021/08/10/2278324/0/en/CohBar-Announces-Positive-Topline-Results-from-the-Phase-1a-1b-Study-of-CB4211-Under-Development-for-NASH-and-Obesity.html",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "M5",
+        "quote": "CB4211 was well-tolerated and appeared safe with no serious adverse events.",
+        "research_status": "VERIFIED that native MOTS-c has no published human trials. The CB4211 data are non-peer-reviewed, and sources disagree on enrollment (65 vs 88)."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-18",
+    "treatment": "mots-c",
+    "location": "route_steps[0]",
+    "text": "Each vial holds 2 mg/mL MOTS-c. Draft plan: two months on, one month off.",
+    "tier": "untiered framing copy",
+    "source_url": null,
+    "source_type": null,
+    "status": "clinician-owned: drafted, no external source"
+  },
+  {
+    "id": "mots-c-19",
+    "treatment": "mots-c",
+    "location": "route_steps[1]",
+    "text": "Your clinician sets the dose within each cycle.",
+    "tier": "untiered framing copy",
+    "source_url": null,
+    "source_type": null,
+    "status": "clinician-owned: drafted, no external source"
+  },
+  {
+    "id": "mots-c-20",
+    "treatment": "mots-c",
+    "location": "not_for_you_if[0]",
+    "text": "Your clinician will set this list with you. No published human trials define it yet.",
+    "tier": "untiered framing copy",
+    "source_id": "s_cohbar_2021",
+    "source_citation": "CohBar press release (Aug 10, 2021): topline Phase 1a/1b results for CB4211, a modified MOTS-c analog. No peer-reviewed publication.",
+    "source_url": "https://www.globenewswire.com/news-release/2021/08/10/2278324/0/en/CohBar-Announces-Positive-Topline-Results-from-the-Phase-1a-1b-Study-of-CB4211-Under-Development-for-NASH-and-Obesity.html",
+    "source_type": "RCT",
+    "research_quotes": [
+      {
+        "research_id": "M5",
+        "quote": "CB4211 was well-tolerated and appeared safe with no serious adverse events.",
+        "research_status": "VERIFIED that native MOTS-c has no published human trials. The CB4211 data are non-peer-reviewed, and sources disagree on enrollment (65 vs 88)."
+      }
+    ],
+    "status": "draft: quote matched from search extracts; full-text check blocked (see DECISIONS)"
+  },
+  {
+    "id": "mots-c-21",
+    "treatment": "mots-c",
+    "location": "what_to_watch[0]",
+    "text": "Anything new after you start, including changes at the injection site.",
+    "tier": "untiered framing copy",
+    "source_url": null,
+    "source_type": null,
+    "status": "clinician-owned: drafted, no external source"
+  }
+]

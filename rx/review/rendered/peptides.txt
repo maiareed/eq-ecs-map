@@ -1,0 +1,205 @@
+EQUILIBRIA RX · START HERE
+What is a peptide, really?
+
+A peptide is a short chain of amino acids, the same building blocks that make up proteins. The difference is length. Here's how the molecules you'll see at Equilibria compare, bead for bead.
+
+Peptides are suddenly everywhere: in skincare, on podcasts, in the group chat. The same word gets used for a face cream and an injection, which makes it hard to know what you're actually looking at.
+
+Size is the simplest way in. Each bead below is one amino acid. Count the beads and you know what kind of molecule you're dealing with. You'll also see why the word peptide on its own tells you so little.
+
+Bead for bead
+
+One bead is one amino acid, and each full line holds 40. That's the FDA's cutoff: a chain longer than 40 counts as a protein.
+
+KPV
+3 beads
+GHK
+3 beads
+PT-141
+7 beads
+Oxytocin
+9 beads
+BPC-157
+15 beads
+MOTS-c
+16 beads
+Tirzepatide
+39 beads
+Insulin
+51 beads
+Serum albumin
+585 beads
+first 80 of 585 shown
+NAD+
+Not a chain
+One small molecule, 663 g/mol
+Naltrexone
+Not a chain
+One small molecule, 341 g/mol
+Each line ends at 40
+
+Plum beads: in an Equilibria Rx formula. Gold beads: shown for scale. Tap any row for detail.[9]
+
+Three things the beads tell you
+Peptide describes size, not effect
+
+The word tells you a molecule is a short chain. It doesn't tell you what the chain does, how well it's been studied, or whether it suits you. That's what each explainer is for.[9]
+
+Established
+Length is only the first detail
+
+Some short chains are closed into rings, like PT-141 and oxytocin. Some are paired with something else, like the copper in GHK-Cu.[3][4][2]
+
+Established
+Not every Rx is a peptide
+
+NAD+ and naltrexone are small molecules, not chains. If someone calls everything in this category a peptide, you now know better.[11][12]
+
+Established
+How sure is this?
+
+Every claim on this page carries one of four line styles. The heavier the line, the stronger the evidence.
+
+Established. Large human trials, an FDA drug label, or settled biology.
+Early human studies. Small or early studies in people. Worth knowing, still being confirmed.
+Lab and animal research. Studies in cells or animals. Clues about how something might work in people.
+Leading theory. The best current explanation. Researchers are still testing it.
+See how a specific one works
+Explore the explainers
+
+Each explainer covers what a molecule does, how strong the evidence is, and what a clinician will want to know.
+
+Sources
+KPV (Lys-Pro-Val), the C-terminal tripeptide of alpha-MSH (PMC2431115). Read the source
+Pickart L. GHK (glycyl-histidyl-lysine) and its copper complex (PMC3359723). Read the source
+Bremelanotide prescribing information: cyclic 7-residue alpha-MSH analog. Read the source
+Oxytocin structure: nonapeptide with a Cys1-Cys6 disulfide ring (PMC2689929). Read the source
+BPC-157 as an investigational peptide: synthetic 15-amino-acid peptide derived from a gastric juice protein (PMC13210877). Read the source
+Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454. Read the source
+Tirzepatide prescribing information, Description: 39-amino-acid linear peptide. Read the source
+Insulin structure: A chain 21 and B chain 30 amino acids (NCBI Bookshelf NBK278938). Read the source
+FDA final rule, Definition of the Term "Biological Product", 85 FR 10057 (Feb 21, 2020): a protein is an alpha amino acid polymer with a defined sequence greater than 40 amino acids. Read the source
+UniProt P02768, serum albumin: mature chain residues 25-609 (585 amino acids). Read the source
+PubChem CID 5892, NAD+: C21H27N7O14P2, about 663.4 g/mol. Read the source
+PubChem CID 5360515, naltrexone: C20H23NO4, about 341.4 g/mol. Read the source
+Educational content for Equilibria members. It isn't medical advice, and it doesn't replace a conversation with your clinician.
+
+--- Text inside visuals ---
+KPV
+3 beads
+GHK
+3 beads
+PT-141
+7 beads
+Oxytocin
+9 beads
+BPC-157
+15 beads
+MOTS-c
+16 beads
+Tirzepatide
+39 beads
+Insulin
+51 beads
+Serum albumin
+585 beads
+first 80 of 585 shown
+NAD+
+Not a chain
+One small molecule, 663 g/mol
+Naltrexone
+Not a chain
+One small molecule, 341 g/mol
+Each line ends at 40
+
+--- Image descriptions ---
+[image description] Rows of beads, one per amino acid. KPV and GHK have 3, PT-141 has 7, oxytocin 9, BPC-157 15, MOTS-c 16, tirzepatide 39, insulin 51 and serum albumin 585, shown truncated. A dotted line marks 40. NAD+ and naltrexone sit off the string as single small molecules.
+
+--- Tap-to-open details ---
+KPV
+
+3 beads
+
+A three-bead fragment from the end of a longer hormone called alpha-MSH.[1]
+
+Established
+
+GHK
+
+3 beads
+
+The peptide in GHK-Cu. Three beads paired with copper. It was first isolated from human plasma in 1973. You'll find GHK-Cu in Radiance Cream Rx and Copper Glow Cream Rx.[2]
+
+Established
+
+PT-141
+
+7 beads
+
+Also called bremelanotide. Seven beads closed into a ring, including two building blocks you won't find in everyday proteins. Part of Intimacy Melt Rx.[3]
+
+Established
+
+Oxytocin
+
+9 beads
+
+Nine beads, with a small ring formed by two linked building blocks. Part of Intimacy Melt Rx.[4]
+
+Established
+
+BPC-157
+
+15 beads
+
+A lab-made chain of fifteen, described as derived from a protein in gastric juice. In Gut Peptides Rx and Wolverine Recovery Rx.[5]
+
+Established
+
+MOTS-c
+
+16 beads
+
+Sixteen beads, coded in the DNA of your mitochondria rather than the cell's nucleus.[6]
+
+Established
+
+Tirzepatide
+
+39 beads
+
+Thirty-nine beads, one short of the FDA's protein line. The active ingredient in our GLP/GIP Rx options.[7]
+
+Established
+
+Insulin
+
+51 beads
+
+Two chains of 21 and 30 beads, counted together. That puts insulin over the line, so the FDA regulates it as a protein. Shown for scale.[8][9]
+
+Established
+
+Serum albumin
+
+585 beads
+
+A blood protein, 585 beads long once it's fully made. It's here so you can see what a full-size protein looks like next to a peptide. Shown for scale.[10]
+
+Established
+
+NAD+
+
+Not a chain
+
+NAD+ isn't made of amino acids at all. It's a dinucleotide, two nucleotides joined together. The active ingredient in Energy Spray Rx.[11]
+
+Established
+
+Naltrexone
+
+Not a chain
+
+A classic small-molecule medicine, and the active ingredient in LDN Rx.[12]
+
+Established

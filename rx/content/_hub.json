@@ -1,0 +1,26 @@
+{
+  "record_type": "rx_learn_hub",
+  "page_title": "Learn | Equilibria Rx",
+  "kicker": "Equilibria Rx · Learn",
+  "headline": "Know what you're *considering*.",
+  "lede": "Short, visual explainers on what each molecule is, what it does, and how strong the evidence is. Every page marks its certainty the same way, so you can compare them honestly.",
+  "cards": [
+    {
+      "slug": "peptides",
+      "href": "peptides.html"
+    },
+    {
+      "slug": "ldn",
+      "href": "ldn.html"
+    },
+    {
+      "slug": "nad",
+      "href": "nad.html"
+    },
+    {
+      "slug": "mots-c",
+      "href": "mots-c.html"
+    }
+  ],
+  "footer_note": "Educational content for Equilibria members. It isn't medical advice. Every Rx is prescribed only after a licensed clinician reviews your health history."
+}

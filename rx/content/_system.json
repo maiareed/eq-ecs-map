@@ -1,0 +1,31 @@
+{
+  "record_type": "rx_learn_system",
+  "tiers": [
+    { "tier_id": "t1", "short_label": "Established", "description": "Large human trials, an FDA drug label, or settled biology." },
+    { "tier_id": "t2", "short_label": "Early human studies", "description": "Small or early studies in people. Worth knowing, still being confirmed." },
+    { "tier_id": "t3", "short_label": "Lab and animal research", "description": "Studies in cells or animals. Clues about how something might work in people." },
+    { "tier_id": "t4", "short_label": "Leading theory", "description": "The best current explanation. Researchers are still testing it." }
+  ],
+  "ui_tier_legend_title": "How sure is this?",
+  "ui_tier_legend_intro": "Every claim on this page carries one of four line styles. The heavier the line, the stronger the evidence.",
+  "ui_pending_label": "Pending clinician review",
+  "ui_notice_title": "What you might notice, and when",
+  "ui_route_title": "How it gets in",
+  "ui_cautions_title": "Before you start",
+  "ui_not_for_you_title": "Not for you if",
+  "ui_watch_title": "What to watch",
+  "ui_cautions_footer": "Your clinician screens for these during your intake and owns every dosing decision. Wellness Advocates can help with your account, orders and shipping, and will route any dosing or prescription question to your clinician.",
+  "ui_cadence_title": "How your plan runs",
+  "ui_cadence_ships": "Ships",
+  "ui_cadence_recheck": "Clinician re-check",
+  "ui_cadence_refills": "Refills",
+  "ui_sources_title": "Sources",
+  "ui_source_link": "Read the source",
+  "ui_source_aria": "Source",
+  "ui_sheet_label": "Details",
+  "ui_close": "Close details",
+  "ui_back_to_hub": "Learn",
+  "ui_theme_dark": "Switch to dark mode",
+  "ui_theme_light": "Switch to light mode",
+  "ui_footer": "Educational content for Equilibria members. It isn't medical advice, and it doesn't replace a conversation with your clinician."
+}

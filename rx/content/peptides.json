@@ -1,0 +1,270 @@
+{
+  "record_type": "rx_learn_explainer",
+  "slug": "peptides",
+  "archetype": "scale_primer",
+  "page_title": "What is a peptide? | Equilibria",
+  "card_kicker": "Start here",
+  "card_title": "What a peptide actually is",
+  "card_summary": "Bead for bead: how the molecules in our Rx formulas compare by size, and why the word alone tells you so little.",
+  "kicker": "Equilibria Rx · Start here",
+  "headline": "What is a peptide, *really*?",
+  "lede": "A peptide is a short chain of amino acids, the same building blocks that make up proteins. The difference is length. Here's how the molecules you'll see at Equilibria compare, bead for bead.",
+  "recognition": "Peptides are suddenly everywhere: in skincare, on podcasts, in the group chat. The same word gets used for a face cream and an injection, which makes it hard to know what you're actually looking at.",
+  "reframe": "Size is the simplest way in. Each bead below is one amino acid. Count the beads and you know what kind of molecule you're dealing with. You'll also see why the word *peptide* on its own tells you so little.",
+  "viz_title": "Bead for bead",
+  "viz_intro": "One bead is one amino acid, and each full line holds 40. That's the FDA's cutoff: a chain longer than 40 counts as a protein.",
+  "viz_alt": "Rows of beads, one per amino acid. KPV and GHK have 3, PT-141 has 7, oxytocin 9, BPC-157 15, MOTS-c 16, tirzepatide 39, insulin 51 and serum albumin 585, shown truncated. A dotted line marks 40. NAD+ and naltrexone sit off the string as single small molecules.",
+  "threshold_count": 40,
+  "threshold_label": "Each line ends at 40",
+  "threshold_source_ids": [
+    "s_fda_protein_2020"
+  ],
+  "viz_caption": "Plum beads: in an Equilibria Rx formula. Gold beads: shown for scale. Tap any row for detail.",
+  "scale_rows": [
+    {
+      "row_label": "KPV",
+      "count": 3,
+      "count_label": "3 beads",
+      "kind": "peptide",
+      "highlight": false,
+      "tier": "t1",
+      "source_ids": [
+        "s_kpv"
+      ],
+      "row_note": "A three-bead fragment from the end of a longer hormone called alpha-MSH."
+    },
+    {
+      "row_label": "GHK",
+      "count": 3,
+      "count_label": "3 beads",
+      "kind": "peptide",
+      "highlight": true,
+      "tier": "t1",
+      "source_ids": [
+        "s_ghk"
+      ],
+      "row_note": "The peptide in GHK-Cu. Three beads paired with copper. It was first isolated from human plasma in 1973. You'll find GHK-Cu in Radiance Cream Rx and Copper Glow Cream Rx."
+    },
+    {
+      "row_label": "PT-141",
+      "count": 7,
+      "count_label": "7 beads",
+      "kind": "peptide",
+      "highlight": true,
+      "tier": "t1",
+      "source_ids": [
+        "s_pt141"
+      ],
+      "row_note": "Also called bremelanotide. Seven beads closed into a ring, including two building blocks you won't find in everyday proteins. Part of Intimacy Melt Rx."
+    },
+    {
+      "row_label": "Oxytocin",
+      "count": 9,
+      "count_label": "9 beads",
+      "kind": "peptide",
+      "highlight": true,
+      "tier": "t1",
+      "source_ids": [
+        "s_oxytocin"
+      ],
+      "row_note": "Nine beads, with a small ring formed by two linked building blocks. Part of Intimacy Melt Rx."
+    },
+    {
+      "row_label": "BPC-157",
+      "count": 15,
+      "count_label": "15 beads",
+      "kind": "peptide",
+      "highlight": true,
+      "tier": "t1",
+      "source_ids": [
+        "s_bpc"
+      ],
+      "row_note": "A lab-made chain of fifteen, described as derived from a protein in gastric juice. In Gut Peptides Rx and Wolverine Recovery Rx."
+    },
+    {
+      "row_label": "MOTS-c",
+      "count": 16,
+      "count_label": "16 beads",
+      "kind": "peptide",
+      "highlight": false,
+      "tier": "t1",
+      "source_ids": [
+        "s_lee_2015"
+      ],
+      "row_note": "Sixteen beads, coded in the DNA of your mitochondria rather than the cell's nucleus."
+    },
+    {
+      "row_label": "Tirzepatide",
+      "count": 39,
+      "count_label": "39 beads",
+      "kind": "peptide",
+      "highlight": true,
+      "tier": "t1",
+      "source_ids": [
+        "s_tirzepatide"
+      ],
+      "row_note": "Thirty-nine beads, one short of the FDA's protein line. The active ingredient in our GLP/GIP Rx options."
+    },
+    {
+      "row_label": "Insulin",
+      "count": 51,
+      "count_label": "51 beads",
+      "kind": "peptide",
+      "highlight": false,
+      "tier": "t1",
+      "source_ids": [
+        "s_insulin",
+        "s_fda_protein_2020"
+      ],
+      "row_note": "Two chains of 21 and 30 beads, counted together. That puts insulin over the line, so the FDA regulates it as a protein. Shown for scale."
+    },
+    {
+      "row_label": "Serum albumin",
+      "count": 585,
+      "count_label": "585 beads",
+      "kind": "protein",
+      "highlight": false,
+      "tier": "t1",
+      "source_ids": [
+        "s_albumin"
+      ],
+      "truncation_note": "first {n} of 585 shown",
+      "row_note": "A blood protein, 585 beads long once it's fully made. It's here so you can see what a full-size protein looks like next to a peptide. Shown for scale."
+    },
+    {
+      "row_label": "NAD+",
+      "count": 0,
+      "count_label": "Not a chain",
+      "kind": "small_molecule",
+      "tier": "t1",
+      "source_ids": [
+        "s_nad_pubchem"
+      ],
+      "glyph_note": "One small molecule, 663 g/mol",
+      "row_note": "NAD+ isn't made of amino acids at all. It's a dinucleotide, two nucleotides joined together. The active ingredient in Energy Spray Rx."
+    },
+    {
+      "row_label": "Naltrexone",
+      "count": 0,
+      "count_label": "Not a chain",
+      "kind": "small_molecule",
+      "tier": "t1",
+      "source_ids": [
+        "s_naltrexone_pubchem"
+      ],
+      "glyph_note": "One small molecule, 341 g/mol",
+      "row_note": "A classic small-molecule medicine, and the active ingredient in LDN Rx."
+    }
+  ],
+  "scale_takeaways_title": "Three things the beads tell you",
+  "scale_takeaways": [
+    {
+      "step_title": "Peptide describes size, not effect",
+      "tier": "t1",
+      "source_ids": [
+        "s_fda_protein_2020"
+      ],
+      "step_body": "The word tells you a molecule is a short chain. It doesn't tell you what the chain does, how well it's been studied, or whether it suits you. That's what each explainer is for."
+    },
+    {
+      "step_title": "Length is only the first detail",
+      "tier": "t1",
+      "source_ids": [
+        "s_pt141",
+        "s_oxytocin",
+        "s_ghk"
+      ],
+      "step_body": "Some short chains are closed into rings, like PT-141 and oxytocin. Some are paired with something else, like the copper in GHK-Cu."
+    },
+    {
+      "step_title": "Not every Rx is a peptide",
+      "tier": "t1",
+      "source_ids": [
+        "s_nad_pubchem",
+        "s_naltrexone_pubchem"
+      ],
+      "step_body": "NAD+ and naltrexone are small molecules, not chains. If someone calls everything in this category a peptide, you now know better."
+    }
+  ],
+  "cta_title": "See how a specific one works",
+  "cta_label": "Explore the explainers",
+  "cta_href": "index.html",
+  "cta_note": "Each explainer covers what a molecule does, how strong the evidence is, and what a clinician will want to know.",
+  "sources": [
+    {
+      "source_id": "s_fda_protein_2020",
+      "citation": "FDA final rule, Definition of the Term \"Biological Product\", 85 FR 10057 (Feb 21, 2020): a protein is an alpha amino acid polymer with a defined sequence greater than 40 amino acids.",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-02-21/html/2020-03505.htm",
+      "source_type": "regulation"
+    },
+    {
+      "source_id": "s_kpv",
+      "citation": "KPV (Lys-Pro-Val), the C-terminal tripeptide of alpha-MSH (PMC2431115).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2431115/",
+      "source_type": "reference_database"
+    },
+    {
+      "source_id": "s_ghk",
+      "citation": "Pickart L. GHK (glycyl-histidyl-lysine) and its copper complex (PMC3359723).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3359723/",
+      "source_type": "review"
+    },
+    {
+      "source_id": "s_pt141",
+      "citation": "Bremelanotide prescribing information: cyclic 7-residue alpha-MSH analog.",
+      "url": "https://www.rxlist.com/vyleesi-drug.htm",
+      "source_type": "label"
+    },
+    {
+      "source_id": "s_oxytocin",
+      "citation": "Oxytocin structure: nonapeptide with a Cys1-Cys6 disulfide ring (PMC2689929).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2689929/",
+      "source_type": "review"
+    },
+    {
+      "source_id": "s_bpc",
+      "citation": "BPC-157 as an investigational peptide: synthetic 15-amino-acid peptide derived from a gastric juice protein (PMC13210877).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13210877/",
+      "source_type": "review"
+    },
+    {
+      "source_id": "s_lee_2015",
+      "citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
+      "source_type": "animal"
+    },
+    {
+      "source_id": "s_tirzepatide",
+      "citation": "Tirzepatide prescribing information, Description: 39-amino-acid linear peptide.",
+      "url": "https://globalrph.com/rx-list/mounjaro-drug/",
+      "source_type": "label"
+    },
+    {
+      "source_id": "s_insulin",
+      "citation": "Insulin structure: A chain 21 and B chain 30 amino acids (NCBI Bookshelf NBK278938).",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK278938/",
+      "source_type": "review"
+    },
+    {
+      "source_id": "s_albumin",
+      "citation": "UniProt P02768, serum albumin: mature chain residues 25-609 (585 amino acids).",
+      "url": "https://www.uniprot.org/uniprotkb/P02768/entry",
+      "source_type": "reference_database"
+    },
+    {
+      "source_id": "s_nad_pubchem",
+      "citation": "PubChem CID 5892, NAD+: C21H27N7O14P2, about 663.4 g/mol.",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5892",
+      "source_type": "reference_database"
+    },
+    {
+      "source_id": "s_naltrexone_pubchem",
+      "citation": "PubChem CID 5360515, naltrexone: C20H23NO4, about 341.4 g/mol.",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5360515",
+      "source_type": "reference_database"
+    }
+  ],
+  "lede_source_ids": [
+    "s_fda_protein_2020"
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "record_type": "rx_learn_explainer",
+  "slug": "mots-c",
+  "archetype": "cell_energy",
+  "internal_banner": "Template test. Internal only.",
+  "page_title": "MOTS-c, explained (template test) | Equilibria",
+  "card_kicker": "MOTS-c Rx · Coming next",
+  "card_title": "A signal sent from your mitochondria",
+  "card_summary": "Rendered from a content record only, to test the cell energy template.",
+  "kicker": "MOTS-c Rx · How it works",
+  "headline": "A message your mitochondria *send out*.",
+  "lede": "Most of what mitochondria do stays inside the cell. MOTS-c is different: a small peptide your mitochondria make that appears to travel and act elsewhere. Almost all of what we know comes from lab and animal work.",
+  "dose_concentration": "2 mg/mL",
+  "dose_pending_clinician": true,
+  "recognition": "You've kept moving and you still notice it: workouts land differently than they did, and your body seems to respond to effort on a slower clock.",
+  "reframe": "MOTS-c gets attention because exercise appears to raise it, and because in animals it acts on the same energy-sensing switch that exercise flips. Whether giving it to people does anything comparable hasn't been tested in a published trial.",
+  "reframe_source_ids": [
+    "s_reynolds_2021",
+    "s_lee_2015",
+    "s_cohbar_2021"
+  ],
+  "viz_role": "signal",
+  "viz_title": "Made inside, sent outside",
+  "viz_intro": "MOTS-c is coded in your mitochondria's own DNA. It leaves the mitochondrion and, in lab studies, switches on an energy sensor in the cell.",
+  "viz_alt": "A mitochondrion on the left sends gold dots along a dotted path to a cell nucleus on the right, showing MOTS-c traveling as a signal.",
+  "viz_organelle_label": "One mitochondrion",
+  "viz_target_label": "Energy sensor (AMPK)",
+  "viz_molecule_label": "Gold dots: MOTS-c on the move",
+  "viz_path_tier": "t3",
+  "viz_particles": 4,
+  "viz_nodes": [
+    {
+      "x": 200,
+      "y": 170,
+      "node_label": "Made here",
+      "label_dy": -26,
+      "tier": "t1",
+      "source_ids": [
+        "s_lee_2015"
+      ],
+      "node_detail": "MOTS-c is coded by a short stretch of mitochondrial DNA inside a gene called 12S. It's 16 amino acids long."
+    },
+    {
+      "x": 628,
+      "y": 170,
+      "node_label": "Acts here",
+      "label_dy": -62,
+      "tier": "t3",
+      "source_ids": [
+        "s_lee_2015"
+      ],
+      "node_detail": "In cells and mice, MOTS-c switched on AMPK, an energy sensor, and cells used more sugar and fat. Under stress it moved into the nucleus."
+    }
+  ],
+  "viz_caption": "Simplified, and based on lab and animal research.",
+  "viz_tap_hint": "Tap a plum dot for detail.",
+  "gauge_title": "Muscle MOTS-c, before and after one workout",
+  "gauge_tier": "t2",
+  "gauge_default_index": 1,
+  "gauge_states": [
+    {
+      "state_label": "At rest",
+      "level_pct": 8,
+      "state_note": "Baseline levels in muscle before exercise."
+    },
+    {
+      "state_label": "After",
+      "level_pct": 95,
+      "state_note": "In 10 young men after one cycling session, muscle MOTS-c rose about 12-fold. Blood levels rose about 1.5-fold."
+    }
+  ],
+  "gauge_scale_note": "Roughly to scale for muscle. A small study in men only.",
+  "gauge_source_ids": [
+    "s_reynolds_2021"
+  ],
+  "mechanism_title": "What we know, and what we don't",
+  "mechanism_intro": "Most rungs here sit low on the evidence ladder.",
+  "mechanism_steps": [
+    {
+      "step_title": "It's coded in your mitochondria",
+      "tier": "t1",
+      "source_ids": [
+        "s_lee_2015"
+      ],
+      "step_body": "Your mitochondria carry their own small set of DNA. MOTS-c is one of the few peptides made from it."
+    },
+    {
+      "step_title": "In animals, it acts on an energy switch",
+      "tier": "t3",
+      "source_ids": [
+        "s_lee_2015"
+      ],
+      "step_body": "In mice, MOTS-c switched on AMPK and changed how the body used sugar and fat."
+    },
+    {
+      "step_title": "Exercise appears to raise it",
+      "tier": "t2",
+      "source_ids": [
+        "s_reynolds_2021"
+      ],
+      "step_body": "In one small study of young men, a single workout raised MOTS-c in muscle and, more modestly, in blood."
+    },
+    {
+      "step_title": "Age findings are mixed",
+      "tier": "t2",
+      "source_ids": [
+        "s_dsouza_2020"
+      ],
+      "step_body": "In men, blood MOTS-c was lower with age while muscle MOTS-c was higher. There isn't a clean story here yet."
+    },
+    {
+      "step_title": "No published human trials of MOTS-c itself",
+      "tier": "t2",
+      "source_ids": [
+        "s_cohbar_2021"
+      ],
+      "step_body": "A modified version was tested in a small early trial, with results shared only in a company press release."
+    }
+  ],
+  "notice_intro": "To be written with our clinicians once directions are set.",
+  "notice_items": [
+    {
+      "when_label": "To be set",
+      "tier": "t2",
+      "pending_clinician": true,
+      "source_ids": [
+        "s_cohbar_2021"
+      ],
+      "notice_text": "No published human studies describe what people notice on MOTS-c. Your clinician will set expectations with you."
+    }
+  ],
+  "route_intro": "An injection under the skin, in cycles.",
+  "route_figure_label": "Figure showing an injection site on the abdomen.",
+  "route_points": [
+    {
+      "x": 241,
+      "y": 330,
+      "point_label": "Injected under the skin"
+    }
+  ],
+  "route_steps": [
+    {
+      "route_text": "Each vial holds {{dose_concentration}} MOTS-c. Draft plan: two months on, one month off.",
+      "pending_clinician": true
+    },
+    {
+      "route_text": "Your clinician sets the dose within each cycle.",
+      "pending_clinician": true
+    }
+  ],
+  "cautions_intro": "To be drafted with our clinicians.",
+  "not_for_you_if": [
+    {
+      "item_text": "Your clinician will set this list with you. No published human trials define it yet.",
+      "source_ids": [
+        "s_cohbar_2021"
+      ]
+    }
+  ],
+  "what_to_watch": [
+    {
+      "item_text": "Anything new after you start, including changes at the injection site."
+    }
+  ],
+  "cadence_ships": "One vial a month, two months on and one off",
+  "cadence_recheck": "Every 90 days, and at each new cycle",
+  "cadence_refills": "Reviewed before each refill",
+  "cadence_pending": true,
+  "cta_title": "Template test",
+  "cta_label": "Back to Learn",
+  "cta_href": "index.html",
+  "cta_note": "This page exists to check that a new Rx renders from a content record alone. It isn't for members.",
+  "sources": [
+    {
+      "source_id": "s_lee_2015",
+      "citation": "Lee C, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis. Cell Metab. 2015;21:443-454.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4350682/",
+      "source_type": "animal"
+    },
+    {
+      "source_id": "s_reynolds_2021",
+      "citation": "Reynolds JC, et al. MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis. Nat Commun. 2021;12:470.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817689/",
+      "source_type": "observational"
+    },
+    {
+      "source_id": "s_dsouza_2020",
+      "citation": "D'Souza RF, et al. Increased expression of MOTS-c in skeletal muscle of healthy aging men. Aging (Albany NY). 2020;12:5244.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7138593/",
+      "source_type": "observational"
+    },
+    {
+      "source_id": "s_cohbar_2021",
+      "citation": "CohBar press release (Aug 10, 2021): topline Phase 1a/1b results for CB4211, a modified MOTS-c analog. No peer-reviewed publication.",
+      "url": "https://www.globenewswire.com/news-release/2021/08/10/2278324/0/en/CohBar-Announces-Positive-Topline-Results-from-the-Phase-1a-1b-Study-of-CB4211-Under-Development-for-NASH-and-Obesity.html",
+      "source_type": "RCT"
+    }
+  ],
+  "lede_source_ids": [
+    "s_lee_2015",
+    "s_cohbar_2021"
+  ]
+}

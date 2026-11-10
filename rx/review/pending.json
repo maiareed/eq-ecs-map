@@ -1,0 +1,129 @@
+{
+  "peptides": [],
+  "ldn": [
+    {
+      "location": "notice_items[0]",
+      "text": "Some people notice vivid dreams or lighter sleep early on. In small studies these were mostly mild and passed."
+    },
+    {
+      "location": "notice_items[1]",
+      "text": "Studies have followed LDN for 8 to 12 weeks. If it's going to help, plan on giving it about that long before judging it."
+    },
+    {
+      "location": "notice_items[2]",
+      "text": "Your clinician may adjust your strength or the time of day you take it. Some guidance suggests moving the dose to the morning if sleep is affected. No study has compared bedtime and morning head to head yet."
+    },
+    {
+      "location": "route_steps[0]",
+      "text": "You take one capsule a day, at the strength and time your clinician sets."
+    },
+    {
+      "location": "not_for_you_if[0]",
+      "text": "You take any opioid, including prescription pain medicine, methadone or buprenorphine. Naltrexone blocks opioids and can bring on withdrawal."
+    },
+    {
+      "location": "not_for_you_if[1]",
+      "text": "You have acute hepatitis or liver failure. The naltrexone label lists both as reasons not to use it."
+    },
+    {
+      "location": "what_to_watch[0]",
+      "text": "Sleep changes or vivid dreams, especially in the first weeks."
+    },
+    {
+      "location": "what_to_watch[1]",
+      "text": "Nausea or dizziness."
+    },
+    {
+      "location": "what_to_watch[2]",
+      "text": "If you might need opioid pain relief, for example before a procedure, tell your clinician and care team that you take naltrexone."
+    },
+    {
+      "location": "dose_standard_value",
+      "text": "dose_standard_value = 50 mg"
+    },
+    {
+      "location": "dose_low_range",
+      "text": "dose_low_range = 1 to 5 mg"
+    },
+    {
+      "location": "dose_eq_strengths",
+      "text": "dose_eq_strengths = Pending clinician review"
+    },
+    {
+      "location": "cadence",
+      "text": "Ships: 30 capsules every month | Re-check: Every 90 days | Refills: Reviewed before each refill"
+    }
+  ],
+  "nad": [
+    {
+      "location": "notice_items[0]",
+      "text": "Human studies of NAD+ building blocks ran for weeks, for example 6 weeks in one trial of 30 adults. If you notice a change, expect it to be gradual."
+    },
+    {
+      "location": "notice_items[1]",
+      "text": "Nasal NAD+ hasn't been studied in people yet, so what you notice is real information. Tell your clinician about anything new, including nasal discomfort, headache or sleep changes."
+    },
+    {
+      "location": "route_steps[0]",
+      "text": "Draft plan: 1 to 2 sprays once daily on weekdays, two months on and one month off."
+    },
+    {
+      "location": "route_steps[1]",
+      "text": "Each bottle holds 300 mg/mL NAD+ in a water-based spray. Use it within about 35 days of opening."
+    },
+    {
+      "location": "not_for_you_if[0]",
+      "text": "Your clinician will set this list with you. Published human data for nasal NAD+ don't yet define who should avoid it."
+    },
+    {
+      "location": "what_to_watch[0]",
+      "text": "When NAD+ is given by IV drip too quickly, people have reported cramping, nausea, chest pressure and a racing heart, which stopped once the drip ended. Nasal sprays haven't been studied this way, so report anything similar."
+    },
+    {
+      "location": "what_to_watch[1]",
+      "text": "Any nasal irritation, headache or change in sleep after you start."
+    },
+    {
+      "location": "dose_concentration",
+      "text": "dose_concentration = 300 mg/mL"
+    },
+    {
+      "location": "dose_spray_pattern",
+      "text": "dose_spray_pattern = 1 to 2 sprays once daily on weekdays, two months on and one month off"
+    },
+    {
+      "location": "cadence",
+      "text": "Ships: One bottle a month, skipped in off months | Re-check: Every 90 days | Refills: Reviewed before each refill"
+    }
+  ],
+  "mots-c": [
+    {
+      "location": "notice_items[0]",
+      "text": "No published human studies describe what people notice on MOTS-c. Your clinician will set expectations with you."
+    },
+    {
+      "location": "route_steps[0]",
+      "text": "Each vial holds 2 mg/mL MOTS-c. Draft plan: two months on, one month off."
+    },
+    {
+      "location": "route_steps[1]",
+      "text": "Your clinician sets the dose within each cycle."
+    },
+    {
+      "location": "not_for_you_if[0]",
+      "text": "Your clinician will set this list with you. No published human trials define it yet."
+    },
+    {
+      "location": "what_to_watch[0]",
+      "text": "Anything new after you start, including changes at the injection site."
+    },
+    {
+      "location": "dose_concentration",
+      "text": "dose_concentration = 2 mg/mL"
+    },
+    {
+      "location": "cadence",
+      "text": "Ships: One vial a month, two months on and one off | Re-check: Every 90 days, and at each new cycle | Refills: Reviewed before each refill"
+    }
+  ]
+}
