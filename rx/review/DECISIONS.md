@@ -45,3 +45,4 @@ One line per judgment call. Each is reversible unless noted.
 - The MOTS-c template test reuses the cell energy archetype's "signal" role. That role was designed up front, before the MOTS-c record, so the test proves content-only rendering, not unplanned flexibility. No component changes were needed when the record was written.
 - Rendered copy is extracted from the live DOM, including SVG text, image descriptions, sheet details and slider states, so the banned-word grep checks what members actually see.
 - The screenshots are full-page. Reduced-motion runs are light theme only (motion is theme-independent).
+- Published two private Artifacts: Learn hub https://claude.ai/artifact/MAzJg6ToXue9dzGWVxLBK4 and review board https://claude.ai/artifact/1cYjZGLB5TAjGVtpJ5KUme. Both are stripped of the document skeleton per the Artifact contract. The board artifact uses compressed JPEG screenshots; the full PNGs stay in the repo.

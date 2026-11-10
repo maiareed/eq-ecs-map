@@ -103,7 +103,7 @@
         '<a class="btn" href="' + p.href + '">Open page</a>' +
         '<div class="shots">' + SHOTS.map(function (s) {
           var n = p.slug + '-' + s[0] + '-' + s[1];
-          return '<a href="screens/' + n + '.png"><img loading="lazy" src="screens/web/' + n + '.jpg" alt="' + esc(p.title + ', ' + s[0] + 'px, ' + s[1]) + '">' + s[0] + 'px · ' + s[1] + '</a>';
+          return '<a href="screens/web/' + n + '.jpg"><img loading="lazy" src="screens/web/' + n + '.jpg" alt="' + esc(p.title + ', ' + s[0] + 'px, ' + s[1]) + '">' + s[0] + 'px · ' + s[1] + '</a>';
         }).join('') + '</div>';
       if (cl.length) {
         out += '<h3>Claims (' + cl.length + ')</h3><div class="claims">' + cl.map(function (c) {
